@@ -48,6 +48,14 @@ export default function Menu({ onNavigate, pathname }: MenuProps) {
 					<li className="nav-item">
 						<Link 
 							className="nav-link fw-bold" 
+							href="/page-pricing-01"
+						>
+							Precios
+						</Link>
+					</li>
+					<li className="nav-item">
+						<Link 
+							className="nav-link fw-bold" 
 							href="#contacto"
 							onClick={(e) => handleMenuClick('contacto', e)}
 						>

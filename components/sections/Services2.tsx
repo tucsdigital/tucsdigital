@@ -26,7 +26,7 @@ export default function Services2() {
             </h3> */}
             <h3 className="ds-3 my-3 fw-regular">
               Soluciones Digitales Especializadas para{" "}
-              <span className=" fw-bold">Diferentes Sectores</span>
+              <span className=" fw-bold">Diferentes Sectores </span>
               y Necesidades de Negocio
             </h3>
           </div>

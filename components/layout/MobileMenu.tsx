@@ -71,6 +71,14 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu, onNavigate,
 												Preguntas Frecuentes
 											</Link>
 										</li>
+										<li className="nav-item">
+											<Link 
+												className="nav-link fw-bold" 
+												href="/page-pricing-01"
+											>
+												Precios
+											</Link>
+										</li>
 										<li>
 											<Link 
 												href="#contacto"
