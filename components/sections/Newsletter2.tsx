@@ -13,7 +13,7 @@ export default function Newsletter2() {
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Únete a Nuestra Comunidad</span>
 								</div>
 								<h4 className="my-5 text-white">
-									Más de 500+ empresas confían en nosotros. <br />
+									Varias empresas confían en nosotros. <br />
 									Únete ahora y transforma tu presencia digital.
 								</h4>
 								<p className="fs-6 fw-medium text-white">Al hacer clic en el botón, aceptas nuestros <Link href="#" className="text-decoration-underline link-hover-primary-light text-white">Términos y Condiciones</Link></p>

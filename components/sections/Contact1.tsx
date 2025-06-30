@@ -24,7 +24,7 @@ export default function Contact1() {
 									<p className="text-white mb-0">Explora artículos de soporte y instrucciones paso a paso <br />para funciones específicas.</p>
 								</div>
 							</div>
-							<div className="d-flex pt-3 pb-3 align-items-center">
+							{/* <div className="d-flex pt-3 pb-3 align-items-center">
 								<div className="bg-white-keep icon-flip position-relative icon-shape icon-xxl rounded-3">
 									<div className="icon">
 										<img src="/assets/imgs/contact-1/icon-2.svg" alt="Tucs Digital" />
@@ -37,7 +37,7 @@ export default function Contact1() {
 										sobre cómo usar nuestras funciones.
 									</p>
 								</div>
-							</div>
+							</div> */}
 							<div className="d-flex pt-3 pb-3 align-items-center">
 								<div className="bg-white-keep icon-flip position-relative icon-shape icon-xxl rounded-3">
 									<div className="icon">

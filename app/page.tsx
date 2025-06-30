@@ -10,7 +10,7 @@ import LogoCloud3 from "@/components/sections/LogoCloud3";
 import Newsletter2 from "@/components/sections/Newsletter2";
 // import Pricing3 from "@/components/sections/Pricing3"
 import Services2 from "@/components/sections/Services2";
-import Static2 from "@/components/sections/Static2";
+// import Static2 from "@/components/sections/Static2";
 
 import Layout from "@/components/layout/Layout";
 export default function Home3() {
@@ -21,7 +21,7 @@ export default function Home3() {
         <LogoCloud3 />
         <Services2 />
         <Cta2 />
-        <Static2 />
+        {/* <Static2 /> */}
         <Cta3 />
         <Features6 />
         {/* <Features7 />

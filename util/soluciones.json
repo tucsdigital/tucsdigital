@@ -1,0 +1,238 @@
+[
+  {
+    "id": "landing-pages",
+    "titulo": "Landing Pages",
+    "titulos_sugeridos": [
+      "Una Página. Un Objetivo. Más Conversión.",
+      "Llevá tus campañas a otro nivel con páginas que venden"
+    ],
+    "descripcion": "Desarrollamos páginas de aterrizaje específicas para promociones, campañas, lanzamientos o captación de leads. Cada landing tiene un objetivo claro: vender, agendar o captar datos.",
+    "puntos_clave": [
+      "Diseño orientado a la conversión",
+      "Formularios de contacto o reserva",
+      "Compatibilidad con anuncios Meta/Google",
+      "Carga rápida y responsive",
+      "Dominio personalizado o subdominio",
+      "Integración con CRM o email marketing"
+    ],
+    "beneficios_cercanos": [
+      "Aumentás el rendimiento de tus campañas",
+      "Reducís el costo por contacto o venta",
+      "Probás nuevas ideas sin tocar tu web principal"
+    ],
+    "beneficios_futuros": [
+      "Automatizás respuestas o secuencias",
+      "Conectás con otras plataformas como WhatsApp o Calendly",
+      "Medís todo para mejorar con datos reales"
+    ],
+    "tips_uso": [
+      "Usá un solo llamado a la acción fuerte",
+      "Mostrá pruebas sociales o testimonios",
+      "Optimizá para móvil primero"
+    ],
+    "contenido_relacionado": [
+      "Meta Ads + Landing",
+      "Google Ads Express",
+      "Automatización con WhatsApp"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Es distinta a una página web común?",
+        "respuesta": "Sí, está enfocada en una sola acción (venta, reserva, contacto)."
+      },
+      {
+        "pregunta": "¿Se puede medir su rendimiento?",
+        "respuesta": "Sí, con métricas como clics, formularios enviados y más."
+      },
+      {
+        "pregunta": "¿Cuántas puedo tener?",
+        "respuesta": "Las que necesites, incluso una por campaña."
+      },
+      {
+        "pregunta": "¿Puedo usar mi dominio?",
+        "respuesta": "Sí, o te damos uno exclusivo para cada landing."
+      },
+      {
+        "pregunta": "¿Funciona bien en redes sociales?",
+        "respuesta": "Sí, está optimizada para compartir y cargar rápido desde cualquier link."
+      }
+    ]
+  },
+  {
+    "id": "tienda-online-autogestionable",
+    "titulo": "Tienda Online Autogestionable",
+    "titulos_sugeridos": [
+      "Tu Tienda Abierta 24/7: Control Total en Tus Manos",
+      "Vendé Online sin Intermediarios y Crecé a tu Ritmo"
+    ],
+    "descripcion": "Con una Tienda Online Autogestionable, llevás tu negocio al mundo digital con el control absoluto de lo que vendés, cómo lo mostrás y cuándo querés cobrar. Es una plataforma pensada para que vos mismo puedas cargar productos, modificar precios, actualizar el stock, aplicar promociones y recibir pagos sin depender de terceros. Ideal para emprendedores, comerciantes o marcas que desean tener presencia digital con una tienda profesional y adaptable a todos los dispositivos.",
+    "puntos_clave": [
+      "Autogestión Total desde un panel intuitivo",
+      "Carrito de Compras Integrado con cálculo de envío y cupones",
+      "Medios de Pago Digitales: MercadoPago, Stripe, PayPal, QR, transferencias",
+      "Diseño Responsive y Personalizable",
+      "Gestión de Pedidos y Clientes desde un único panel",
+      "Escalabilidad con funciones extra: chat, catálogo WhatsApp, reservas, facturación"
+    ],
+    "beneficios_cercanos": [
+      "Aumentás tus ventas sin abrir un local físico adicional",
+      "Reducís tiempos de atención: el cliente compra solo",
+      "Generás confianza con una imagen moderna y digital"
+    ],
+    "beneficios_futuros": [
+      "Escalás tu negocio sin límites geográficos",
+      "Automatizás procesos: remarketing, bots, app móvil",
+      "Integrás nuevas tecnologías sin rehacer todo"
+    ],
+    "tips_uso": [
+      "Mantené actualizados los productos más vendidos",
+      "Agregá descripciones claras y fotos reales",
+      "Activá notificaciones por WhatsApp o email"
+    ],
+    "contenido_relacionado": [
+      "Botón de Pago sin Tienda",
+      "Campañas Meta Ads",
+      "Sistema de Opiniones y Testimonios"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Necesito saber programar para usar la tienda?",
+        "respuesta": "No, el panel es visual e intuitivo. Se maneja como una red social."
+      },
+      {
+        "pregunta": "¿Qué medios de pago puedo ofrecer?",
+        "respuesta": "MercadoPago, PayPal, Stripe, transferencia bancaria, QR, y más."
+      },
+      {
+        "pregunta": "¿La tienda se adapta a celulares?",
+        "respuesta": "Sí, es responsive y funciona en cualquier dispositivo."
+      },
+      {
+        "pregunta": "¿Puedo cargar productos ilimitados?",
+        "respuesta": "Sí, sin límites de cantidad, categorías o imágenes."
+      },
+      {
+        "pregunta": "¿Qué pasa si tengo dudas o necesito ayuda?",
+        "respuesta": "Contás con soporte técnico y capacitaciones."
+      }
+    ]
+  },
+  {
+    "id": "catalogo-virtual-sin-carrito",
+    "titulo": "Catálogo Virtual sin Carrito",
+    "titulos_sugeridos": [
+      "Mostrá lo que Vendés sin Necesidad de una Tienda Completa",
+      "Tu Vidriera Online: Productos, Fotos y Consultas Directas"
+    ],
+    "descripcion": "El Catálogo Virtual sin Carrito es ideal para mostrar tus productos o servicios de forma profesional y atractiva, sin necesidad de gestionar pagos online. Funciona como una vidriera digital con fotos, descripciones, y botones de contacto directo como WhatsApp o Instagram.",
+    "puntos_clave": [
+      "Diseño Visual Atractivo y por Categorías",
+      "Sin Carrito ni Pagos Online",
+      "Compatible con WhatsApp, Instagram y Email",
+      "Ideal para Productos con Precio Variable",
+      "Carga Masiva de Productos",
+      "Adaptable a Todos los Dispositivos"
+    ],
+    "beneficios_cercanos": [
+      "Presentás tus productos online de forma profesional",
+      "Recibís más consultas sin manejar pagos en la web",
+      "Ahorrás tiempo y dinero en sistemas complejos"
+    ],
+    "beneficios_futuros": [
+      "Migrás fácilmente a una tienda online cuando quieras",
+      "Mejorás tu presencia digital y estructura SEO",
+      "Posicionás tu marca en internet sin vender directamente"
+    ],
+    "tips_uso": [
+      "Usá fotos reales y de calidad",
+      "Agregá descripciones breves y claras",
+      "Incluí un llamado a la acción como 'Consultanos por WhatsApp'"
+    ],
+    "contenido_relacionado": [
+      "Catálogo Virtual para Instagram/WhatsApp",
+      "Botón de Pago sin Tienda",
+      "Diseño de Reels y Contenido Viral"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué diferencia tiene con una tienda online?",
+        "respuesta": "El catálogo no permite pagar online, solo mostrar productos y recibir consultas."
+      },
+      {
+        "pregunta": "¿Puedo cambiar los productos cuando quiera?",
+        "respuesta": "Sí, podés editar, agregar o quitar productos desde el panel."
+      },
+      {
+        "pregunta": "¿Necesito tener precios fijos?",
+        "respuesta": "No, es ideal para precios variables o personalizados."
+      },
+      {
+        "pregunta": "¿Puedo integrar WhatsApp como contacto?",
+        "respuesta": "Sí, cada producto puede tener un botón directo a WhatsApp."
+      },
+      {
+        "pregunta": "¿Este catálogo posiciona en Google?",
+        "respuesta": "Sí, especialmente si se trabaja con estructura SEO básica."
+      }
+    ]
+  },
+  {
+    "id": "sistema-de-pre-orden-o-encargo",
+    "titulo": "Sistema de Pre-Orden o Encargo",
+    "titulos_sugeridos": [
+      "Vendé Antes de Tener el Producto: Tu Canal de Encargos Digital",
+      "Pedidos Anticipados sin Complicaciones: Recibí y Organizá Pre-ventas"
+    ],
+    "descripcion": "Permite vender productos que aún no están disponibles: a pedido, en reposición o por validar interés. Tus clientes eligen, dejan sus datos y confirman el pedido para pagar después o con reserva anticipada.",
+    "puntos_clave": [
+      "Formulario de Pedido Personalizado con fecha de retiro/entrega",
+      "No necesitás stock inmediato",
+      "Notificaciones de nuevos pedidos",
+      "Cobro anticipado o contra entrega",
+      "Seguimiento desde el panel de gestión",
+      "Ideal para lanzamientos o productos estacionales"
+    ],
+    "beneficios_cercanos": [
+      "Recibís encargos sin stock",
+      "Previsás demanda antes de producir",
+      "Organizás mejor tu producción y atención"
+    ],
+    "beneficios_futuros": [
+      "Reducís pérdidas por sobreproducción",
+      "Fidelizás clientes que sienten exclusividad",
+      "Escalás con listas de espera o tandas"
+    ],
+    "tips_uso": [
+      "Comunicá los tiempos de entrega con claridad",
+      "Usá etiquetas como 'edición limitada' o 'exclusivo por encargo'",
+      "Mostrá ejemplos de trabajos entregados para generar confianza"
+    ],
+    "contenido_relacionado": [
+      "Sistema de Venta por Suscripción",
+      "Gestor de Presupuestos Online",
+      "Turnos por Rango Horario"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Los clientes pagan al hacer el encargo?",
+        "respuesta": "Depende de vos. Podés configurar como pedido sin pago, seña o total."
+      },
+      {
+        "pregunta": "¿Puedo limitar los encargos?",
+        "respuesta": "Sí, con cupos o fechas límite por producto."
+      },
+      {
+        "pregunta": "¿Funciona para productos físicos y digitales?",
+        "respuesta": "Sí, ideal para cursos, combos especiales o contenido exclusivo por pedido."
+      },
+      {
+        "pregunta": "¿Recibo notificación por pedido?",
+        "respuesta": "Sí, vía mail o desde el panel."
+      },
+      {
+        "pregunta": "¿Los pedidos quedan guardados?",
+        "respuesta": "Sí, podés filtrarlos y exportarlos para organización."
+      }
+    ]
+  }
+]
