@@ -26,7 +26,7 @@ export default function Hero3() {
 										<path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 								</Link>
-								<div className="mt-6 pt-4 max-w-300px">
+								{/* <div className="mt-6 pt-4 max-w-300px">
 									<p className="text-uppercase mb-2">Confiado por los profesionales</p>
 									<div className="carouselTicker carouselTicker-right">
 										<ul className="carouselTicker__list">
@@ -43,7 +43,7 @@ export default function Hero3() {
 											</Marquee>
 										</ul>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="col-lg-7 position-xl-absolute mb-lg-10 top-50 end-0 translate-middle-lg-y z-0">

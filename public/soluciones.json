@@ -1,1417 +1,1081 @@
 [
   {
-    "id": "landing-pages",
-    "titulo": "Landing Pages",
+    "id": "google-maps-perfil-empresa",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Google Maps + Perfil de Empresa",
     "titulos_sugeridos": [
-      "Una Página. Un Objetivo. Más Conversión.",
-      "Llevá tus campañas a otro nivel con páginas que venden"
+      "Aparecé en Google y Que Te Encuentren Fácil",
+      "Tu Negocio en el Mapa con Opiniones, Fotos y Horarios"
     ],
-    "descripcion": "Desarrollamos páginas de aterrizaje específicas para promociones, campañas, lanzamientos o captación de leads. Cada landing tiene un objetivo claro: vender, agendar o captar datos.",
+    "descripcion": "La solución Google Maps + Perfil de Empresa (anteriormente Google My Business) es tu carta de presentación digital. Aparecer en Google cuando alguien busca lo que ofrecés en tu zona es clave. Este servicio incluye la creación, optimización y posicionamiento de tu ficha de empresa en Google, incluyendo dirección, horarios, fotos, contacto, servicios y ubicación en el mapa. Además, permite que tus clientes dejen opiniones, que Google te recomiende en búsquedas locales y que se vea tu negocio en Google Maps como una opción real y confiable.",
     "puntos_clave": [
-      "Diseño orientado a la conversión",
-      "Formularios de contacto o reserva",
-      "Compatibilidad con anuncios Meta/Google",
-      "Carga rápida y responsive",
-      "Dominio personalizado o subdominio",
-      "Integración con CRM o email marketing"
+      "Alta y Verificación de Perfil Profesional en Google",
+      "Optimización de Palabras Clave Locales",
+      "Carga de Fotos, Servicios, Logo y Descripción Atractiva",
+      "Gestión de Opiniones y Respuestas",
+      "Visualización en Google Maps, Google Search y Navegación GPS",
+      "Estatísticas de Visitas y Llamadas"
     ],
     "beneficios_cercanos": [
-      "Aumentás el rendimiento de tus campañas",
-      "Reducís el costo por contacto o venta",
-      "Probás nuevas ideas sin tocar tu web principal"
+      "Aumentás tu visibilidad frente a miles de usuarios que buscan productos o servicios cerca",
+      "Generás confianza con opiniones, buenas fotos y datos actualizados",
+      "Redirigís tráfico hacia tu tienda, sitio web o redes sociales"
     ],
     "beneficios_futuros": [
-      "Automatizás respuestas o secuencias",
-      "Conectás con otras plataformas como WhatsApp o Calendly",
-      "Medís todo para mejorar con datos reales"
+      "Subís posiciones en Google sin pagar publicidad",
+      "Mejorás tu reputación online de forma orgánica",
+      "Te volvés una opción sólida para turistas, compradores locales o clientes por recomendación"
     ],
     "tips_uso": [
-      "Usá un solo llamado a la acción fuerte",
-      "Mostrá pruebas sociales o testimonios",
-      "Optimizá para móvil primero"
+      "Pedile a tus mejores clientes que dejen una reseña positiva. Las estrellas en Google impactan directamente en tu posicionamiento",
+      "Actualizá horarios en feriados o cambios especiales. Evitás confusión y mostrás atención al detalle",
+      "Subí fotos nuevas cada semana. Mejora tu actividad y relevancia en los resultados"
     ],
     "contenido_relacionado": [
-      "Meta Ads + Landing",
-      "Google Ads Express",
-      "Automatización con WhatsApp"
+      "SEO Local Estratégico",
+      "Sistema de Opiniones y Testimonios Reales",
+      "Panel de Estadísticas de Visitas y Tráfico"
     ],
     "faq": [
       {
-        "pregunta": "¿Es distinta a una página web común?",
-        "respuesta": "Sí, está enfocada en una sola acción (venta, reserva, contacto)."
+        "pregunta": "¿Necesito tener una tienda física para aparecer en Google Maps?",
+        "respuesta": "Sí, es recomendable tener una dirección verificable (aunque puede ser privada si ofrecés servicios a domicilio)."
       },
       {
-        "pregunta": "¿Se puede medir su rendimiento?",
-        "respuesta": "Sí, con métricas como clics, formularios enviados y más."
+        "pregunta": "¿Qué pasa si ya tengo una ficha en Google pero no la manejo?",
+        "respuesta": "Podemos reclamarla y pasarla a tu control, para optimizarla correctamente."
       },
       {
-        "pregunta": "¿Cuántas puedo tener?",
-        "respuesta": "Las que necesites, incluso una por campaña."
+        "pregunta": "¿Cuánto tarda en aparecer mi negocio en Google Maps?",
+        "respuesta": "Aproximadamente entre 5 y 10 días luego de la verificación con código postal o digital."
       },
       {
-        "pregunta": "¿Puedo usar mi dominio?",
-        "respuesta": "Sí, o te damos uno exclusivo para cada landing."
+        "pregunta": "¿Se puede borrar una mala reseña?",
+        "respuesta": "Google no permite borrarlas, pero podemos responderlas profesionalmente e incentivar buenas opiniones para equilibrar la puntuación."
       },
       {
-        "pregunta": "¿Funciona bien en redes sociales?",
-        "respuesta": "Sí, está optimizada para compartir y cargar rápido desde cualquier link."
+        "pregunta": "¿Esto reemplaza tener una página web?",
+        "respuesta": "No, pero la complementa. Es ideal para captar tráfico local y derivarlo a tu web o redes."
       }
     ]
   },
   {
-    "id": "tienda-online-autogestionable",
-    "titulo": "Tienda Online Autogestionable",
+    "id": "sitio-web-institucional",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Sitio Web Institucional",
     "titulos_sugeridos": [
-      "Tu Tienda Abierta 24/7: Control Total en Tus Manos",
-      "Vendé Online sin Intermediarios y Crecé a tu Ritmo"
+      "Mostrá Tu Empresa con una Web Profesional",
+      "Tu Tarjeta de Presentación Digital, Disponible las 24 hs"
     ],
-    "descripcion": "Con una Tienda Online Autogestionable, llevás tu negocio al mundo digital con el control absoluto de lo que vendés, cómo lo mostrás y cuándo querés cobrar. Es una plataforma pensada para que vos mismo puedas cargar productos, modificar precios, actualizar el stock, aplicar promociones y recibir pagos sin depender de terceros. Ideal para emprendedores, comerciantes o marcas que desean tener presencia digital con una tienda profesional y adaptable a todos los dispositivos.",
+    "descripcion": "El Sitio Web Institucional es mucho más que una simple página: es la representación digital de tu empresa, tu equipo, tus servicios y tu propuesta de valor. Está pensado para que puedas presentar de forma clara y profesional quién sos, qué hacés, cómo trabajás y cómo contactarte. Ideal para empresas, profesionales, organizaciones, inmobiliarias, clínicas, salones de eventos, constructoras, emprendimientos consolidados o en crecimiento.",
     "puntos_clave": [
-      "Autogestión Total desde un panel intuitivo",
-      "Carrito de Compras Integrado con cálculo de envío y cupones",
-      "Medios de Pago Digitales: MercadoPago, Stripe, PayPal, QR, transferencias",
-      "Diseño Responsive y Personalizable",
-      "Gestión de Pedidos y Clientes desde un único panel",
-      "Escalabilidad con funciones extra: chat, catálogo WhatsApp, reservas, facturación"
+      "Diseño Web Personalizado y Profesional",
+      "Carga de Contenido Autogestionable",
+      "Formularios de Contacto y Mapas Interactivos",
+      "Compatible con Móviles y SEO Básico Incluido",
+      "Vínculos a Redes Sociales y WhatsApp Directo",
+      "Alojamiento y Dominio Profesional Opcional"
     ],
     "beneficios_cercanos": [
-      "Aumentás tus ventas sin abrir un local físico adicional",
-      "Reducís tiempos de atención: el cliente compra solo",
-      "Generás confianza con una imagen moderna y digital"
+      "Proyectás una imagen seria, clara y moderna",
+      "Mejorás la comunicación con potenciales clientes y socios",
+      "Estás disponible 24/7 para quien te busque en internet"
     ],
     "beneficios_futuros": [
-      "Escalás tu negocio sin límites geográficos",
-      "Automatizás procesos: remarketing, bots, app móvil",
-      "Integrás nuevas tecnologías sin rehacer todo"
+      "Ganás posicionamiento orgánico en Google",
+      "Estás listo para futuras integraciones: ecommerce, reservas, chatbots, etc.",
+      "Construís una marca sólida y confiable con base digital"
     ],
     "tips_uso": [
-      "Mantené actualizados los productos más vendidos",
-      "Agregá descripciones claras y fotos reales",
-      "Activá notificaciones por WhatsApp o email"
+      "Incluí un mensaje claro en la sección 'Inicio'. El visitante debe entender en segundos qué hacés y qué ofrecés",
+      "Usá testimonios o logos de clientes si tenés. Genera credibilidad instantánea",
+      "Agregá un llamado a la acción (CTA). Por ejemplo: 'Solicitá tu presupuesto', 'Escribinos por WhatsApp', etc."
     ],
     "contenido_relacionado": [
-      "Botón de Pago sin Tienda",
-      "Campañas Meta Ads",
-      "Sistema de Opiniones y Testimonios"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿Necesito saber programar para usar la tienda?",
-        "respuesta": "No, el panel es visual e intuitivo. Se maneja como una red social."
-      },
-      {
-        "pregunta": "¿Qué medios de pago puedo ofrecer?",
-        "respuesta": "MercadoPago, PayPal, Stripe, transferencia bancaria, QR, y más."
-      },
-      {
-        "pregunta": "¿La tienda se adapta a celulares?",
-        "respuesta": "Sí, es responsive y funciona en cualquier dispositivo."
-      },
-      {
-        "pregunta": "¿Puedo cargar productos ilimitados?",
-        "respuesta": "Sí, sin límites de cantidad, categorías o imágenes."
-      },
-      {
-        "pregunta": "¿Qué pasa si tengo dudas o necesito ayuda?",
-        "respuesta": "Contás con soporte técnico y capacitaciones."
-      }
-    ]
-  },
-  {
-    "id": "catalogo-virtual-sin-carrito",
-    "titulo": "Catálogo Virtual sin Carrito",
-    "titulos_sugeridos": [
-      "Mostrá lo que Vendés sin Necesidad de una Tienda Completa",
-      "Tu Vidriera Online: Productos, Fotos y Consultas Directas"
-    ],
-    "descripcion": "El Catálogo Virtual sin Carrito es ideal para mostrar tus productos o servicios de forma profesional y atractiva, sin necesidad de gestionar pagos online. Funciona como una vidriera digital con fotos, descripciones, y botones de contacto directo como WhatsApp o Instagram.",
-    "puntos_clave": [
-      "Diseño Visual Atractivo y por Categorías",
-      "Sin Carrito ni Pagos Online",
-      "Compatible con WhatsApp, Instagram y Email",
-      "Ideal para Productos con Precio Variable",
-      "Carga Masiva de Productos",
-      "Adaptable a Todos los Dispositivos"
-    ],
-    "beneficios_cercanos": [
-      "Presentás tus productos online de forma profesional",
-      "Recibís más consultas sin manejar pagos en la web",
-      "Ahorrás tiempo y dinero en sistemas complejos"
-    ],
-    "beneficios_futuros": [
-      "Migrás fácilmente a una tienda online cuando quieras",
-      "Mejorás tu presencia digital y estructura SEO",
-      "Posicionás tu marca en internet sin vender directamente"
-    ],
-    "tips_uso": [
-      "Usá fotos reales y de calidad",
-      "Agregá descripciones breves y claras",
-      "Incluí un llamado a la acción como 'Consultanos por WhatsApp'"
-    ],
-    "contenido_relacionado": [
-      "Catálogo Virtual para Instagram/WhatsApp",
-      "Botón de Pago sin Tienda",
-      "Diseño de Reels y Contenido Viral"
+      "Landing Pages de Promoción",
+      "Google Maps + Perfil de Empresa",
+      "SEO Local Estratégico"
     ],
     "faq": [
       {
         "pregunta": "¿Qué diferencia tiene con una tienda online?",
-        "respuesta": "El catálogo no permite pagar online, solo mostrar productos y recibir consultas."
+        "respuesta": "El sitio institucional no está orientado a vender productos directamente, sino a informar, posicionar tu marca y generar confianza."
       },
       {
-        "pregunta": "¿Puedo cambiar los productos cuando quiera?",
-        "respuesta": "Sí, podés editar, agregar o quitar productos desde el panel."
+        "pregunta": "¿Es autogestionable?",
+        "respuesta": "Sí. Te damos acceso para que puedas editar textos, fotos y secciones con facilidad."
       },
       {
-        "pregunta": "¿Necesito tener precios fijos?",
-        "respuesta": "No, es ideal para precios variables o personalizados."
+        "pregunta": "¿Cuánto contenido necesito tener para arrancar?",
+        "respuesta": "Lo básico: presentación de tu negocio, fotos, servicios, contacto y un logo. Luego podés ir sumando más."
       },
       {
-        "pregunta": "¿Puedo integrar WhatsApp como contacto?",
-        "respuesta": "Sí, cada producto puede tener un botón directo a WhatsApp."
+        "pregunta": "¿Se puede agregar más adelante un sistema de reservas o ecommerce?",
+        "respuesta": "Sí. El sitio es escalable y puede crecer según tus necesidades."
       },
       {
-        "pregunta": "¿Este catálogo posiciona en Google?",
-        "respuesta": "Sí, especialmente si se trabaja con estructura SEO básica."
+        "pregunta": "¿Necesito tener redes sociales o dominio propio?",
+        "respuesta": "No es obligatorio, pero se recomienda. Nosotros podemos ayudarte con todo eso si aún no lo tenés."
       }
     ]
   },
   {
-    "id": "sistema-de-pre-orden-o-encargo",
-    "titulo": "Sistema de Pre-Orden o Encargo",
+    "id": "landing-pages-promocion",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Landing Pages de Promoción",
     "titulos_sugeridos": [
-      "Vendé Antes de Tener el Producto: Tu Canal de Encargos Digital",
-      "Pedidos Anticipados sin Complicaciones: Recibí y Organizá Pre-ventas"
+      "Una Página. Un Objetivo. Resultados Rápidos.",
+      "Captá Clientes o Promocioná tu Oferta con una Landing Efectiva"
     ],
-    "descripcion": "Permite vender productos que aún no están disponibles: a pedido, en reposición o por validar interés. Tus clientes eligen, dejan sus datos y confirman el pedido para pagar después o con reserva anticipada.",
+    "descripcion": "Una Landing Page de Promoción es una página web creada con un único objetivo: convertir visitantes en clientes, consultas o registros. Está diseñada para campañas puntuales, lanzamientos, eventos, promociones por tiempo limitado o servicios específicos. No se trata de un sitio completo, sino de una página directa, enfocada, que elimina distracciones y lleva al usuario hacia una acción: comprar, consultar, reservar, agendar o dejar sus datos.",
     "puntos_clave": [
-      "Formulario de Pedido Personalizado con fecha de retiro/entrega",
-      "No necesitás stock inmediato",
-      "Notificaciones de nuevos pedidos",
-      "Cobro anticipado o contra entrega",
-      "Seguimiento desde el panel de gestión",
-      "Ideal para lanzamientos o productos estacionales"
+      "Diseño Profesional con Enfoque en Conversión",
+      "Adaptada para Campañas Puntuales",
+      "Formulario de Contacto, Reserva o Consulta",
+      "Compatible con Anuncios de Meta Ads, Google Ads o Email Marketing",
+      "Secciones Escaneables: Beneficios, Urgencia, Opiniones, Garantía",
+      "Diseño 100% Responsive (Móvil y Escritorio)"
     ],
     "beneficios_cercanos": [
-      "Recibís encargos sin stock",
-      "Previsás demanda antes de producir",
-      "Organizás mejor tu producción y atención"
+      "Aumentás tus conversiones sin distraer al usuario",
+      "Tenés una página enfocada en un producto o acción concreta",
+      "Profesionalizás tu publicidad al dirigirla a una página pensada para vender"
     ],
     "beneficios_futuros": [
-      "Reducís pérdidas por sobreproducción",
-      "Fidelizás clientes que sienten exclusividad",
-      "Escalás con listas de espera o tandas"
+      "Captás leads que podés trabajar después por email, WhatsApp o llamadas",
+      "Reutilizás la landing en futuras campañas similares",
+      "Te ayuda a medir la efectividad real de tus promociones"
     ],
     "tips_uso": [
-      "Comunicá los tiempos de entrega con claridad",
-      "Usá etiquetas como 'edición limitada' o 'exclusivo por encargo'",
-      "Mostrá ejemplos de trabajos entregados para generar confianza"
+      "Sumá un contador regresivo si la promo es limitada. Genera urgencia real y aumenta la conversión",
+      "Incluí un testimonio o garantía. Ayuda a vencer la desconfianza del visitante",
+      "No satures con información innecesaria. Una landing efectiva va al grano y guía al usuario paso a paso"
     ],
     "contenido_relacionado": [
-      "Sistema de Venta por Suscripción",
-      "Gestor de Presupuestos Online",
-      "Turnos por Rango Horario"
+      "Campañas Meta Ads (Facebook + Instagram)",
+      "Secuencia de WhatsApp Programada",
+      "Email Marketing Automatizado"
     ],
     "faq": [
       {
-        "pregunta": "¿Los clientes pagan al hacer el encargo?",
-        "respuesta": "Depende de vos. Podés configurar como pedido sin pago, seña o total."
+        "pregunta": "¿Qué diferencia tiene con una página web normal?",
+        "respuesta": "Una landing tiene un solo objetivo y elimina distracciones. No hay menú, no hay navegación, solo un camino directo hacia una acción."
       },
       {
-        "pregunta": "¿Puedo limitar los encargos?",
-        "respuesta": "Sí, con cupos o fechas límite por producto."
+        "pregunta": "¿Cuánto tiempo tarda en estar lista?",
+        "respuesta": "En 48 a 72 horas puede estar publicada si ya tenés el contenido (texto y fotos)."
       },
       {
-        "pregunta": "¿Funciona para productos físicos y digitales?",
-        "respuesta": "Sí, ideal para cursos, combos especiales o contenido exclusivo por pedido."
+        "pregunta": "¿Sirve para promocionar servicios también?",
+        "respuesta": "Sí, podés usarla para servicios puntuales, turnos, asesorías, cursos o incluso encuestas."
       },
       {
-        "pregunta": "¿Recibo notificación por pedido?",
-        "respuesta": "Sí, vía mail o desde el panel."
+        "pregunta": "¿Puedo ver quién completa el formulario?",
+        "respuesta": "Sí. Te llegan los datos por correo o los podés ver en el panel, incluso podés integrarlo con WhatsApp."
       },
       {
-        "pregunta": "¿Los pedidos quedan guardados?",
-        "respuesta": "Sí, podés filtrarlos y exportarlos para organización."
+        "pregunta": "¿Funciona para campañas publicitarias?",
+        "respuesta": "¡Sí! Es uno de sus principales usos. Redirigís el anuncio a una landing y medís resultados concretos."
       }
     ]
   },
   {
-    "id": "venta-por-suscripcion",
-    "titulo": "Venta por Suscripción",
+    "id": "web-multilenguaje-multimoneda",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Web Multilenguaje y Multimoneda",
     "titulos_sugeridos": [
-      "Generá Ingresos Recurrentes sin Complicarte",
-      "Vendé por Mes, por Etapa o por Membresía"
+      "Conectá con Clientes de Todo el Mundo (en Su Idioma y Su Moneda)",
+      "Tu Web Adaptada a Idiomas y Precios Globales"
     ],
-    "descripcion": "Ideal para servicios o productos que se entregan de forma periódica: mensualidades, cajas sorpresa, membresías o contenido exclusivo. El usuario se suscribe y recibe el servicio sin tener que comprarlo cada vez.",
+    "descripcion": "La Web Multilenguaje y Multimoneda es una evolución de tu sitio web tradicional: permite a los usuarios navegar en su idioma preferido y visualizar los precios en su moneda local, sin fricciones ni confusiones. Ya sea para atraer turistas, clientes internacionales, compradores del exterior o usuarios de diferentes regiones, esta solución mejora radicalmente la experiencia de navegación y aumenta las conversiones.",
     "puntos_clave": [
-      "Sistema de Cobro Recurrente con tarjetas",
-      "Gestión de Membresías o Etapas de Acceso",
-      "Seguimiento de Usuarios Activos",
-      "Notificaciones Automáticas de Renovación",
-      "Cancelación Fácil desde el panel",
-      "Integración con Mail o WhatsApp"
+      "Selector de Idioma Automático o Manual",
+      "Conversión Dinámica de Precios en Moneda Local",
+      "Traducción Automática o Profesional",
+      "Adaptación de Contenido Culturalmente Relevante",
+      "Compatible con Tiendas Online, Landing Pages y Webs Institucionales",
+      "Mejora el SEO Internacional y la Usabilidad Global"
     ],
     "beneficios_cercanos": [
-      "Ingresos estables mes a mes",
-      "Previsión de demanda por ciclos",
-      "Facilidad de gestión automática"
+      "Mejorás la experiencia de usuarios extranjeros o no hispanoparlantes",
+      "Aumentás tus oportunidades de venta en otras regiones o países",
+      "Te adaptás automáticamente a turistas, importadores o visitantes internacionales"
     ],
     "beneficios_futuros": [
-      "Escalabilidad con planes diferenciados",
-      "Segmentación por intereses y beneficios",
-      "Integración con comunidades o apps"
+      "Abrís la puerta a nuevos mercados sin necesidad de crear varios sitios web",
+      "Posicionás tu marca como moderna, inclusiva y profesional",
+      "Incrementás tus ingresos al eliminar barreras idiomáticas y monetarias"
     ],
     "tips_uso": [
-      "Ofrecé un precio promocional para nuevos suscriptores",
-      "Diferenciá los beneficios por tipo de plan",
-      "Agregá contenido exclusivo que renueve el interés"
+      "Si apuntás al turismo, colocá inglés como idioma principal alternativo. Es la lengua franca de viajeros y buscadores globales",
+      "Ofrecé promociones específicas por región. Podés adaptar mensajes según país o temporada",
+      "Verificá que tus métodos de pago acepten monedas extranjeras. Así complementás la experiencia de forma fluida"
     ],
     "contenido_relacionado": [
-      "Sistema de Opiniones",
-      "Panel de Usuarios",
-      "App para Clientes"
+      "Tienda Online Autogestionable",
+      "Sistema de Reservas Online",
+      "SEO Local Estratégico"
     ],
     "faq": [
       {
-        "pregunta": "¿Necesito una pasarela especial para cobrar?",
-        "respuesta": "Se puede integrar con MercadoPago o Stripe para cobros automáticos."
+        "pregunta": "¿Puedo agregar solo inglés o varios idiomas?",
+        "respuesta": "Podés sumar uno, dos o más idiomas. Depende de tu público objetivo."
       },
       {
-        "pregunta": "¿Puedo cancelar usuarios manualmente?",
-        "respuesta": "Sí, desde el panel de administración."
+        "pregunta": "¿Los precios se actualizan automáticamente según el dólar o euro?",
+        "respuesta": "Sí. Se puede configurar la tasa de cambio para que se actualice todos los días."
       },
       {
-        "pregunta": "¿Sirve para cursos mensuales o membresías de clubes?",
-        "respuesta": "Sí, es ideal para ese tipo de modelos."
+        "pregunta": "¿Los clientes pueden elegir la moneda o se detecta sola?",
+        "respuesta": "Ambas opciones son posibles: automática por IP o manual mediante selector."
       },
       {
-        "pregunta": "¿Puedo ofrecer distintas etapas o niveles?",
-        "respuesta": "Sí, se pueden configurar planes escalonados."
+        "pregunta": "¿Sirve para alojamientos y servicios turísticos?",
+        "respuesta": "¡Sí! Es ideal para mostrar tarifas y descripciones a visitantes extranjeros."
       },
       {
-        "pregunta": "¿Los usuarios reciben recordatorios?",
-        "respuesta": "Sí, vía email o WhatsApp según configuración."
+        "pregunta": "¿La traducción es precisa?",
+        "respuesta": "Si es automática, es bastante buena para navegación general. Si querés precisión total, recomendamos traducción profesional."
       }
     ]
   },
   {
-    "id": "punto-de-venta-digital-pos",
-    "titulo": "Punto de Venta Digital (POS)",
-    "titulos_sugeridos": [
-      "Cobrale a tus clientes en el local desde tu propio sistema",
-      "Tu caja digital, rápida y sin errores"
-    ],
-    "descripcion": "Ideal para atención presencial, ferias o locales físicos. Permite registrar ventas, calcular totales, aplicar descuentos y llevar control del stock, sin depender de otros sistemas.",
-    "puntos_clave": [
-      "Interfaz de Cobro Rápida y Visual",
-      "Carga Manual o con Código QR/Producto",
-      "Historial de Ventas y Reportes",
-      "Control de Stock y Actualización Automática",
-      "Modo Offline para cortes de internet",
-      "Multiusuarios con control por cajero"
-    ],
-    "beneficios_cercanos": [
-      "Agilizás las ventas en el local",
-      "Reducís errores de cobro",
-      "Controlás mejor lo que entra y sale"
-    ],
-    "beneficios_futuros": [
-      "Unificás stock con tienda online",
-      "Emitís reportes contables o diarios",
-      "Podés usarlo desde múltiples dispositivos"
-    ],
-    "tips_uso": [
-      "Asigná permisos por usuario para seguridad",
-      "Sincronizá con tu tienda online para stock en tiempo real",
-      "Usá reportes para decidir promociones o combos"
-    ],
-    "contenido_relacionado": [
-      "Impresión de Tickets",
-      "Sincronización con Facturación",
-      "Panel de Estadísticas"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿Funciona sin internet?",
-        "respuesta": "Sí, tiene modo offline y sincroniza después."
-      },
-      {
-        "pregunta": "¿Puedo emitir tickets?",
-        "respuesta": "Sí, con una impresora térmica o PDF."
-      },
-      {
-        "pregunta": "¿Puedo usarlo en celular o tablet?",
-        "respuesta": "Sí, se adapta a cualquier dispositivo."
-      },
-      {
-        "pregunta": "¿Se sincroniza con la tienda online?",
-        "respuesta": "Sí, si usás ambas soluciones con nosotros."
-      },
-      {
-        "pregunta": "¿Tiene reportes de caja o ventas?",
-        "respuesta": "Sí, por día, por usuario, por categoría y más."
-      }
-    ]
-  },
-  {
-    "id": "boton-de-pago-sin-tienda",
-    "titulo": "Botón de Pago sin Tienda",
-    "titulos_sugeridos": [
-      "Cobrale a tus clientes con un solo link",
-      "Vendé por WhatsApp, Instagram o Email en 1 clic"
-    ],
-    "descripcion": "El Botón de Pago permite que cobres productos o servicios sin tener una tienda online. Generás un link personalizado con el monto, nombre del producto y descripción. Lo enviás por WhatsApp, redes o email y el cliente paga directamente.",
-    "puntos_clave": [
-      "Generación de Link con Datos Personalizados",
-      "Compatible con MercadoPago, PayPal, Stripe",
-      "Opción de Cantidad o Variantes",
-      "Página de Pago con Imagen y Descripción",
-      "Notificación al Vendedor Automática",
-      "Registro de Pagos por Link"
-    ],
-    "beneficios_cercanos": [
-      "Cobrás rápido sin necesidad de web",
-      "Facilitás el proceso al cliente",
-      "Te posicionás como opción confiable"
-    ],
-    "beneficios_futuros": [
-      "Automatizás cobros por campañas",
-      "Reutilizás el link como plantilla",
-      "Lo integrás con sistemas más grandes"
-    ],
-    "tips_uso": [
-      "Usalo con mensajes automatizados de WhatsApp",
-      "Personalizá el botón para cada tipo de cliente",
-      "Mostralo como método oficial en redes"
-    ],
-    "contenido_relacionado": [
-      "Link de Pedido Personalizado",
-      "Pasarela de Pagos",
-      "Campañas por WhatsApp"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿El cliente necesita cuenta para pagar?",
-        "respuesta": "No, solo necesita tarjeta o QR según pasarela."
-      },
-      {
-        "pregunta": "¿Puedo generar múltiples botones?",
-        "respuesta": "Sí, ilimitados y gestionables por panel."
-      },
-      {
-        "pregunta": "¿Puedo configurar precio fijo o variable?",
-        "respuesta": "Sí, según tu necesidad."
-      },
-      {
-        "pregunta": "¿Recibo notificación del pago?",
-        "respuesta": "Sí, automática vía email o panel."
-      },
-      {
-        "pregunta": "¿Funciona para suscripciones también?",
-        "respuesta": "Sí, hay opción de pago recurrente."
-      }
-    ]
-  },
-  {
-    "id": "catalogo-para-whatsapp-instagram",
-    "titulo": "Catálogo para WhatsApp / Instagram",
-    "titulos_sugeridos": [
-      "Vendé directo por chat con tu propio catálogo",
-      "Tu catálogo digital para redes y consultas rápidas"
-    ],
-    "descripcion": "Un catálogo 100% visual y adaptado para que tus clientes lo vean desde su celular y hagan clic para consultarte directamente. Especial para vender por Instagram, WhatsApp, Facebook o Telegram.",
-    "puntos_clave": [
-      "Diseño Vertical y Adaptado a Celulares",
-      "Botones Directos de WhatsApp y Redes",
-      "Categorías con Scroll Infinito",
-      "Carga Rápida y Sin Esperas",
-      "Link Único para Compartir en Redes",
-      "Edición Dinámica desde el Panel"
-    ],
-    "beneficios_cercanos": [
-      "Facilitás que te compren desde cualquier red",
-      "Mostrás tu marca sin pagar comisiones",
-      "Centralizás las consultas y pedidos"
-    ],
-    "beneficios_futuros": [
-      "Podés migrar fácilmente a tienda completa",
-      "Integramos formulario o reserva automática",
-      "Creás promociones por secciones o códigos"
-    ],
-    "tips_uso": [
-      "Usalo en la bio de Instagram",
-      "Agregá precios visibles y stock real",
-      "Mostrá testimonios o garantía"
-    ],
-    "contenido_relacionado": [
-      "Botón de Pago",
-      "Meta Ads",
-      "Catálogo Visual por WhatsApp"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿Puedo usarlo sin web completa?",
-        "respuesta": "Sí, es una solución standalone para redes."
-      },
-      {
-        "pregunta": "¿Los productos tienen foto y precio?",
-        "respuesta": "Sí, y descripción corta también."
-      },
-      {
-        "pregunta": "¿Puedo ocultar productos?",
-        "respuesta": "Sí, podés activar/desactivar por panel."
-      },
-      {
-        "pregunta": "¿Puedo vincularlo a pagos?",
-        "respuesta": "Sí, con botón de pago personalizado."
-      },
-      {
-        "pregunta": "¿Funciona bien en todos los celulares?",
-        "respuesta": "Sí, está optimizado para móviles."
-      }
-    ]
-  },
-  {
-    "id": "google-maps-perfil-de-empresa",
-    "titulo": "Google Maps + Perfil de Empresa",
-    "titulos_sugeridos": [
-      "Aparecé en el mapa cuando te buscan",
-      "Tu ficha oficial con dirección, horarios y reseñas"
-    ],
-    "descripcion": "Creamos y optimizamos tu ficha en Google Maps para que los clientes te encuentren fácil, puedan llamarte, ver tu ubicación, leer reseñas y acceder a tus productos o web desde la búsqueda.",
-    "puntos_clave": [
-      "Alta y Verificación en Google Business",
-      "Configuración de Horarios y Fotos",
-      "Enlace directo a tu Catálogo o Tienda",
-      "Optimización SEO Local",
-      "Recolección de Reseñas Positivas",
-      "Sincronización con Meta si tenés local"
-    ],
-    "beneficios_cercanos": [
-      "Generás confianza inmediata",
-      "Aparecés en Google con tu información real",
-      "Sumás visitas y llamados sin invertir en ads"
-    ],
-    "beneficios_futuros": [
-      "Posicionás tu marca en mapas y búsquedas locales",
-      "Escalás a campañas locales con conversión",
-      "Centralizás tu identidad digital"
-    ],
-    "tips_uso": [
-      "Pedí a tus mejores clientes que dejen reseñas",
-      "Usá buenas fotos del frente y productos",
-      "Actualizá los horarios siempre"
-    ],
-    "contenido_relacionado": [
-      "Campañas Google Ads Locales",
-      "SEO Local Estratégico",
-      "Sistema de Opiniones"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿Tiene costo mensual?",
-        "respuesta": "No, es gratuito de Google. Nosotros lo configuramos profesionalmente."
-      },
-      {
-        "pregunta": "¿Puedo aparecer si no tengo local físico?",
-        "respuesta": "Sí, como empresa de zona de cobertura o atención a domicilio."
-      },
-      {
-        "pregunta": "¿Me pueden dejar reseñas?",
-        "respuesta": "Sí, es una de las mejores funciones del Perfil de Empresa."
-      },
-      {
-        "pregunta": "¿Puedo vincular mi web o tienda?",
-        "respuesta": "Sí, y recomendamos hacerlo."
-      },
-      {
-        "pregunta": "¿Es obligatorio verificarlo?",
-        "respuesta": "Sí, pero nosotros te ayudamos a hacerlo paso a paso."
-      }
-    ]
-  },
-  {
-    "id": "web-institucional",
-    "titulo": "Sitio Web Institucional",
-    "titulos_sugeridos": [
-      "Tu Marca, Tu Historia, Tu Página Oficial",
-      "Transmití Confianza con una Web Profesional"
-    ],
-    "descripcion": "Desarrollamos tu sitio web para mostrar quién sos, qué hacés, cómo te pueden contactar y por qué elegirte. Pensado para empresas, profesionales, instituciones o marcas personales.",
-    "puntos_clave": [
-      "Secciones de Inicio, Nosotros, Servicios, Contacto",
-      "Formulario de Consultas y Redes Sociales",
-      "Diseño Responsive y Adaptado a tu Imagen",
-      "Optimización SEO Inicial",
-      "Panel Autogestionable de Contenido",
-      "Dominio Propio y Hosting Seguro"
-    ],
-    "beneficios_cercanos": [
-      "Generás confianza y profesionalismo",
-      "Centralizás tu presencia digital",
-      "Reducís preguntas repetidas con info clara"
-    ],
-    "beneficios_futuros": [
-      "Escalás a tienda, reservas o más secciones",
-      "Mejorás tu posicionamiento en Google",
-      "Integrás automatizaciones y sistemas"
-    ],
-    "tips_uso": [
-      "Actualizá la sección de novedades con frecuencia",
-      "Usá buenas fotos de tu equipo o local",
-      "Agregá testimonios y casos de éxito"
-    ],
-    "contenido_relacionado": [
-      "Landing Pages",
-      "SEO Básico + Google Maps",
-      "Bot de Consultas"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿Puedo editar la web yo mismo?",
-        "respuesta": "Sí, te damos acceso al panel autogestionable."
-      },
-      {
-        "pregunta": "¿Puedo tener correo con mi dominio?",
-        "respuesta": "Sí, lo configuramos con Gmail o servidor propio."
-      },
-      {
-        "pregunta": "¿Incluye posicionamiento en Google?",
-        "respuesta": "Sí, con estructura SEO inicial."
-      },
-      {
-        "pregunta": "¿Funciona en celulares?",
-        "respuesta": "Sí, es 100% responsive."
-      },
-      {
-        "pregunta": "¿Se puede ampliar después?",
-        "respuesta": "Sí, podés sumar secciones, idiomas o tienda."
-      }
-    ]
-  },
-  {
-    "id": "web-multilenguaje",
-    "titulo": "Sitio Web Institucional",
-    "titulos_sugeridos": [
-      "Tu Marca, Tu Historia, Tu Página Oficial",
-      "Transmití Confianza con una Web Profesional"
-    ],
-    "descripcion": "Desarrollamos tu sitio web para mostrar quién sos, qué hacés, cómo te pueden contactar y por qué elegirte. Pensado para empresas, profesionales, instituciones o marcas personales.",
-    "puntos_clave": [
-      "Secciones de Inicio, Nosotros, Servicios, Contacto",
-      "Formulario de Consultas y Redes Sociales",
-      "Diseño Responsive y Adaptado a tu Imagen",
-      "Optimización SEO Inicial",
-      "Panel Autogestionable de Contenido",
-      "Dominio Propio y Hosting Seguro"
-    ],
-    "beneficios_cercanos": [
-      "Generás confianza y profesionalismo",
-      "Centralizás tu presencia digital",
-      "Reducís preguntas repetidas con info clara"
-    ],
-    "beneficios_futuros": [
-      "Escalás a tienda, reservas o más secciones",
-      "Mejorás tu posicionamiento en Google",
-      "Integrás automatizaciones y sistemas"
-    ],
-    "tips_uso": [
-      "Actualizá la sección de novedades con frecuencia",
-      "Usá buenas fotos de tu equipo o local",
-      "Agregá testimonios y casos de éxito"
-    ],
-    "contenido_relacionado": [
-      "Landing Pages",
-      "SEO Básico + Google Maps",
-      "Bot de Consultas"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿Puedo editar la web yo mismo?",
-        "respuesta": "Sí, te damos acceso al panel autogestionable."
-      },
-      {
-        "pregunta": "¿Puedo tener correo con mi dominio?",
-        "respuesta": "Sí, lo configuramos con Gmail o servidor propio."
-      },
-      {
-        "pregunta": "¿Incluye posicionamiento en Google?",
-        "respuesta": "Sí, con estructura SEO inicial."
-      },
-      {
-        "pregunta": "¿Funciona en celulares?",
-        "respuesta": "Sí, es 100% responsive."
-      },
-      {
-        "pregunta": "¿Se puede ampliar después?",
-        "respuesta": "Sí, podés sumar secciones, idiomas o tienda."
-      }
-    ]
-  },
-  {
-    "id": "web-multilenguaje",
-    "titulo": "Web Multilenguaje",
-    "titulos_sugeridos": [
-      "Expandí tu negocio al mundo con una web en varios idiomas",
-      "Tu marca, sin fronteras"
-    ],
-    "descripcion": "Adaptamos tu sitio web para que pueda verse en múltiples idiomas, con selector automático o manual. Ideal para turismo, exportación, inversores internacionales o contenidos educativos.",
-    "puntos_clave": [
-      "Traducción profesional o automática con revisión",
-      "Selector de idioma visual",
-      "Estructura SEO multilenguaje",
-      "Adaptación de formularios y correos",
-      "Dominio principal o subdominios por idioma",
-      "Experiencia de usuario consistente"
-    ],
-    "beneficios_cercanos": [
-      "Abrís tu marca a nuevos mercados",
-      "Mejorás la percepción profesional",
-      "Reducís malentendidos con clientes extranjeros"
-    ],
-    "beneficios_futuros": [
-      "Escalás campañas internacionales",
-      "Mejorás tu posicionamiento global",
-      "Sumás contenido localizado"
-    ],
-    "tips_uso": [
-      "Asegurate de adaptar también las imágenes y textos culturales",
-      "Comprobá los idiomas con hablantes nativos si es posible",
-      "Usá palabras clave traducidas en los títulos"
-    ],
-    "contenido_relacionado": [
-      "Landing Pages en Inglés",
-      "Campañas para extranjeros",
-      "Exportación digital"
-    ],
-    "faq": [
-      {
-        "pregunta": "¿Se traduce todo automáticamente?",
-        "respuesta": "Podés elegir entre traducción automática o profesional personalizada."
-      },
-      {
-        "pregunta": "¿Los clientes ven la web en su idioma automáticamente?",
-        "respuesta": "Sí, con detección automática o selección manual."
-      },
-      {
-        "pregunta": "¿Afecta el SEO tener varios idiomas?",
-        "respuesta": "Sí, pero positivamente si está bien implementado."
-      },
-      {
-        "pregunta": "¿Cuántos idiomas puedo tener?",
-        "respuesta": "Ilimitados, aunque recomendamos entre 2 y 5 según tu público."
-      },
-      {
-        "pregunta": "¿Puedo traducir también el panel de gestión?",
-        "respuesta": "La mayoría de paneles tienen soporte para varios idiomas."
-      }
-    ]
-  },
-  {
-    "id": "seo-local-estratetico",
+    "id": "seo-local-estrategico",
+    "categoria": "visibilidad-y-posicionamiento",
     "titulo": "SEO Local Estratégico",
     "titulos_sugeridos": [
-      "Aparecé en Google cuando buscan negocios cerca tuyo",
-      "Que te encuentren los que realmente están cerca"
+      "Aparecé Primero Cuando Te Busquen Cerca",
+      "Conquistá Tu Zona con SEO Local"
     ],
-    "descripcion": "Optimizamos tu sitio web, fichas y enlaces para aparecer en resultados locales de Google según tu zona geográfica. Esencial para locales físicos, servicios en barrio o atención a domicilio.",
+    "descripcion": "El SEO Local Estratégico es un conjunto de técnicas y optimizaciones orientadas a posicionar tu negocio en buscadores, como Google, cuando los usuarios realizan búsquedas relacionadas con tu rubro y ubicación geográfica. Por ejemplo: 'hotel en [tu ciudad]', 'restaurante cerca', 'alquiler de autos en [barrio]'. Esta solución va más allá de solo tener un sitio web; implica optimizar contenidos, palabras clave, metadatos, Google My Business, enlaces locales y reseñas para que tu negocio aparezca en los primeros resultados cuando alguien busca productos o servicios en tu área.",
     "puntos_clave": [
-      "Optimización técnica del sitio para SEO Local",
-      "Palabras clave con ubicación",
-      "Vinculación con Google Maps y Perfiles",
-      "Creación de enlaces locales",
-      "Implementación de reseñas",
-      "Velocidad y estructura móvil primero"
+      "Optimización de Palabras Clave Geolocalizadas",
+      "Configuración y Optimización de Google My Business",
+      "Generación de Contenidos Locales Relevantes",
+      "Gestión y Promoción de Opiniones y Reseñas",
+      "Optimización Técnica del Sitio para SEO Local",
+      "Monitoreo y Reportes de Posicionamiento Local"
     ],
     "beneficios_cercanos": [
-      "Aumentás llamadas y visitas de tu zona",
-      "Reducís la dependencia de redes sociales",
-      "Mejorás tu reputación digital"
+      "Aumentás el tráfico cualificado de clientes en tu zona",
+      "Mejorás tu reputación y confianza local",
+      "Aprovechás oportunidades de búsquedas móviles y por voz"
     ],
     "beneficios_futuros": [
-      "Ganás autoridad en tu rubro local",
-      "Podés escalar campañas locales",
-      "Fortalecés tu marca con reseñas reales"
+      "Generás una base sólida para expansión regional",
+      "Potenciás campañas publicitarias con mejores resultados orgánicos",
+      "Convertís búsquedas locales en visitas y ventas reales"
     ],
     "tips_uso": [
-      "Pedí siempre reseñas después de cada venta",
-      "Usá tu barrio o zona en los textos clave",
-      "Mostrá fotos reales del lugar y personas"
+      "Actualizá frecuentemente tu Google My Business con novedades y fotos. Esto mejora tu posicionamiento y visibilidad",
+      "Incluí en tu sitio contenido que mencione tu barrio, ciudad o zona. Palabras clave locales hacen la diferencia",
+      "Respondé todas las reseñas, buenas o malas, con profesionalismo. Construí una reputación positiva y cercana"
     ],
     "contenido_relacionado": [
-      "Google Maps + Perfil",
-      "Campañas Locales",
-      "Diseño de Cartelería Digital"
+      "Google Maps + Perfil de Empresa",
+      "Sitio Web Institucional",
+      "Sistema de Opiniones y Testimonios Reales"
     ],
     "faq": [
       {
-        "pregunta": "¿Cuánto tarda en verse el SEO local?",
-        "respuesta": "Entre 2 a 4 semanas, según competencia y optimización."
+        "pregunta": "¿Cuánto tiempo tarda en dar resultados el SEO Local?",
+        "respuesta": "Depende, pero generalmente se ven mejoras entre 3 y 6 meses con trabajo constante."
       },
       {
-        "pregunta": "¿Necesito tener tienda física?",
-        "respuesta": "No, sirve también para servicios en domicilio."
+        "pregunta": "¿Es necesario tener una ficha en Google My Business?",
+        "respuesta": "Sí, es fundamental para el SEO local."
       },
       {
-        "pregunta": "¿Puedo aparecer en Google sin pagar publicidad?",
-        "respuesta": "Sí, eso es justamente el objetivo del SEO local."
+        "pregunta": "¿Puedo hacer SEO local para más de una ubicación?",
+        "respuesta": "Sí, se pueden optimizar varias sucursales o zonas."
       },
       {
-        "pregunta": "¿Qué diferencia hay con SEO general?",
-        "respuesta": "El SEO local se enfoca en que te encuentren cerca (geolocalización + zona)."
+        "pregunta": "¿Qué pasa si no tengo página web?",
+        "respuesta": "Se recomienda tenerla, pero se puede optimizar el perfil de Google y redes."
       },
       {
-        "pregunta": "¿Se puede combinar con campañas pagas?",
-        "respuesta": "Sí, y de hecho lo recomendamos."
+        "pregunta": "¿El SEO Local funciona para todos los rubros?",
+        "respuesta": "Sí, especialmente para negocios con presencia física o atención local."
       }
     ]
   },
   {
-    "id": "fichas-tecnicas-seo",
-    "titulo": "Fichas Técnicas SEO",
+    "id": "ficha-tecnica-seo-productos",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Ficha Técnica SEO para Productos",
     "titulos_sugeridos": [
-      "Subí tus productos como un profesional",
-      "Fichas optimizadas para Google y tus clientes"
+      "Cada Producto, una Oportunidad de Venta en Google",
+      "Optimizá tus Productos para que Te Encuentren Más Fácil"
     ],
-    "descripcion": "Creamos fichas de producto bien estructuradas, con contenido pensado tanto para posicionamiento orgánico como para ayudar a los clientes a decidir. Ideal para tiendas online, catálogos o servicios técnicos.",
+    "descripcion": "La Ficha Técnica SEO para Productos es una página detallada dedicada a cada producto que vendés en tu tienda online o catálogo digital, diseñada para mejorar su posicionamiento en motores de búsqueda como Google. Esta ficha incluye descripción optimizada con palabras clave, imágenes con etiquetas, especificaciones técnicas, beneficios, precios y llamados a la acción claros. Este sistema ayuda a que tus productos aparezcan en búsquedas específicas, incrementando la probabilidad de que clientes potenciales te encuentren justo cuando están buscando lo que ofrecés.",
     "puntos_clave": [
-      "Título optimizado + descripción atractiva",
-      "Palabras clave reales de búsqueda",
-      "Formato escaneable con íconos o listas",
-      "Metaetiquetas listas para Google",
-      "Compatibilidad con marketplaces",
-      "Traducción automática si se requiere"
+      "Descripción Detallada y Optimizada para SEO",
+      "Imágenes de Calidad con Etiquetas Alt y Descripciones",
+      "Especificaciones Técnicas y Beneficios Claros",
+      "Botones de Compra y Contacto Visibles",
+      "Opiniones y Valoraciones Integradas",
+      "Adaptación para Móviles y SEO Técnico"
     ],
     "beneficios_cercanos": [
-      "Aumentás visitas desde Google",
-      "Reducís rebotes por info confusa",
-      "Mejorás tus conversiones"
+      "Mejorás la visibilidad de productos específicos en Google",
+      "Aumentás las consultas y ventas directas",
+      "Proporcionás información clara que reduce dudas y devoluciones"
     ],
     "beneficios_futuros": [
-      "Posicionás tu marca como autoridad en tu rubro",
-      "Sumás contenido valioso para anuncios",
-      "Integrás IA para redacción masiva"
+      "Posicionás tu tienda como referente en productos especializados",
+      "Incrementás tráfico orgánico que no depende solo de publicidad",
+      "Facilitás la escalabilidad y actualización masiva de fichas"
     ],
     "tips_uso": [
-      "Incluí siempre los beneficios del producto, no solo características",
-      "Agregá preguntas frecuentes abajo de la ficha",
-      "Usá fichas similares para productos relacionados"
+      "Usá palabras clave que tus clientes realmente usan para buscar. Herramientas como Google Trends o Keyword Planner ayudan",
+      "Incluí siempre varias imágenes y videos si es posible. Mejoran la experiencia y posicionamiento",
+      "Actualizá las fichas cuando cambien características o precios. Mantener la información fresca es clave para SEO"
     ],
     "contenido_relacionado": [
-      "Catálogo Online",
-      "SEO para Tienda",
-      "Copywriting Persuasivo"
+      "Tienda Online Autogestionable",
+      "Panel de Estadísticas de Visitas y Tráfico",
+      "Sistema de Opiniones y Testimonios Reales"
     ],
     "faq": [
       {
-        "pregunta": "¿Necesito tener muchas visitas para usar esto?",
-        "respuesta": "No, es útil desde el primer producto."
+        "pregunta": "¿Qué diferencia tiene esta ficha técnica con una descripción común?",
+        "respuesta": "Está optimizada para buscadores y pensada para convertir visitas en ventas."
       },
       {
-        "pregunta": "¿Funciona para productos técnicos y simples?",
-        "respuesta": "Sí, ajustamos el formato según el rubro."
+        "pregunta": "¿Puedo hacer fichas para todos mis productos?",
+        "respuesta": "Sí, y es recomendable para aumentar la visibilidad."
       },
       {
-        "pregunta": "¿Se puede integrar en mi tienda?",
-        "respuesta": "Sí, directamente en tu backend o por carga masiva."
+        "pregunta": "¿Necesito conocimientos técnicos para gestionarlas?",
+        "respuesta": "No. Se incluyen herramientas fáciles para editar contenido y SEO básico."
       },
       {
-        "pregunta": "¿Incluye palabras clave?",
-        "respuesta": "Sí, y sugerencias de mejora si lo hacés vos."
+        "pregunta": "¿Cómo ayuda al posicionamiento en Google?",
+        "respuesta": "Los buscadores prefieren páginas con contenido claro, completo y optimizado."
       },
       {
-        "pregunta": "¿Puedo usar estas fichas para MercadoLibre?",
-        "respuesta": "Sí, te damos una versión adaptada si querés."
+        "pregunta": "¿Se pueden integrar con opiniones de clientes?",
+        "respuesta": "Sí, se pueden mostrar valoraciones y comentarios para mejorar la confianza."
       }
     ]
   },
   {
-    "id": "panel-de-estadisticas",
-    "titulo": "Panel de Estadísticas",
+    "id": "panel-estadisticas-trafico",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Panel de Estadísticas de Visitas y Tráfico",
     "titulos_sugeridos": [
-      "Tomá decisiones con datos reales",
-      "Toda tu actividad, clara y en un solo lugar"
+      "Conocé a Tus Clientes para Crecer Más Rápido",
+      "Datos Clave al Alcance de Tu Mano"
     ],
-    "descripcion": "Incluimos un panel visual que te permite ver cuántas personas visitan tu sitio, de dónde vienen, qué productos ven, cuánto tiempo permanecen y cuánto vendés. Ideal para medir, mejorar y optimizar.",
+    "descripcion": "El Panel de Estadísticas de Visitas y Tráfico es una herramienta que te permite visualizar, en tiempo real o en reportes detallados, cómo los usuarios llegan a tu sitio web, qué páginas visitan, cuánto tiempo permanecen, desde qué dispositivos y qué acciones realizan. Con esta información, podés entender qué productos o servicios generan más interés, qué canales de marketing funcionan mejor, y dónde hay oportunidades de mejora. Es esencial para optimizar campañas, mejorar la experiencia del usuario y aumentar conversiones.",
     "puntos_clave": [
-      "Gráficos de visitas por día y hora",
-      "Seguimiento de productos más vistos",
-      "Tasa de conversión y abandono de carrito",
-      "Origen del tráfico (redes, Google, directo)",
-      "Panel responsive desde celular o PC",
-      "Filtros por fechas y dispositivos"
+      "Visitas Diarias, Semanales y Mensuales",
+      "Fuentes de Tráfico Detalladas",
+      "Páginas Más Visitadas y Tiempo de Permanencia",
+      "Tasa de Rebote y Comportamiento del Usuario",
+      "Datos Demográficos y Geográficos",
+      "Integración con Herramientas de Marketing y CRM"
     ],
     "beneficios_cercanos": [
-      "Sabés qué funciona y qué no",
-      "Tomás mejores decisiones de marketing",
-      "Detectás errores o cambios a tiempo"
+      "Mejorás tus estrategias de marketing basándote en datos reales",
+      "Identificás oportunidades para aumentar ventas o visitas",
+      "Optimizás el contenido y diseño para mantener a los visitantes interesados"
     ],
     "beneficios_futuros": [
-      "Automatizás campañas según comportamiento",
-      "Identificás oportunidades de crecimiento",
-      "Escalás con datos reales"
+      "Podés anticipar tendencias y cambios en el comportamiento de tus clientes",
+      "Tomás decisiones informadas para inversión en publicidad o nuevos productos",
+      "Mejorás la experiencia de usuario para fidelizar y captar más clientes"
     ],
     "tips_uso": [
-      "Revisá semanalmente tus métricas clave",
-      "Probá cambios A/B y medí el impacto",
-      "Segmentá por red social o tipo de cliente"
+      "Revisá el panel regularmente para detectar patrones y anomalías. Así podés actuar rápido ante cualquier cambio",
+      "Usá los datos para ajustar campañas y probar nuevos mensajes. El marketing basado en datos es más efectivo",
+      "Compartí informes con tu equipo para alinear objetivos y estrategias"
     ],
     "contenido_relacionado": [
-      "Campañas Meta + Estadísticas",
-      "Google Analytics Básico",
-      "Reportes PDF Automáticos"
+      "SEO Local Estratégico",
+      "Campañas Meta Ads (Facebook + Instagram)",
+      "CRM (Gestión de Clientes)"
     ],
     "faq": [
       {
-        "pregunta": "¿Necesito instalar algo?",
-        "respuesta": "No, el panel se entrega listo para usar desde el navegador."
+        "pregunta": "¿Necesito conocimientos técnicos para usar el panel?",
+        "respuesta": "No, es intuitivo y fácil de entender para cualquier usuario."
       },
       {
-        "pregunta": "¿Se puede ver desde el celular?",
-        "respuesta": "Sí, es 100% responsive."
+        "pregunta": "¿Puedo ver datos en tiempo real?",
+        "respuesta": "Sí, algunas métricas se actualizan en tiempo real o con poca demora."
       },
       {
-        "pregunta": "¿Puedo exportar los datos?",
-        "respuesta": "Sí, en CSV o PDF según lo que necesites."
+        "pregunta": "¿Qué tipo de datos puedo obtener?",
+        "respuesta": "Desde visitas, fuentes, páginas vistas, hasta comportamiento y demografía."
       },
       {
-        "pregunta": "¿Incluye datos de campañas?",
-        "respuesta": "Sí, si se integran desde Meta o Google."
+        "pregunta": "¿Sirve para medir campañas publicitarias?",
+        "respuesta": "Sí, podés evaluar qué canales y anuncios traen más tráfico y conversiones."
       },
       {
-        "pregunta": "¿Hay informes automáticos?",
-        "respuesta": "Sí, configurables por semana o mes."
+        "pregunta": "¿Se integra con otras herramientas de marketing?",
+        "respuesta": "Sí, puede conectarse con CRMs, email marketing y plataformas publicitarias."
       }
     ]
   },
   {
-    "id": "sistema-de-opiniones",
-    "titulo": "Sistema de Opiniones",
+    "id": "sistema-opiniones-testimonios",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Sistema de Opiniones y Testimonios Reales",
     "titulos_sugeridos": [
-      "Mostrá que tus clientes te recomiendan",
-      "Sumá confianza con reseñas reales"
+      "Transformá Opiniones en Ventas",
+      "La Voz de Tus Clientes que Convierte"
     ],
-    "descripcion": "Agregamos un módulo para que tus clientes dejen opiniones visibles en tu tienda o web. Con puntajes, textos y filtros para mostrar lo mejor de tu atención o productos.",
+    "descripcion": "El Sistema de Opiniones y Testimonios Reales permite recopilar, validar y mostrar las valoraciones de tus clientes de forma confiable y transparente. Las opiniones auténticas generan confianza inmediata en nuevos visitantes y potencian tu reputación online, un factor decisivo para que más personas elijan tus productos o servicios. Este sistema incluye validación mediante email o WhatsApp para asegurar que las opiniones son legítimas y reduce la posibilidad de comentarios falsos o spam.",
     "puntos_clave": [
-      "Formulario de opinión con estrellas y comentario",
-      "Validación opcional de cliente real",
-      "Moderación por panel",
-      "Vista destacada en productos o portada",
-      "Enlace directo desde el pedido",
-      "Filtro por calificación o categoría"
+      "Recopilación Automática de Opiniones Post-Venta o Servicio",
+      "Validación por Email o WhatsApp",
+      "Moderación y Gestión de Comentarios",
+      "Visualización Atractiva en Sitio Web y Redes",
+      "Notificaciones para Clientes y Administradores",
+      "Análisis y Reportes de Reputación"
     ],
     "beneficios_cercanos": [
-      "Generás más confianza en nuevos compradores",
-      "Reforzás tu marca con experiencias reales",
-      "Respondés críticas para mejorar"
+      "Incrementás la confianza y seguridad en tu marca",
+      "Aumentás la conversión de visitantes en clientes",
+      "Mejorás tu reputación online frente a la competencia"
     ],
     "beneficios_futuros": [
-      "Aumentás la conversión hasta un 30%",
-      "Posicionás tus productos mejor en Google",
-      "Creás comunidad alrededor de tu negocio"
+      "Potenciás la fidelización y el boca a boca positivo",
+      "Detectás áreas de mejora en productos o servicios",
+      "Fortalecés tu posicionamiento orgánico en buscadores"
     ],
     "tips_uso": [
-      "Pedí siempre la opinión tras una venta",
-      "Respondé tanto las buenas como las malas",
-      "Mostrá las mejores en portada o redes"
+      "Solicitá opiniones poco después de la compra o servicio. La experiencia fresca mejora la calidad del testimonio",
+      "Respondé siempre las opiniones, buenas o malas. Demuestra que te importan tus clientes",
+      "Destacá testimonios en zonas visibles de tu web y redes sociales"
     ],
     "contenido_relacionado": [
-      "SEO Local + Opiniones",
-      "Bot de Encuesta",
-      "Campaña de Reputación"
+      "Panel de Reputación Online",
+      "SEO Local Estratégico",
+      "Campañas Meta Ads (Facebook + Instagram)"
     ],
     "faq": [
       {
-        "pregunta": "¿Puedo elegir qué opiniones se ven?",
-        "respuesta": "Sí, podés aprobarlas desde el panel antes de publicarlas."
+        "pregunta": "¿Cómo aseguran que las opiniones sean reales?",
+        "respuesta": "Validamos con enlaces por email o mensajes por WhatsApp para confirmar clientes."
       },
       {
-        "pregunta": "¿Puedo responder a las opiniones?",
-        "respuesta": "Sí, directamente en la web o desde tu panel."
+        "pregunta": "¿Se pueden responder y moderar las opiniones?",
+        "respuesta": "Sí, podés gestionar y responder para mantener la interacción."
       },
       {
-        "pregunta": "¿Puedo importar reseñas de Google o Instagram?",
-        "respuesta": "Sí, si las tenés disponibles o capturadas."
+        "pregunta": "¿Puedo integrar las opiniones en redes sociales?",
+        "respuesta": "Sí, ofrecemos formatos para compartir testimonios en diferentes plataformas."
       },
       {
-        "pregunta": "¿Sirve también para servicios?",
-        "respuesta": "Sí, podés habilitarlo en cualquier página."
+        "pregunta": "¿Qué pasa si recibo una opinión negativa?",
+        "respuesta": "Podés responder profesionalmente para mostrar atención y buscar solución."
       },
       {
-        "pregunta": "¿Se puede dejar reseña sin comprar?",
-        "respuesta": "Podés elegir si es libre o solo para compradores."
+        "pregunta": "¿Esto mejora el SEO de mi sitio?",
+        "respuesta": "Sí, las opiniones enriquecen el contenido y mejoran el posicionamiento local."
       }
     ]
   },
   {
-    "id": "politica-de-cookies-rgpd",
-    "titulo": "Política de Cookies / RGPD",
+    "id": "politica-cookies-rgpd",
+    "categoria": "visibilidad-y-posicionamiento",
+    "titulo": "Política de Cookies y RGPD",
     "titulos_sugeridos": [
-      "Tu sitio, legal y confiable",
-      "Cumplí con las normativas de protección de datos"
+      "Protegé a Tus Usuarios y Cumplí la Ley",
+      "Tu Web Segura y Legal con Política de Cookies y RGPD"
     ],
-    "descripcion": "Incluimos la notificación de cookies, políticas de privacidad, protección de datos y aceptación explícita para que tu sitio cumpla con las leyes locales e internacionales como RGPD o Ley de Datos Personales.",
+    "descripcion": "La Política de Cookies y RGPD es un conjunto de avisos, configuraciones y prácticas diseñadas para cumplir con las normativas legales de protección de datos personales, especialmente el Reglamento General de Protección de Datos (RGPD) de la Unión Europea y otras legislaciones similares en el mundo. Este servicio incluye la implementación de avisos visibles y claros sobre el uso de cookies, opciones para que los usuarios acepten o configuren sus preferencias, y la redacción y publicación de políticas de privacidad y tratamiento de datos adaptadas a tu negocio.",
     "puntos_clave": [
-      "Banner de cookies con aceptación personalizable",
-      "Link a políticas completas redactadas profesionalmente",
-      "Cumplimiento con RGPD y legislación argentina",
-      "Formulario de contacto con cláusula legal",
-      "Consentimiento para envíos de marketing",
-      "Auditoría inicial y revisión anual"
+      "Aviso de Cookies Visible y Configurable",
+      "Redacción Personalizada de Políticas de Privacidad",
+      "Cumplimiento con Normativas Internacionales (RGPD, CCPA, etc.)",
+      "Configuración Técnica para Bloquear Cookies no Consentidas",
+      "Registro y Control de Consentimientos",
+      "Actualización y Mantenimiento Continuo"
     ],
     "beneficios_cercanos": [
-      "Cumplís con la normativa legal",
-      "Evitás sanciones o bloqueos de plataformas",
-      "Generás confianza con transparencia"
+      "Evitás multas y sanciones legales por incumplimiento",
+      "Mejorás la reputación y confianza con usuarios y clientes",
+      "Aumentás la transparencia en el manejo de datos personales"
     ],
     "beneficios_futuros": [
-      "Podés escalar sin riesgos legales",
-      "Preparás tu marca para internacionalización",
-      "Protegés a tus usuarios y tu reputación"
+      "Estás preparado para nuevas regulaciones que puedan surgir",
+      "Generás un entorno digital seguro y profesional",
+      "Fortalecés la relación con clientes basándote en la confianza"
     ],
     "tips_uso": [
-      "Mostrá el banner en la primera carga",
-      "Dejá visibles los links a políticas siempre",
-      "Pedí consentimiento para marketing explícito"
+      "Informá claramente qué datos se recolectan y para qué se usan. La transparencia es clave para la confianza",
+      "Permití a los usuarios cambiar sus preferencias en cualquier momento",
+      "Actualizá la política si agregás nuevas funcionalidades que recolecten datos"
     ],
     "contenido_relacionado": [
-      "Formulario Legal",
-      "Términos y Condiciones Personalizados",
-      "Certificados SSL"
+      "SSL + Protección de Datos en Formularios",
+      "Gestión Legal: Políticas de Uso y Privacidad",
+      "Copias de Seguridad Automatizadas"
     ],
     "faq": [
       {
-        "pregunta": "¿Es obligatorio mostrar cookies?",
-        "respuesta": "Sí, si usás estadísticas, formularios o marketing."
+        "pregunta": "¿Es obligatorio tener una política de cookies y privacidad?",
+        "respuesta": "Sí, si tu sitio recopila datos personales, estás obligado por ley."
       },
       {
-        "pregunta": "¿Sirve si no vendo online?",
-        "respuesta": "Sí, aplica a cualquier web que capte datos."
+        "pregunta": "¿Qué pasa si no cumplo con el RGPD?",
+        "respuesta": "Podés recibir multas significativas y perder confianza de tus clientes."
       },
       {
-        "pregunta": "¿Es válido en otros países?",
-        "respuesta": "La redacción se adapta al país objetivo (ej. RGPD en Europa)."
+        "pregunta": "¿Debo mostrar un aviso cada vez que alguien entra a mi web?",
+        "respuesta": "Sí, es recomendable para asegurar el consentimiento informado."
       },
       {
-        "pregunta": "¿Puedo modificar los textos legales?",
-        "respuesta": "Sí, aunque se recomienda usar versiones certificadas."
+        "pregunta": "¿Puedo usar cookies sin consentimiento?",
+        "respuesta": "Solo las estrictamente necesarias para el funcionamiento básico del sitio."
       },
       {
-        "pregunta": "¿Esto protege también a mi empresa?",
-        "respuesta": "Sí, te respalda ante reclamos y plataformas publicitarias."
+        "pregunta": "¿Qué diferencias hay entre RGPD y otras normativas?",
+        "respuesta": "Cada región puede tener leyes similares pero con requisitos particulares; adaptamos la política según tu público."
       }
     ]
   },
   {
     "id": "campanas-meta-ads",
-    "titulo": "Campañas Meta Ads",
+    "categoria": "marketing-y-publicidad-digital",
+    "titulo": "Campañas Meta Ads (Facebook + Instagram)",
     "titulos_sugeridos": [
-      "Anuncios en Instagram y Facebook para vender más",
-      "Tu negocio, en la palma de tu cliente ideal"
+      "Anunciá Donde Están Tus Clientes: Facebook e Instagram",
+      "Publicidad Precisa y Rentable en Redes Sociales"
     ],
-    "descripcion": "Creamos campañas publicitarias en Meta (Facebook + Instagram) para que llegues a nuevos clientes con tu mejor oferta. Segmentación profesional, diseño atractivo y optimización constante.",
+    "descripcion": "Las Campañas Meta Ads son anuncios pagados en Facebook e Instagram. Segmentan con precisión a tu público según edad, intereses o comportamientos. Con distintos formatos y objetivos (ventas, leads, tráfico), son medibles, escalables y optimizables en tiempo real.",
     "puntos_clave": [
-      "Segmentación por zona, intereses y comportamiento",
-      "Diseño gráfico de anuncios o videos",
-      "Configuración desde el Administrador Profesional",
-      "Pruebas A/B por público o diseño",
-      "Informe de resultados cada 7 días",
-      "Retargeting a visitantes anteriores"
+      "Segmentación Avanzada y Precisa",
+      "Variedad de Formatos Publicitarios",
+      "Optimización y Seguimiento en Tiempo Real",
+      "Objetivos Personalizados",
+      "Integración con Catálogos y Tiendas Online",
+      "Retargeting para Captar Clientes Potenciales"
     ],
     "beneficios_cercanos": [
-      "Aumentás tráfico, consultas y ventas",
-      "Llegás a más personas en menos tiempo",
-      "Pagás solo por resultados medibles"
+      "Llegás a miles de potenciales clientes en tu zona o nicho",
+      "Incrementás ventas y consultas con mensajes dirigidos",
+      "Mejorás el reconocimiento y posicionamiento de tu marca"
     ],
     "beneficios_futuros": [
-      "Construís marca y comunidad",
-      "Escalás campañas exitosas a mayor presupuesto",
-      "Optimizás tu costo por resultado con datos"
+      "Construís una base sólida de seguidores y clientes fieles",
+      "Refinás tus estrategias con datos precisos de comportamiento",
+      "Escalás tus campañas para maximizar resultados sin desperdiciar presupuesto"
     ],
     "tips_uso": [
-      "Probá distintos públicos al inicio",
-      "Mostrá beneficios, no solo características",
-      "Incluí botón de acción claro (reservar, comprar, escribir)"
+      "Usá imágenes y videos atractivos que llamen la atención",
+      "Definí objetivos claros y medibles antes de lanzar la campaña",
+      "Probá diferentes audiencias y mensajes para encontrar lo que mejor funciona"
     ],
     "contenido_relacionado": [
-      "Landing Page para Ads",
-      "Panel de Estadísticas",
-      "Botón de WhatsApp con Seguimiento"
+      "Landing Pages de Promoción",
+      "Panel de Estadísticas de Visitas y Tráfico",
+      "Remarketing Inteligente"
     ],
     "faq": [
       {
-        "pregunta": "¿Cuánto debo invertir?",
-        "respuesta": "Desde $1.000 por día podés ver resultados, según tu rubro y zona."
+        "pregunta": "¿Necesito tener página de Facebook o Instagram para hacer campañas?",
+        "respuesta": "Sí, se requieren cuentas comerciales vinculadas para gestionar anuncios."
       },
       {
-        "pregunta": "¿Puedo pautar solo en Instagram?",
-        "respuesta": "Sí, aunque se recomienda combinar con Facebook para mayor alcance."
+        "pregunta": "¿Puedo empezar con un presupuesto pequeño?",
+        "respuesta": "Claro, se puede ajustar según tus posibilidades y objetivos."
       },
       {
-        "pregunta": "¿Necesito tener una fanpage?",
-        "respuesta": "Sí, o una cuenta de empresa en Instagram."
+        "pregunta": "¿Cuánto tiempo duran las campañas?",
+        "respuesta": "Podés definir duración fija o mantenerlas activas y optimizadas."
       },
       {
-        "pregunta": "¿Puedo ver los resultados en tiempo real?",
-        "respuesta": "Sí, accedés a tu propio panel de campañas."
+        "pregunta": "¿Cómo sé si mis campañas funcionan?",
+        "respuesta": "Mediante reportes de rendimiento y estadísticas detalladas."
       },
       {
-        "pregunta": "¿Puedo cambiar los diseños después?",
-        "respuesta": "Sí, recomendamos revisar los primeros 7 días y ajustar."
+        "pregunta": "¿Puedo usar campañas para vender productos y servicios?",
+        "respuesta": "Sí, Meta Ads es ideal para ambos tipos de ofertas."
       }
     ]
   },
   {
     "id": "campanas-google-ads",
+    "categoria": "marketing-y-publicidad-digital",
     "titulo": "Campañas Google Ads",
     "titulos_sugeridos": [
-      "Aparecé en Google cuando buscan lo que vendés",
-      "Anuncios inteligentes en el buscador más usado"
+      "Llegá a Clientes al Instante con Google Ads",
+      "Publicidad en Google: Resultados Medibles y Rápidos"
     ],
-    "descripcion": "Creamos y optimizamos campañas en Google para que tu negocio aparezca justo cuando alguien busca lo que ofrecés. Ideal para captar clientes listos para comprar.",
+    "descripcion": "Las Campañas Google Ads muestran anuncios cuando alguien busca tus productos o servicios en Google, YouTube, Google Maps o sitios asociados. Es una publicidad precisa, de alta intención, con múltiples opciones de segmentación y control de presupuesto.",
     "puntos_clave": [
-      "Anuncios en Buscador, Maps o YouTube",
-      "Elección de palabras clave rentables",
-      "Anuncios con ubicación, horarios y llamados",
-      "Presupuesto optimizado por conversión",
-      "Informe mensual de rendimiento",
-      "Compatible con landing o sitio web"
+      "Anuncios en Resultados de Búsqueda de Google",
+      "Publicidad en YouTube y Redes de Display",
+      "Segmentación por Ubicación y Horario",
+      "Control Total del Presupuesto y Puja",
+      "Análisis y Reportes Detallados",
+      "Campañas para Diferentes Objetivos"
     ],
     "beneficios_cercanos": [
-      "Aparecés primero sin esperar el SEO",
-      "Captás clientes activos y segmentados",
-      "Medís todo con estadísticas reales"
+      "Llegás a clientes con alta intención de compra en el momento justo",
+      "Mejorás la visibilidad de tu negocio en buscadores y plataformas",
+      "Optimización constante para maximizar el retorno de inversión"
     ],
     "beneficios_futuros": [
-      "Escalás con anuncios programados",
-      "Complementás tu marca con presencia constante",
-      "Optimizás para mejorar el ROAS"
+      "Construís una base de clientes sólida y recurrente",
+      "Amplías tu alcance en YouTube y sitios web asociados",
+      "Mejorás la percepción y posicionamiento de tu marca"
     ],
     "tips_uso": [
-      "Elegí palabras que usen tus clientes, no solo técnicas",
-      "Usá extensiones de llamada o ubicación",
-      "Combiná con campañas de remarketing"
+      "Elegí palabras clave específicas y relevantes para tu negocio",
+      "Usá anuncios atractivos con llamados a la acción claros",
+      "Monitoreá y ajustá las campañas regularmente para mejorar resultados"
     ],
     "contenido_relacionado": [
-      "Landing para Ads",
-      "SEO Local",
-      "Campañas de WhatsApp"
+      "Landing Pages de Promoción",
+      "Panel de Estadísticas de Visitas y Tráfico",
+      "Remarketing Inteligente"
     ],
     "faq": [
       {
-        "pregunta": "¿Debo tener página web para usar esto?",
-        "respuesta": "Sí, aunque también podés usar una landing personalizada."
+        "pregunta": "¿Necesito experiencia para usar Google Ads?",
+        "respuesta": "Se recomienda asesoría para optimizar campañas, pero es accesible para usuarios nuevos."
       },
       {
-        "pregunta": "¿Cómo se cobra Google Ads?",
-        "respuesta": "Por clic, impresión o conversión. Nosotros lo configuramos por objetivo."
+        "pregunta": "¿Puedo controlar cuánto gasto en publicidad?",
+        "respuesta": "Sí, podés definir presupuestos diarios o totales."
       },
       {
-        "pregunta": "¿Puedo pausar la campaña cuando quiera?",
-        "respuesta": "Sí, tenés control total desde tu panel."
+        "pregunta": "¿Los anuncios aparecen inmediatamente?",
+        "respuesta": "Generalmente sí, una vez aprobados, aunque puede haber revisiones."
       },
       {
-        "pregunta": "¿Qué diferencia hay con Meta Ads?",
-        "respuesta": "Google capta a quien ya busca, Meta a quien aún no te conoce."
+        "pregunta": "¿Qué diferencia hay entre Google Ads y SEO?",
+        "respuesta": "Google Ads es publicidad pagada para resultados rápidos; SEO es posicionamiento orgánico a mediano y largo plazo."
       },
       {
-        "pregunta": "¿Funciona para servicios o solo productos?",
-        "respuesta": "Funciona para ambos. Solo se ajustan las palabras clave."
+        "pregunta": "¿Puedo hacer anuncios con video?",
+        "respuesta": "Sí, especialmente en YouTube y la red de display."
       }
     ]
   },
   {
     "id": "remarketing-inteligente",
+    "categoria": "marketing-y-publicidad-digital",
     "titulo": "Remarketing Inteligente",
     "titulos_sugeridos": [
-      "Recuperá clientes que ya te conocen",
-      "Seguimiento automático a quienes visitaron tu web"
+      "Volvé a Impactar a Tus Clientes Potenciales",
+      "Convertí Visitantes en Compradores con Remarketing"
     ],
-    "descripcion": "Configuramos campañas que muestran anuncios solo a quienes ya vieron tus productos, visitaron tu tienda o dejaron un carrito. El remarketing mejora la conversión y reduce costos publicitarios.",
+    "descripcion": "El Remarketing Inteligente muestra anuncios a quienes ya interactuaron con tu web o productos, pero no compraron. Los persigue sutilmente en redes, webs o apps, recordando tu oferta con mensajes personalizados y bien segmentados.",
     "puntos_clave": [
-      "Segmentación automática de visitantes",
-      "Anuncios personalizados dinámicos",
-      "Compatible con Meta y Google",
-      "Integración con carrito y páginas vistas",
-      "Duración y frecuencia configurables",
-      "Seguimiento desde tu panel"
+      "Segmentación Precisa de Audiencias que Visitron tu Sitio",
+      "Anuncios Personalizados según Comportamiento",
+      "Control de Frecuencia para Evitar Saturación",
+      "Integración con Facebook, Instagram y Google Ads",
+      "Optimización Automática de Campañas",
+      "Medición y Reportes Detallados de Rendimiento"
     ],
     "beneficios_cercanos": [
-      "Recuperás ventas perdidas",
-      "Aumentás la tasa de conversión",
-      "Reducís el costo por venta"
+      "Aumentás la tasa de conversión de visitantes a clientes",
+      "Mejorás el retorno de inversión en publicidad digital",
+      "Reforzás el reconocimiento y recordación de tu marca"
     ],
     "beneficios_futuros": [
-      "Generás más fidelización",
-      "Escalás campañas basadas en comportamiento",
-      "Aumentás el valor por cliente (LTV)"
+      "Construís una base sólida de clientes recurrentes",
+      "Optimización continua para campañas más eficientes",
+      "Aumentás ventas sin necesidad de aumentar el presupuesto"
     ],
     "tips_uso": [
-      "Usá imágenes y textos distintos al primer anuncio",
-      "Segmentá según tiempo desde la visita",
-      "Mostrá promociones limitadas o urgentes"
+      "Segmentá bien para enviar mensajes relevantes",
+      "No saturés a tus usuarios; ajustá la frecuencia",
+      "Combiná remarketing con ofertas especiales o descuentos"
     ],
     "contenido_relacionado": [
-      "Meta Ads + Carrito",
-      "Google Ads con Audiencias",
-      "Botón de Pago + Tracking"
+      "Campañas Meta Ads (Facebook + Instagram)",
+      "Campañas Google Ads",
+      "Panel de Estadísticas de Visitas y Tráfico"
     ],
     "faq": [
       {
-        "pregunta": "¿Cómo sabe a quién mostrar el anuncio?",
-        "respuesta": "Se instala un píxel o código en tu sitio que detecta a los visitantes."
+        "pregunta": "¿Necesito tener una base de visitantes para hacer remarketing?",
+        "respuesta": "Sí, se usa información de quienes ya visitaron tu sitio."
       },
       {
-        "pregunta": "¿Esto molesta al usuario?",
-        "respuesta": "No, solo se muestra si aceptó cookies y se limita la frecuencia."
+        "pregunta": "¿Los anuncios remarketing molestan a los usuarios?",
+        "respuesta": "No si se ajusta la frecuencia y el mensaje es relevante."
       },
       {
-        "pregunta": "¿Funciona también con productos digitales?",
-        "respuesta": "Sí, para cursos, membresías o asesorías es muy efectivo."
+        "pregunta": "¿Puedo usar remarketing para cualquier tipo de negocio?",
+        "respuesta": "Sí, especialmente efectivo para ecommerce y servicios."
       },
       {
-        "pregunta": "¿Puedo elegir qué productos mostrar?",
-        "respuesta": "Sí, se configura por categorías o comportamientos."
+        "pregunta": "¿Cómo sé si mis campañas de remarketing funcionan?",
+        "respuesta": "Por los reportes de conversión y retorno que ofrece la plataforma."
       },
       {
-        "pregunta": "¿Esto aumenta el presupuesto de campañas?",
-        "respuesta": "No necesariamente. De hecho, reduce el costo por conversión."
+        "pregunta": "¿Es caro hacer remarketing?",
+        "respuesta": "No, generalmente es más rentable que captar nuevos clientes."
       }
     ]
   },
   {
     "id": "email-marketing-automatizado",
+    "categoria": "marketing-y-publicidad-digital",
     "titulo": "Email Marketing Automatizado",
     "titulos_sugeridos": [
-      "Campañas por correo que trabajan por vos",
-      "Secuencias automáticas que convierten"
+      "Conectá con Tus Clientes en el Momento Justo",
+      "Automatizá Tus Emails para Más Ventas y Fidelidad"
     ],
-    "descripcion": "Creamos flujos de email automáticos para fidelizar, recuperar carritos, enviar novedades o nutrir prospectos. Los correos se envían según el comportamiento del usuario, sin que tengas que hacerlo manualmente.",
+    "descripcion": "El Email Marketing Automatizado permite enviar correos personalizados y programados según el comportamiento del cliente (bienvenida, recordatorios, carritos abandonados, promociones). Mejora la comunicación, aumenta la retención y permite escalar sin esfuerzo.",
     "puntos_clave": [
-      "Secuencias personalizadas según acción (registro, compra, abandono)",
-      "Plantillas visuales adaptadas a tu marca",
-      "Medición de apertura, clics y conversiones",
-      "Integración con formularios y CRM",
-      "Programación semanal, mensual o por evento",
-      "Cumplimiento con normativas legales"
+      "Segmentación Dinámica de Contactos",
+      "Secuencias Automatizadas Personalizadas",
+      "Plantillas Profesionales y Adaptables",
+      "Reportes de Apertura, Clics y Conversiones",
+      "Integración con Tiendas Online y CRM",
+      "Cumplimiento con Normativas Anti-SPAM"
     ],
     "beneficios_cercanos": [
-      "Automatizás tareas repetitivas",
-      "Generás más ventas sin esfuerzo",
-      "Te mantenés presente con tus clientes"
+      "Mejorás la comunicación con clientes sin esfuerzo diario",
+      "Aumentás las ventas con mensajes oportunos y personalizados",
+      "Fidelizás clientes para compras repetidas"
     ],
     "beneficios_futuros": [
-      "Aumentás la retención",
-      "Construís una comunidad de largo plazo",
-      "Segmentás según comportamiento real"
+      "Construís una base sólida y segmentada de contactos",
+      "Refinás estrategias con datos precisos y tests A/B",
+      "Escalás campañas sin necesidad de aumentar personal"
     ],
     "tips_uso": [
-      "No vendas en todos los correos: agregá valor",
-      "Usá nombres y personalización",
-      "Probá distintos asuntos y llamados a la acción"
+      "Segmentá bien para que cada cliente reciba contenido relevante",
+      "Personalizá los correos con nombres y datos específicos",
+      "Programá emails para fechas clave: cumpleaños, aniversarios o promociones"
     ],
     "contenido_relacionado": [
-      "Captación de Leads",
-      "Landing con Formulario",
-      "Newsletter Mensual"
+      "CRM (Gestión de Clientes)",
+      "Panel de Estadísticas de Visitas y Tráfico",
+      "Secuencia de WhatsApp Programada"
     ],
     "faq": [
       {
-        "pregunta": "¿Necesito muchos contactos para usar esto?",
-        "respuesta": "No, desde 10 contactos ya podés empezar."
+        "pregunta": "¿Puedo automatizar emails sin ser experto?",
+        "respuesta": "Sí, la mayoría de las plataformas son intuitivas y cuentan con tutoriales."
       },
       {
-        "pregunta": "¿Puedo editar las campañas luego?",
-        "respuesta": "Sí, desde un panel visual sin código."
+        "pregunta": "¿Qué tipos de emails puedo enviar automáticamente?",
+        "respuesta": "Bienvenida, seguimiento, carritos abandonados, promociones, encuestas y más."
       },
       {
-        "pregunta": "¿Incluye estadísticas?",
-        "respuesta": "Sí, con informes de apertura y clics."
+        "pregunta": "¿Cuántos contactos puedo manejar?",
+        "respuesta": "Depende de la plataforma y plan, pero suelen escalar fácilmente."
       },
       {
-        "pregunta": "¿Se puede usar con Mailchimp o Gmail?",
-        "respuesta": "Sí, aunque recomendamos herramientas más potentes."
+        "pregunta": "¿Es legal enviar emails masivos?",
+        "respuesta": "Sí, siempre y cuando respetes las normativas anti-spam y permisos."
       },
       {
-        "pregunta": "¿Incluye los correos redactados?",
-        "respuesta": "Sí, podés pedirnos la redacción completa y profesional."
+        "pregunta": "¿Cómo mejoro la tasa de apertura?",
+        "respuesta": "Usando asuntos atractivos, segmentación adecuada y enviando en horarios óptimos."
       }
     ]
   },
   {
-    "id": "secuencia-de-whatsapp-programada",
+    "id": "secuencia-whatsapp-programada",
+    "categoria": "marketing-y-publicidad-digital",
     "titulo": "Secuencia de WhatsApp Programada",
     "titulos_sugeridos": [
-      "Seguimiento por WhatsApp sin escribir a mano",
-      "Mensajes programados que convierten"
+      "Automatizá Tus Mensajes en WhatsApp y Ahorrá Tiempo",
+      "Comunicación Directa y Personalizada con WhatsApp Programado"
     ],
-    "descripcion": "Configuramos flujos de WhatsApp automáticos que se disparan tras una acción del usuario (compra, consulta, abandono). Podés enviar mensajes con links, promociones o encuestas de manera no invasiva.",
+    "descripcion": "La Secuencia de WhatsApp Programada permite enviar mensajes automáticos y personalizados a tus clientes. Ideal para promociones, seguimientos, respuestas frecuentes o confirmaciones. Mejora la experiencia del cliente y potencia tus conversiones.",
     "puntos_clave": [
-      "Mensajes automáticos tras eventos clave",
-      "Personalización con nombre, producto o tiempo",
-      "Envío por WhatsApp Business API o número oficial",
-      "Integración con tienda o CRM",
-      "Reportes de lectura y respuesta",
-      "Cumple con políticas de Meta"
+      "Mensajes Programados y Personalizados",
+      "Automatización de Respuestas Simples",
+      "Segmentación y Listas de Difusión",
+      "Integración con CRM y Sistemas de Venta",
+      "Seguimiento de Interacciones",
+      "Cumplimiento de Políticas de WhatsApp"
     ],
     "beneficios_cercanos": [
-      "Mejorás la atención sin perder tiempo",
-      "Cuidás cada contacto con seguimiento natural",
-      "Aumentás la conversión post-carrito o consulta"
+      "Ahorrás tiempo en la gestión de mensajes frecuentes",
+      "Mejorás la experiencia del cliente con respuestas rápidas",
+      "Incrementás ventas con mensajes oportunos y personalizados"
     ],
     "beneficios_futuros": [
-      "Escalás sin contratar más personal",
-      "Unificás canales de comunicación",
-      "Detectás qué tipo de mensaje convierte más"
+      "Construís un canal de comunicación eficiente y escalable",
+      "Potenciás campañas promocionales con mayor alcance y efectividad",
+      "Automatizás procesos para liberar recursos y enfocarte en otras áreas"
     ],
     "tips_uso": [
-      "No automatices todo: dejá un canal abierto real",
-      "Probá con stickers, emojis o voz si aplica",
-      "Pedí feedback o encuesta al final"
+      "Diseñá flujos simples para no saturar a tus clientes",
+      "Usá mensajes claros y con llamados a la acción",
+      "Monitoreá la interacción para mejorar respuestas automáticas"
     ],
     "contenido_relacionado": [
-      "Botón de WhatsApp con Tracking",
-      "Campaña de Bienvenida",
-      "Reactivación de Clientes Inactivos"
+      "Email Marketing Automatizado",
+      "CRM (Gestión de Clientes)",
+      "Campañas Meta Ads (Facebook + Instagram)"
     ],
     "faq": [
       {
-        "pregunta": "¿Necesito número verificado?",
-        "respuesta": "Sí, se recomienda tener WhatsApp Business validado."
+        "pregunta": "¿Puedo usar WhatsApp normal o necesito una cuenta especial?",
+        "respuesta": "Se recomienda usar WhatsApp Business o API para automatización."
       },
       {
-        "pregunta": "¿Cuántos mensajes puedo enviar por día?",
-        "respuesta": "Depende del nivel de cuenta, pero puede escalarse progresivamente."
+        "pregunta": "¿Los clientes pueden responder a los mensajes automáticos?",
+        "respuesta": "Sí, y podés gestionar esas respuestas desde la plataforma."
       },
       {
-        "pregunta": "¿Puedo responder manualmente también?",
-        "respuesta": "Sí, el sistema solo inicia la conversación o continúa si no responden."
+        "pregunta": "¿Se pueden enviar promociones masivas?",
+        "respuesta": "Sí, siempre respetando las políticas de WhatsApp para evitar bloqueos."
       },
       {
-        "pregunta": "¿Esto reemplaza a un bot?",
-        "respuesta": "No necesariamente. Es más humano y flexible."
+        "pregunta": "¿Qué pasa si el cliente no quiere recibir mensajes?",
+        "respuesta": "Debe tener opción clara para darse de baja o cancelar suscripción."
       },
       {
-        "pregunta": "¿Puedo enviar archivos, fotos o links?",
-        "respuesta": "Sí, todo lo que admite WhatsApp oficial."
+        "pregunta": "¿Se puede integrar con otras herramientas como CRM?",
+        "respuesta": "Sí, para mayor personalización y seguimiento."
       }
     ]
   },
   {
-    "id": "embudos-de-venta",
-    "titulo": "Embudos de Venta",
+    "id": "crm-gestion-clientes",
+    "categoria": "marketing-y-publicidad-digital",
+    "titulo": "CRM (Gestión de Clientes)",
     "titulos_sugeridos": [
-      "Convertí desconocidos en clientes fieles",
-      "Tu sistema de ventas digital paso a paso"
+      "Organizá y Potenciá Tu Relación con Clientes",
+      "Todo tu Cliente en un Solo Lugar: CRM Inteligente"
     ],
-    "descripcion": "Diseñamos un recorrido estratégico donde cada paso guía al usuario hasta la compra: desde contenido gratuito, pasando por oferta inicial, hasta venta premium o recurrente. Automatizado y medible.",
+    "descripcion": "El CRM centraliza toda la información de tus clientes: contactos, historial, comunicaciones, preferencias. Facilita un seguimiento personalizado, automatiza tareas y se integra con canales como email o WhatsApp. Clave para negocios que quieren crecer ordenadamente.",
     "puntos_clave": [
-      "Etapas claras: atracción, conversión, cierre y fidelización",
-      "Automatización por comportamiento del usuario",
-      "Integración con redes, email y WhatsApp",
-      "Landing pages específicas por etapa",
-      "Seguimiento con estadísticas por paso",
-      "Segmentación por interés o historial"
+      "Base de Datos Centralizada y Actualizable",
+      "Segmentación y Clasificación de Clientes",
+      "Automatización de Tareas y Recordatorios",
+      "Integración con Canales de Comunicación",
+      "Análisis y Reportes de Comportamiento",
+      "Acceso Multiusuario y Control de Permisos"
     ],
     "beneficios_cercanos": [
-      "Aumentás la efectividad de tus campañas",
-      "Convertís más con menos esfuerzo",
-      "Tenés claro dónde perdés o ganás ventas"
+      "Mejorás la gestión y atención al cliente",
+      "Aumentás la efectividad de ventas y marketing",
+      "Fidelizás clientes con comunicación personalizada"
     ],
     "beneficios_futuros": [
-      "Escalás con tráfico pago o viral",
-      "Digitalizás todo el proceso de ventas",
-      "Tenés un sistema replicable y sostenible"
+      "Construís relaciones sólidas y duraderas",
+      "Optimización continua basada en análisis de datos",
+      "Escalabilidad para manejar grandes volúmenes sin perder calidad"
     ],
     "tips_uso": [
-      "Ofrecé algo gratuito en el primer paso",
-      "No vendas directo: educá primero",
-      "Analizá las tasas de paso entre etapas"
+      "Mantené actualizada la información para mejor segmentación",
+      "Programá recordatorios para seguimientos oportunos",
+      "Utilizá los reportes para identificar oportunidades y mejorar estrategias"
     ],
     "contenido_relacionado": [
-      "Secuencia de Emails",
-      "Landing + Lead Magnet",
-      "Remarketing por Etapa"
+      "Email Marketing Automatizado",
+      "Secuencia de WhatsApp Programada",
+      "Panel de Estadísticas de Visitas y Tráfico"
     ],
     "faq": [
       {
-        "pregunta": "¿Es solo para productos digitales?",
-        "respuesta": "No, sirve también para productos físicos o servicios."
+        "pregunta": "¿Es difícil aprender a usar un CRM?",
+        "respuesta": "La mayoría tiene interfaces intuitivas y soporte para facilitar el uso."
       },
       {
-        "pregunta": "¿Puedo usar esto en Instagram?",
-        "respuesta": "Sí, integrando con links y formularios."
+        "pregunta": "¿Se puede usar en dispositivos móviles?",
+        "respuesta": "Sí, muchos CRMs cuentan con apps o versiones responsive."
       },
       {
-        "pregunta": "¿Es necesario tener una web?",
-        "respuesta": "Recomendable, aunque puede empezar con landings."
+        "pregunta": "¿Puedo integrar el CRM con otras herramientas?",
+        "respuesta": "Sí, la integración con email, WhatsApp y sistemas de venta es común."
       },
       {
-        "pregunta": "¿Esto es lo mismo que una campaña?",
-        "respuesta": "No, es un sistema continuo de captación y cierre."
+        "pregunta": "¿El CRM es útil para negocios pequeños?",
+        "respuesta": "Sí, ayuda a organizar y crecer desde el inicio."
       },
       {
-        "pregunta": "¿Cuánto tarda en estar listo?",
-        "respuesta": "Entre 5 y 10 días según el nivel de personalización."
+        "pregunta": "¿Qué pasa si tengo un equipo de ventas?",
+        "respuesta": "Podés asignar clientes y controlar permisos para cada vendedor."
       }
     ]
   },
   {
-    "id": "automatizacion-de-seguimiento",
-    "titulo": "Automatización de Seguimiento",
+    "id": "gestion-redes-sociales-profesional",
+    "categoria": "marketing-y-publicidad-digital",
+    "titulo": "Gestión de Redes Sociales Profesional",
     "titulos_sugeridos": [
-      "Seguimiento a tus clientes sin olvidarte de nada",
-      "Más ventas, menos esfuerzo"
+      "Tu Marca Brillando en Redes Sociales",
+      "Estrategia, Diseño y Publicación que Conectan"
     ],
-    "descripcion": "Implementamos flujos automáticos de seguimiento post-consulta, post-compra o por inactividad. El sistema detecta quién necesita atención y responde o agenda tareas sin intervención manual.",
+    "descripcion": "La gestión profesional de redes incluye estrategia, diseño, calendario editorial, publicación y análisis. Permite conectar con tu audiencia, generar comunidad y atraer clientes potenciales, con una imagen cuidada y constante.",
     "puntos_clave": [
-      "Notificaciones por cliente inactivo",
-      "Mensajes personalizados automáticos",
-      "Recordatorios de renovación o stock",
-      "Agendado de tareas en calendario",
-      "Integración con WhatsApp, Email o CRM",
-      "Historial de interacción por usuario"
+      "Planificación Estratégica de Contenidos",
+      "Diseño y Producción de Contenidos Visuales y Textuales",
+      "Publicación y Programación Automatizada",
+      "Interacción y Gestión de Comunidad",
+      "Análisis y Reportes de Resultados",
+      "Adaptación a Tendencias y Cambios en Algoritmos"
     ],
     "beneficios_cercanos": [
-      "No perdés oportunidades por falta de tiempo",
-      "Respondés más rápido que tu competencia",
-      "Mejorás la experiencia de atención"
+      "Aumentás la visibilidad y reconocimiento de tu marca",
+      "Mejorás la relación y fidelidad con tu audiencia",
+      "Generás más consultas y potenciales clientes"
     ],
     "beneficios_futuros": [
-      "Escalás sin depender de recursos humanos",
-      "Sistematizás toda la relación con tus clientes",
-      "Medís quién responde mejor y cuándo"
+      "Construís una comunidad sólida y comprometida",
+      "Incrementás las ventas con estrategias dirigidas",
+      "Adaptás rápidamente a nuevas oportunidades en redes"
     ],
     "tips_uso": [
-      "Configurá alertas por demora de más de 24 h",
-      "Ofrecé seguimiento post-venta con tips o regalos",
-      "Analizá qué tipo de mensaje obtiene más respuesta"
+      "Mantené un calendario editorial constante y variado",
+      "Fomentá la interacción con contenido que invite a participar",
+      "Analizá los resultados para ajustar la estrategia"
     ],
     "contenido_relacionado": [
-      "Panel CRM",
-      "Secuencia de WhatsApp",
-      "Sistema de Tareas"
+      "Diseño de Reels y Contenido Viral",
+      "Campañas Meta Ads (Facebook + Instagram)",
+      "Panel de Reputación Online"
     ],
     "faq": [
       {
-        "pregunta": "¿Puedo seguir a clientes que no compraron?",
-        "respuesta": "Sí, incluso se puede automatizar tras el abandono."
+        "pregunta": "¿Qué redes sociales convienen según mi negocio?",
+        "respuesta": "Depende de tu público objetivo y objetivos comerciales."
       },
       {
-        "pregunta": "¿Esto reemplaza al vendedor?",
-        "respuesta": "No, pero le ahorra tiempo en tareas repetitivas."
+        "pregunta": "¿Es necesario publicar todos los días?",
+        "respuesta": "La constancia es clave, pero calidad y estrategia importan más que cantidad."
       },
       {
-        "pregunta": "¿Cómo sé quién necesita seguimiento?",
-        "respuesta": "El sistema lo detecta por historial de actividad."
+        "pregunta": "¿Pueden gestionar campañas pagas dentro de esta gestión?",
+        "respuesta": "Sí, muchas veces se integran con publicidad para mejores resultados."
       },
       {
-        "pregunta": "¿Se puede integrar con otras apps?",
-        "respuesta": "Sí, con herramientas tipo Zapier o directamente en el CRM."
+        "pregunta": "¿Cómo mido el éxito en redes sociales?",
+        "respuesta": "A través de métricas como alcance, interacción, seguidores y conversiones."
       },
       {
-        "pregunta": "¿Esto lo ve el cliente?",
-        "respuesta": "Solo los mensajes automáticos, no el sistema interno."
+        "pregunta": "¿Qué pasa si mi negocio cambia o crece?",
+        "respuesta": "La estrategia se adapta para seguir acompañando tu crecimiento."
+      }
+    ]
+  },
+  {
+    "id": "diseno-reels-contenido-viral",
+    "categoria": "marketing-y-publicidad-digital",
+    "titulo": "Diseño de Reels y Contenido Viral",
+    "titulos_sugeridos": [
+      "Impactá con Videos Cortos y Virales",
+      "Creá Contenido que Enamora y Se Comparte"
+    ],
+    "descripcion": "Creamos videos cortos (Reels) pensados para captar atención en segundos. Incluyen guiones, edición, subtítulos y llamados a la acción. Es ideal para aumentar visibilidad, generar interacción y atraer seguidores.",
+    "puntos_clave": [
+      "Videos Cortos y Dinámicos Adaptados a Tendencias",
+      "Guiones Efectivos con Llamados a la Acción Claros",
+      "Edición Profesional con Efectos, Música y Subtítulos",
+      "Optimización para Algoritmos de Redes Sociales",
+      "Contenido Pensado para Compartir y Viralizarse",
+      "Medición de Impacto y Ajustes Continuos"
+    ],
+    "beneficios_cercanos": [
+      "Aumentás rápidamente la visibilidad y seguidores",
+      "Mejorás el engagement y alcance orgánico",
+      "Diferenciás tu marca con contenido fresco y creativo"
+    ],
+    "beneficios_futuros": [
+      "Construís una comunidad activa y participativa",
+      "Potenciás campañas publicitarias con contenido original",
+      "Mantenés la relevancia en redes cambiantes y competitivas"
+    ],
+    "tips_uso": [
+      "Seguí tendencias pero adaptalas a tu marca",
+      "Incorporá subtítulos para audiencias sin sonido",
+      "Incluí llamados claros para interacción (comentarios, likes)"
+    ],
+    "contenido_relacionado": [
+      "Gestión de Redes Sociales Profesional",
+      "Campañas Meta Ads (Facebook + Instagram)",
+      "Panel de Reputación Online"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué duración ideal tienen los reels?",
+        "respuesta": "Entre 15 y 30 segundos suele ser lo más efectivo."
+      },
+      {
+        "pregunta": "¿Necesito equipo profesional para grabar?",
+        "respuesta": "No necesariamente, con buen contenido y edición se logra mucho."
+      },
+      {
+        "pregunta": "¿Con qué frecuencia debería publicar reels?",
+        "respuesta": "Lo ideal es mantener constancia, al menos 2 a 3 por semana."
+      },
+      {
+        "pregunta": "¿Los reels ayudan a vender productos?",
+        "respuesta": "Sí, generan atención que puede transformarse en ventas."
+      },
+      {
+        "pregunta": "¿Puedo reutilizar contenido en varias plataformas?",
+        "respuesta": "Sí, adaptando formato y descripción según cada red."
+      }
+    ]
+  },
+  {
+    "id": "panel-reputacion-online",
+    "categoria": "marketing-y-publicidad-digital",
+    "titulo": "Panel de Reputación Online",
+    "titulos_sugeridos": [
+      "Gestioná y Mejorá Tu Reputación en Internet",
+      "Control Total de Opiniones y Reseñas Online"
+    ],
+    "descripcion": "El Panel de Reputación Online es una herramienta que centraliza y gestiona las opiniones y reseñas que tus clientes dejan en diferentes plataformas digitales como Google, Facebook, TripAdvisor y otros portales especializados. Esta solución te permite monitorear en tiempo real lo que se dice de tu negocio, responder de forma ágil y profesional, y analizar tendencias para mejorar la experiencia del cliente. Contar con un panel unificado te facilita mantener una imagen positiva, resolver conflictos a tiempo y destacar los testimonios más valiosos, generando confianza en futuros clientes y potenciando tus ventas.",
+    "puntos_clave": [
+      "Monitoreo Centralizado de Reseñas en Varias Plataformas",
+      "Alertas en Tiempo Real para Nuevas Opiniones",
+      "Respuesta Directa desde el Panel",
+      "Análisis de Sentimiento y Tendencias",
+      "Generación y Promoción de Opiniones Positivas",
+      "Informes Periódicos para Toma de Decisiones"
+    ],
+    "beneficios_cercanos": [
+      "Mejorás la percepción y confianza de tus clientes potenciales",
+      "Detectás oportunidades de mejora en tu servicio",
+      "Respondés rápidamente para evitar crisis reputacionales"
+    ],
+    "beneficios_futuros": [
+      "Construís una reputación sólida y confiable a largo plazo",
+      "Incrementás las recomendaciones y referencias positivas",
+      "Fortalecés la fidelización y lealtad de clientes"
+    ],
+    "tips_uso": [
+      "Respondé siempre con profesionalismo y empatía",
+      "Fomentá a tus clientes satisfechos a dejar opiniones",
+      "Analizá los informes para ajustar procesos y estrategias"
+    ],
+    "contenido_relacionado": [
+      "Gestión de Redes Sociales Profesional",
+      "Campañas Meta Ads (Facebook + Instagram)",
+      "Sistema de Opiniones y Testimonios Reales"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Puedo responder todas las opiniones desde un solo lugar?",
+        "respuesta": "Sí, el panel centraliza todas las plataformas para facilitar la gestión."
+      },
+      {
+        "pregunta": "¿Cómo puedo aumentar las opiniones positivas?",
+        "respuesta": "Incentivando a clientes satisfechos a compartir su experiencia."
+      },
+      {
+        "pregunta": "¿Qué hago con opiniones negativas?",
+        "respuesta": "Respondé con empatía y buscá solucionar el problema para mejorar la percepción."
+      },
+      {
+        "pregunta": "¿El panel mide la reputación en tiempo real?",
+        "respuesta": "Sí, ofrece alertas inmediatas para estar siempre informado."
+      },
+      {
+        "pregunta": "¿Es útil para todo tipo de negocios?",
+        "respuesta": "Sí, cualquier empresa que dependa de su imagen digital se beneficia."
       }
     ]
   }
