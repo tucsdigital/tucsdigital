@@ -6,7 +6,7 @@ import Faqs2 from "@/components/sections/Faqs2";
 import Features6 from "@/components/sections/Features6";
 // import Features7 from "@/components/sections/Features7"
 import Hero3 from "@/components/sections/Hero3";
-import LogoCloud3 from "@/components/sections/LogoCloud3";
+import LogoCloud1 from "@/components/sections/LogoCloud1";
 import Newsletter2 from "@/components/sections/Newsletter2";
 // import Pricing3 from "@/components/sections/Pricing3"
 import Services2 from "@/components/sections/Services2";
@@ -18,7 +18,7 @@ export default function Home3() {
     <>
       <Layout headerStyle={3} footerStyle={2}>
         <Hero3 />
-        <LogoCloud3 />
+        <LogoCloud1 />
         <Services2 />
         <Cta2 />
         {/* <Static2 /> */}
