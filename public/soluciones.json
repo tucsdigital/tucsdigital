@@ -1460,6 +1460,306 @@
     ]
   },
   {
+    "id": "sistema-reservas-online",
+    "categoria": "reservas",
+    "titulo": "Sistema de Reservas Online",
+    "titulos_sugeridos": [
+      "Reservas Fáciles, Clientes Felices",
+      "Gestioná Tus Reservas de Forma Automática y Sin Errores"
+    ],
+    "descripcion": "Permití que tus clientes agenden servicios o eventos desde tu web, evitando sobreventas y automatizando confirmaciones y recordatorios.",
+    "puntos_clave": [
+      "Disponibilidad en tiempo real",
+      "Confirmaciones y recordatorios automáticos",
+      "Configuración flexible por servicio y capacidad",
+      "Integración con calendarios y sistemas de pago",
+      "Accesible desde móviles y PC",
+      "Panel administrativo para control total"
+    ],
+    "beneficios_cercanos": [
+      "Agilizás la experiencia de reserva",
+      "Reducís errores y conflictos",
+      "Ahorrás tiempo y recursos"
+    ],
+    "beneficios_futuros": [
+      "Mejor tasa de ocupación",
+      "Fidelización de clientes",
+      "Aumento de ingresos"
+    ],
+    "tips_uso": [
+      "Configurá bien horarios y cupos",
+      "Usá mensajes claros en recordatorios",
+      "Adaptá la agenda a la demanda estacional"
+    ],
+    "contenido_relacionado": [
+      "Turnero Inteligente por Profesional o Servicio",
+      "Agenda Compartida por Área o Rubro",
+      "Panel de Estadísticas de Visitas y Tráfico"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Puedo usar el sistema sin página web?",
+        "respuesta": "Sí, también se integra en redes sociales o enlaces directos."
+      },
+      {
+        "pregunta": "¿El cliente recibe notificaciones?",
+        "respuesta": "Sí, por email o WhatsApp."
+      },
+      {
+        "pregunta": "¿Se puede limitar por capacidad o profesional?",
+        "respuesta": "Sí, es totalmente configurable."
+      },
+      {
+        "pregunta": "¿Funciona en celulares?",
+        "respuesta": "Sí, está optimizado para todo tipo de dispositivo."
+      },
+      {
+        "pregunta": "¿Puedo modificar reservas?",
+        "respuesta": "Sí, el panel permite cambios controlados."
+      }
+    ]
+  },
+  {
+    "id": "turnero-inteligente",
+    "categoria": "reservas",
+    "titulo": "Turnero Inteligente por Profesional o Servicio",
+    "titulos_sugeridos": [
+      "Organizá Tus Turnos de Forma Precisa y Eficiente",
+      "Gestión Inteligente de Citas por Profesional o Servicio"
+    ],
+    "descripcion": "Agendá turnos según disponibilidad real de profesionales o servicios. Ideal para clínicas, salones o talleres con múltiples agendas.",
+    "puntos_clave": [
+      "Asignación dinámica por profesional y servicio",
+      "Visualización clara de calendarios",
+      "Confirmaciones y recordatorios automáticos",
+      "Integración con pagos y CRM",
+      "Panel multiusuario e intuitivo",
+      "Reportes de desempeño y productividad"
+    ],
+    "beneficios_cercanos": [
+      "Mejor organización interna",
+      "Menos conflictos de horarios",
+      "Mayor eficiencia operativa"
+    ],
+    "beneficios_futuros": [
+      "Clientes fidelizados con un sistema ágil",
+      "Optimización con reportes",
+      "Escalabilidad a más profesionales"
+    ],
+    "tips_uso": [
+      "Configurá perfiles y horarios de cada profesional",
+      "Definí reglas para cambios o cancelaciones",
+      "Analizá los reportes para mejorar asignaciones"
+    ],
+    "contenido_relacionado": [
+      "Sistema de Reservas Online",
+      "Agenda Compartida por Área o Rubro",
+      "Panel de Estadísticas de Visitas y Tráfico"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Puedo manejar múltiples agendas?",
+        "respuesta": "Sí, cada profesional puede tener su propia agenda."
+      },
+      {
+        "pregunta": "¿Envía recordatorios automáticos?",
+        "respuesta": "Sí, se pueden configurar por email o WhatsApp."
+      },
+      {
+        "pregunta": "¿El cliente elige profesional y horario?",
+        "respuesta": "Sí, con disponibilidad en tiempo real."
+      },
+      {
+        "pregunta": "¿Funciona con pagos online?",
+        "respuesta": "Sí, puede integrarse con sistemas de cobro."
+      },
+      {
+        "pregunta": "¿Es apto para celulares?",
+        "respuesta": "Totalmente optimizado para cualquier dispositivo."
+      }
+    ]
+  },
+  {
+    "id": "checkin-digital-eventos",
+    "categoria": "reservas",
+    "titulo": "Registro y Check-In Digital para Eventos",
+    "titulos_sugeridos": [
+      "Simplificá la Entrada a Tus Eventos con Tecnología",
+      "Control Digital y Ágil de Asistentes"
+    ],
+    "descripcion": "Facilitá la inscripción y el ingreso a tus eventos con códigos QR, control de acceso digital y reportes en tiempo real. Ideal para conferencias, ferias, congresos y experiencias masivas.",
+    "puntos_clave": [
+      "Registro online con datos personalizados",
+      "Generación automática de códigos QR",
+      "Check-in sin contacto en la entrada",
+      "Estadísticas y control de asistencia en tiempo real",
+      "Integración con pagos y notificaciones",
+      "Adaptable a múltiples tipos de entradas o accesos"
+    ],
+    "beneficios_cercanos": [
+      "Evitás filas y caos en el ingreso",
+      "Aumentás seguridad y control",
+      "Mejorás la experiencia del asistente"
+    ],
+    "beneficios_futuros": [
+      "Análisis post-evento más efectivo",
+      "Facilita futuras comunicaciones",
+      "Proyectás una imagen profesional y moderna"
+    ],
+    "tips_uso": [
+      "Promové el registro online previo al evento",
+      "Capacitá al staff en el uso del sistema",
+      "Revisá los reportes para mejorar ediciones futuras"
+    ],
+    "contenido_relacionado": [
+      "Sistema de Reservas Online",
+      "Panel de Estadísticas de Visitas y Tráfico",
+      "Notificaciones Inteligentes Personalizadas"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Los asistentes pueden registrarse el mismo día?",
+        "respuesta": "Sí, pero recomendamos incentivar el registro anticipado."
+      },
+      {
+        "pregunta": "¿Qué pasa si alguien pierde su código QR?",
+        "respuesta": "Se puede reemitir o validar manualmente en el ingreso."
+      },
+      {
+        "pregunta": "¿Funciona sin conexión a internet?",
+        "respuesta": "Idealmente no, pero existen modos offline con funciones limitadas."
+      },
+      {
+        "pregunta": "¿Puedo diferenciar tipos de entradas?",
+        "respuesta": "Sí, podés configurar permisos y accesos según el tipo de entrada."
+      },
+      {
+        "pregunta": "¿Puedo cobrar desde el sistema?",
+        "respuesta": "Sí, puede integrarse con medios de pago online."
+      }
+    ]
+  },
+  {
+    "id": "agenda-compartida-por-area",
+    "categoria": "reservas",
+    "titulo": "Agenda Compartida por Área o Rubro",
+    "titulos_sugeridos": [
+      "Coordiná Equipos y Recursos en Tiempo Real",
+      "Gestión Centralizada de Agendas para tu Negocio"
+    ],
+    "descripcion": "Permití que distintos sectores de tu negocio gestionen sus horarios en forma colaborativa. La agenda compartida organiza disponibilidad por sede, rubro o área de trabajo, evitando solapamientos y mejorando la productividad.",
+    "puntos_clave": [
+      "Visualización centralizada por área o sede",
+      "Acceso multiusuario con permisos personalizados",
+      "Actualización en tiempo real",
+      "Integración con sistemas de reserva y turnos",
+      "Reportes de disponibilidad y uso",
+      "Notificaciones automáticas de cambios"
+    ],
+    "beneficios_cercanos": [
+      "Mejor coordinación interna",
+      "Reducción de conflictos de agenda",
+      "Optimización del uso de recursos"
+    ],
+    "beneficios_futuros": [
+      "Escalabilidad para múltiples sucursales o equipos",
+      "Mayor control para la toma de decisiones",
+      "Mejor atención al cliente y eficiencia operativa"
+    ],
+    "tips_uso": [
+      "Asigná roles y permisos de acceso según el área",
+      "Mantené la agenda actualizada constantemente",
+      "Analizá los reportes para ajustar recursos o personal"
+    ],
+    "contenido_relacionado": [
+      "Sistema de Reservas Online",
+      "Turnero Inteligente por Profesional o Servicio",
+      "Panel de Estadísticas de Visitas y Tráfico"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Pueden varios usuarios modificar la agenda al mismo tiempo?",
+        "respuesta": "Sí, con sincronización en tiempo real para evitar conflictos."
+      },
+      {
+        "pregunta": "¿Se puede limitar el acceso a cada área?",
+        "respuesta": "Sí, podés configurar permisos específicos por usuario o grupo."
+      },
+      {
+        "pregunta": "¿Funciona desde celular?",
+        "respuesta": "Sí, es compatible con cualquier dispositivo con internet."
+      },
+      {
+        "pregunta": "¿Puede integrarse con otras herramientas de gestión?",
+        "respuesta": "Sí, permite conectarse con otros sistemas vía API."
+      },
+      {
+        "pregunta": "¿Envía recordatorios o avisos de cambios?",
+        "respuesta": "Sí, incluye notificaciones automáticas configurables."
+      }
+    ]
+  },
+  {
+    "id": "turnos-rango-horario",
+    "categoria": "reservas",
+    "titulo": "Turnos por Rango Horario (Ej. 15 minutos)",
+    "titulos_sugeridos": [
+      "Organizá Turnos Precisos y Flexibles",
+      "Gestioná Citas con Intervalos Personalizados para Mejor Flujo"
+    ],
+    "descripcion": "Permití que tus clientes reserven turnos con bloques de tiempo definidos, como 15, 30 o 60 minutos. Ideal para servicios que necesitan precisión y control sobre la duración de las citas. Mejora la eficiencia, la puntualidad y la atención personalizada.",
+    "puntos_clave": [
+      "Configuración flexible de duración por servicio",
+      "Visualización clara de disponibilidad por bloques",
+      "Reserva online con franjas horarias personalizadas",
+      "Notificaciones y recordatorios automáticos",
+      "Prevención de solapamientos y errores de horario",
+      "Panel administrativo para ajustes y reprogramaciones"
+    ],
+    "beneficios_cercanos": [
+      "Uso eficiente del tiempo y del equipo",
+      "Reducción de ausencias y conflictos de horario",
+      "Mejor experiencia de atención para el cliente"
+    ],
+    "beneficios_futuros": [
+      "Mayor capacidad de atención sin perder calidad",
+      "Ajustes precisos basados en estadísticas reales",
+      "Crecimiento sostenible con agenda optimizada"
+    ],
+    "tips_uso": [
+      "Definí duraciones realistas según cada servicio",
+      "Comunicá claramente los tiempos al cliente",
+      "Usá recordatorios automáticos para reducir cancelaciones"
+    ],
+    "contenido_relacionado": [
+      "Turnero Inteligente por Profesional o Servicio",
+      "Sistema de Reservas Online",
+      "Agenda Compartida por Área o Rubro"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Puedo configurar distintos tiempos para cada servicio?",
+        "respuesta": "Sí, cada servicio puede tener una duración personalizada."
+      },
+      {
+        "pregunta": "¿Cómo se evita que se reserven turnos simultáneos?",
+        "respuesta": "El sistema bloquea automáticamente los bloques ocupados."
+      },
+      {
+        "pregunta": "¿Se envían recordatorios automáticos?",
+        "respuesta": "Sí, por email o WhatsApp según la configuración."
+      },
+      {
+        "pregunta": "¿Se puede usar desde celular?",
+        "respuesta": "Sí, está optimizado para móviles y tablets."
+      },
+      {
+        "pregunta": "¿Es posible modificar turnos reservados?",
+        "respuesta": "Sí, el panel permite reprogramar o cancelar con control administrativo."
+      }
+    ]
+  },
+  {
     "id": "gestion-inventario-avanzado",
     "categoria": "gestion-de-negocios",
     "titulo": "Gestión de Inventario Avanzado",

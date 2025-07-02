@@ -174,19 +174,19 @@ export const CATEGORIAS = [
           "Tus clientes reservan desde la web y reciben confirmación automática. Ideal para alojamientos o servicios.",
       },
       {
-        id: "turnero-inteligente-profesional-servicio",
+        id: "turnero-inteligente",
         titulo: "Turnero Inteligente por Profesional o Servicio",
         descripcion:
           "Agendá por tipo de servicio, profesional o sucursal. ¡Todo ordenado y sin errores!",
       },
       {
-        id: "registro-checkin-digital-eventos",
+        id: "checkin-digital-eventos",
         titulo: "Registro y Check-In Digital para Eventos",
         descripcion:
           "Registrá asistentes, generá QR y validá entradas desde el celular.",
       },
       {
-        id: "agenda-compartida-area-rubro",
+        id: "agenda-compartida-por-area",
         titulo: "Agenda Compartida por Área o Rubro",
         descripcion:
           "Mostrá disponibilidad por sucursal, sede o tipo de servicio.",
@@ -215,30 +215,30 @@ export const CATEGORIAS = [
           "Unificá toda tu gestión en un solo sistema. Administrá desde un solo lugar.",
       },
       {
-        id: "facturacion-electronica-reportes",
+        id: "facturacion-electronica",
         titulo: "Facturación Electrónica y Reportes",
         descripcion:
           "Emití facturas automáticas y cumplí con AFIP u organismo local.",
       },
       {
-        id: "sistema-pedidos-internos-reposicion",
+        id: "pedidos-internos",
         titulo: "Sistema de Pedidos Internos / Reposición",
         descripcion: "Coordiná pedidos entre sucursales y depósito central.",
       },
       {
-        id: "gestor-documentos-expedientes-digitales",
+        id: "gestor-documentos",
         titulo: "Gestor de Documentos o Expedientes Digitales",
         descripcion:
           "Almacená y clasificá documentación por cliente, caso o proyecto.",
       },
       {
-        id: "panel-cobranzas-morosos",
+        id: "panel-cobranzas",
         titulo: "Panel de Cobranzas y Morosos",
         descripcion:
           "Visualizá quién debe, cuánto y desde cuándo. Enviá alertas automáticas.",
       },
       {
-        id: "gestor-presupuestos-online",
+        id: "gestor-presupuestos",
         titulo: "Gestor de Presupuestos Online",
         descripcion:
           "Cotizá y enviá presupuestos desde un panel. Hacé seguimiento en tiempo real.",
