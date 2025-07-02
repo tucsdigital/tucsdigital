@@ -26,11 +26,11 @@ export default function Cta2() {
 									<Link href="#" onClick={() => setOpen(true)} scroll={false} className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up me-3 shadow-1">
 										<span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">
 											<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-												<path className="stroke-dark" d="M5.0978 3.31244L12.0958 6.80342C13.077 7.29449 13.0767 8.69249 12.0954 9.18316L5.09734 12.6927C4.21074 13.136 3.16687 12.4925 3.16687 11.5027L3.16687 4.50219C3.16687 3.51217 4.2112 2.86872 5.0978 3.31244Z" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+												<path className="stroke-dark" d="M3.5 2.5C3.5 2.22386 3.72386 2 4 2H6C6.27614 2 6.5 2.22386 6.5 2.5V3.5C6.5 3.77614 6.27614 4 6 4H5.5C5.22386 4 5 4.22386 5 4.5V5.5C5 5.77614 5.22386 6 5.5 6H6C8.20914 6 10 7.79086 10 10V10.5C10 10.7761 10.2239 11 10.5 11H11.5C11.7761 11 12 10.7761 12 10.5V8C12 4.68629 9.31371 2 6 2H4C3.72386 2 3.5 2.22386 3.5 2.5Z" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 											</svg>
 										</span>
 										<span className="fw-bold fs-7 text-900">
-											Guía en Video
+											Contactanos
 										</span>
 									</Link>
 									<ModalVideo channel='youtube' isOpen={isOpen} videoId="gXFATcwrO-U" onClose={() => setOpen(false)} />

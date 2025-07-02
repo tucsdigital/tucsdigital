@@ -26,8 +26,8 @@ export default function Hero3() {
 										<path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 								</Link>
-								{/* <div className="mt-6 pt-4 max-w-300px">
-									<p className="text-uppercase mb-2">Confiado por los profesionales</p>
+								<div className="mt-6 pt-4 max-w-300px">
+									{/* <p className="text-uppercase mb-2">Confiado por los profesionales</p>
 									<div className="carouselTicker carouselTicker-right">
 										<ul className="carouselTicker__list">
 											<Marquee direction="right">
@@ -42,26 +42,26 @@ export default function Hero3() {
 												</li>
 											</Marquee>
 										</ul>
-									</div>
-								</div> */}
+									</div> */}
+								</div>
 							</div>
 						</div>
 						<div className="col-lg-7 position-xl-absolute mb-lg-10 top-50 end-0 translate-middle-lg-y z-0">
 							<div className="row">
 								<div className="col-6 align-self-end">
-									<div className="border-5 border-white border rounded-4  mb-4 d-block d-xl-none">
-										<img className="rounded-4" src="/assets/imgs/hero-3/img-4.png" alt="infinia" />
-									</div>
+									{/* <div className="border-5 border-white border rounded-4  mb-4 d-block d-xl-none">
+										<img className="rounded-4" src="/assets/imgs/hero-3/img2.jpg" alt="infinia" />
+									</div> */}
 									<div className="border-5 border-white border rounded-4">
-										<img className="rounded-4" src="/assets/imgs/hero-3/img-3.png" alt="infinia" />
+										<img className="rounded-4" src="/assets/imgs/hero-3/img3.jpg" alt="infinia" />
 									</div>
 								</div>
 								<div className="col-6 align-self-end">
 									<div className="border-5 border-white border rounded-4 mb-4">
-										<img className="rounded-4" src="/assets/imgs/hero-3/img-1.png" alt="infinia" />
+										<img className="rounded-4" src="/assets/imgs/hero-3/img1.jpg" alt="infinia" />
 									</div>
 									<div className="border-5 border-white border rounded-4">
-										<img className="rounded-4" src="/assets/imgs/hero-3/img-2.png" alt="infinia" />
+										<img className="rounded-4" src="/assets/imgs/hero-3/img2.jpg" alt="infinia" />
 									</div>
 								</div>
 							</div>

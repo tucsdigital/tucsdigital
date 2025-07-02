@@ -1,12 +1,4 @@
-"use client";
-import Layout from "@/components/layout/Layout";
-import Slider from "react-slick";
-import Link from "next/link";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { CSSProperties } from "react";
-
-const CATEGORIAS = [
+export const CATEGORIAS = [
   {
     nombre: "VENTAS Y COMERCIO",
     soluciones: [
@@ -23,7 +15,7 @@ const CATEGORIAS = [
           "Ideal para mostrar productos sin necesidad de vender online. Tus clientes pueden ver fotos, descripciones y consultar fácilmente.",
       },
       {
-        id: "sistema-pre-orden-encargo",
+        id: "sistema-preorden-encargo",
         titulo: "Sistema de Pre-Orden o Encargo",
         descripcion:
           "Permití que tus clientes reserven productos con antelación y los retiren o reciban luego. ¡Organización asegurada!",
@@ -35,13 +27,13 @@ const CATEGORIAS = [
           "Ofrecé productos o servicios de manera recurrente con cobros automáticos. Ideal para membresías o entregas periódicas.",
       },
       {
-        id: "punto-venta-pos-digital",
+        id: "pos-digital",
         titulo: "Punto de Venta (POS) Digital",
         descripcion:
           "Transformá tu local físico con un sistema de caja moderno, con stock, facturación y estadísticas.",
       },
       {
-        id: "boton-pago-sin-tienda",
+        id: "boton-de-pago",
         titulo: "Botón de Pago sin Tienda",
         descripcion:
           "Generá links de pago para vender sin necesidad de una tienda online completa. ¡Cobrá fácil y rápido!",
@@ -405,185 +397,3 @@ const CATEGORIAS = [
     ],
   },
 ];
-
-const sliderSettings = {
-  dots: false,
-  infinite: false,
-  speed: 600,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  arrows: true,
-  swipeToSlide: true,
-  centerMode: false,
-  responsive: [
-    { breakpoint: 1400, settings: { slidesToShow: 3 } },
-    { breakpoint: 992, settings: { slidesToShow: 2 } },
-    { breakpoint: 600, settings: { slidesToShow: 1 } },
-  ],
-};
-
-const cardStyle: CSSProperties = {
-  minHeight: 240,
-  maxWidth: 350,
-  minWidth: 280,
-  background: "linear-gradient(135deg, #fff 60%, #f3f4f6 100%)",
-  border: "1px solid #e5e7eb",
-  boxShadow: "0 6px 32px 0 rgba(60,60,100,0.10)",
-  borderRadius: 24,
-  padding: 32,
-  transition: "box-shadow 0.2s, transform 0.2s",
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  justifyContent: "space-between",
-  cursor: "pointer",
-  position: "relative",
-  overflow: "hidden",
-};
-
-const cardHoverStyle: CSSProperties = {
-  boxShadow: "0 12px 40px 0 rgba(60,60,100,0.18)",
-  transform: "translateY(-6px) scale(1.03)",
-  borderColor: "#7c3aed",
-};
-
-export default function PageSoluciones() {
-  return (
-    <Layout>
-      <section className="section-team-1 position-relative fix section-padding">
-        <div className="container position-relative z-2">
-          <div className="text-center mb-6">
-            <div className="d-inline-flex align-items-center bg-primary-soft border border-2 border-white rounded-pill px-4 py-2 mb-2">
-              <img src="/assets/imgs/features-1/dots.png" alt="soluciones" />
-              <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
-                Soluciones Digitales
-              </span>
-            </div>
-            <h2 className="ds-3 my-3 fw-bold text-dark">
-              Explora nuestras soluciones por categoría
-            </h2>
-            <p className="fs-5 text-700">
-              Elige la solución ideal para tu negocio y lleva tu empresa al
-              siguiente nivel.
-            </p>
-          </div>
-          {CATEGORIAS.map((cat) => (
-            <div key={cat.nombre} className="mb-7">
-              <div className="d-flex align-items-center mb-4">
-                <span className="d-inline-flex align-items-center justify-content-center bg-primary-soft rounded-circle me-3" style={{width: 44, height: 44}}>
-                  <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#7c3aed" fillOpacity="0.12"/><path d="M8 12h8M12 8v8" stroke="#7c3aed" strokeWidth="2" strokeLinecap="round"/></svg>
-                </span>
-                <h3 className="fw-bold text-dark mb-0" style={{fontSize: '2rem', letterSpacing: '0.5px', borderLeft: '4px solid #7c3aed', paddingLeft: 16, background: 'linear-gradient(90deg, #f3f4f6 80%, #fff 100%)', borderRadius: 8}}>
-                  {cat.nombre}
-                </h3>
-              </div>
-              <Slider {...sliderSettings} className="mb-2">
-                {cat.soluciones.map((sol) => (
-                  <div key={sol.id} className="px-2">
-                    <Link
-                      href={`/soluciones/${sol.id}`}
-                      className="text-decoration-none"
-                      style={{ display: "block" }}
-                    >
-                      <div
-                        className="sol-card position-relative group"
-                        style={cardStyle as any}
-                        tabIndex={0}
-                        onMouseEnter={(e) => {
-                          (e.currentTarget as HTMLDivElement).style.boxShadow =
-                            cardHoverStyle.boxShadow!;
-                          (e.currentTarget as HTMLDivElement).style.transform =
-                            cardHoverStyle.transform!;
-                          (
-                            e.currentTarget as HTMLDivElement
-                          ).style.borderColor = cardHoverStyle.borderColor!;
-                        }}
-                        onMouseLeave={(e) => {
-                          (e.currentTarget as HTMLDivElement).style.boxShadow =
-                            cardStyle.boxShadow!;
-                          (e.currentTarget as HTMLDivElement).style.transform =
-                            "";
-                          (
-                            e.currentTarget as HTMLDivElement
-                          ).style.borderColor = "#e5e7eb";
-                        }}
-                      >
-                        {/* <span className="badge bg-primary-soft text-primary fw-bold mb-2 px-3 py-2 rounded-pill fs-7 position-absolute top-0 end-0 mt-3 me-3 shadow-sm" style={{letterSpacing: 1}}>
-                          {cat.nombre.split(' ')[0]}
-                        </span> */}
-                        <h5 className="mb-2 text-center text-primary fw-bold fs-5">
-                          {sol.titulo}
-                        </h5>
-                        <p
-                          className="text-900 text-center mb-0 fs-6"
-                          style={{ minHeight: 60 }}
-                        >
-                          {sol.descripcion}
-                        </p>
-                        <span className="d-block mt-4 text-primary fw-bold fs-7 text-decoration-underline">
-                          Ver detalle
-                        </span>
-                        <span className="position-absolute bottom-0 end-0 mb-3 me-3 opacity-10">
-                          <svg
-                            width="32"
-                            height="32"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M5 12h14M13 6l6 6-6 6"
-                              stroke="#7c3aed"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </Link>
-                  </div>
-                ))}
-              </Slider>
-            </div>
-          ))}
-        </div>
-        <style jsx global>{`
-          .sol-card:focus,
-          .sol-card:active {
-            box-shadow: 0 12px 40px 0 rgba(60, 60, 100, 0.18) !important;
-            transform: translateY(-6px) scale(1.03) !important;
-            border-color: #7c3aed !important;
-            outline: none;
-          }
-          .slick-slider {
-            padding-bottom: 16px;
-          }
-          .slick-arrow {
-            background: #fff !important;
-            border-radius: 50%;
-            box-shadow: 0 2px 8px 0 rgba(60, 60, 100, 0.1);
-            width: 40px;
-            height: 40px;
-            z-index: 2;
-          }
-          .slick-arrow:before {
-            color: #7c3aed !important;
-            font-size: 28px !important;
-          }
-          .slick-disabled {
-            opacity: 0.3 !important;
-          }
-          .slick-slide > div {
-            display: flex;
-            height: 100%;
-          }
-        `}</style>
-        <div className="position-absolute top-0 start-50 translate-middle-x z-0">
-          <img src="/assets/imgs/service-2/bg-line.png" alt="infinia" />
-        </div>
-        <div className="rotate-center ellipse-rotate-success position-absolute z-1" />
-        <div className="rotate-center-rev ellipse-rotate-primary position-absolute z-1" />
-      </section>
-    </Layout>
-  );
-}

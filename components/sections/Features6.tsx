@@ -25,13 +25,13 @@ export default function Features6() {
 					</div>
 					<div className="row mt-8">
 						<div className="col-lg-6 mt-lg-0 mt-5">
-							<div>
+							{/* <div>
 								<div className="counter-item-cover counter-item">
 									<div className="content text-start mx-auto">
 										<h2 className="count ds-2 fw-bold text-primary my-0">+<span className="odometer" /><CountUp end={50} enableScrollSpy={true} /> k</h2>
 									</div>
 								</div>
-							</div>
+							</div> */}
 							<p className="fs-5 text-500">Nuestras soluciones digitales transforman negocios y crean experiencias únicas que conectan con los usuarios de manera efectiva.</p>
 							<div className="accordion">
 								<div className="px-0 card p-3 border-0 border-bottom bg-transparent rounded-0">
@@ -110,24 +110,30 @@ export default function Features6() {
 						</div>
 						<div className="col-lg-6 px-lg-6 mt-lg-0 mt-8">
 							<Link href="#" className="d-flex flex-column flex-md-row align-items-center mb-6 hover-up">
-								<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/features-6/img-1.png" alt="Tu Marca" />
+								<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/features-6/img-1.png" alt="Dic security solutions" />
 								<div className="content mt-md-0 mt-4 ms-5">
-									<h6 className="mb-2">Migración a la Nube</h6>
-									<p>Optimizamos tu infraestructura tecnológica migrando a la nube para mejorar la escalabilidad, seguridad y rendimiento de tus aplicaciones...</p>
+									<h6 className="mb-2">Dic security solutions</h6>
+									<p>
+										Transformamos su presencia digital creando una <b>página web sólida y profesional</b>, ideal para generar confianza en un rubro tan delicado como la seguridad. Incluimos una <b>plataforma de pagos mensuales para sus clientes</b>, permitiendo automatizar cobranzas y mejorar la experiencia de servicio. Además, integramos un <b>sistema de actualización mensual de nuevas soluciones</b>, asegurando que sus usuarios siempre estén informados sobre los servicios más innovadores del sector.
+									</p>
 								</div>
 							</Link>
 							<Link href="#" className="d-flex flex-column flex-md-row align-items-center mb-6 hover-up">
-								<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/features-6/img-2.png" alt="Tu Marca" />
+								<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/features-6/img-2.png" alt="Cadicap" />
 								<div className="content mt-md-0 mt-4 ms-5">
-									<h6 className="mb-2">Desarrollo de Apps Móviles</h6>
-									<p>Creamos aplicaciones móviles intuitivas y funcionales que conectan con tu audiencia y generan engagement real con tu marca...</p>
+									<h6 className="mb-2">Cadicap</h6>
+									<p>
+										Diseñamos una <b>web moderna y funcional</b> para mostrar el emprendimiento de manera clara y profesional. Implementamos un <b>mapa interactivo</b> para que los visitantes puedan explorar el proyecto y un <b>Masterplan dinámico</b> que permite visualizar disponibilidad en tiempo real. Además, desarrollamos una <b>vinculación directa para la compra de lotes desde la web</b>, simplificando el proceso comercial y mejorando la conversión de ventas online.
+									</p>
 								</div>
 							</Link>
 							<Link href="#" className="d-flex flex-column flex-md-row align-items-center mb-6 hover-up">
-								<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/features-6/img-3.png" alt="Tu Marca" />
+								<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/features-6/img-3.png" alt="Janos eventos" />
 								<div className="content mt-md-0 mt-4 ms-5">
-									<h6 className="mb-2">Diseño UI/UX Experto</h6>
-									<p>Diseñamos interfaces de usuario atractivas y experiencias digitales memorables que convierten y fidelizan a tus clientes...</p>
+									<h6 className="mb-2">Janos eventos</h6>
+									<p>
+										Creamos una plataforma web integral para la marca, donde se centralizan <b>promociones, contrataciones y medios de pago</b>, ofreciendo a los usuarios una experiencia fluida desde la elección hasta el pago del servicio. Incorporamos un <b>sistema interno de gestión de eventos</b>, así como <b>fichas digitales personalizadas</b>, optimizando tanto el trabajo del staff como la organización de la experiencia del asistente.
+									</p>
 								</div>
 							</Link>
 						</div>

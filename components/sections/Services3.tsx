@@ -2,8 +2,23 @@
 import Link from "next/link"
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { CATEGORIAS } from "@/app/soluciones/CATEGORIAS";
+
+// Función para obtener 9 soluciones aleatorias
+function obtenerSolucionesRandom(cantidad: number) {
+	// Unificar todas las soluciones de todas las categorías
+	const todas = CATEGORIAS.flatMap(cat => cat.soluciones.map(sol => ({ ...sol, categoria: cat.nombre })));
+	// Mezclar el array
+	for (let i = todas.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[todas[i], todas[j]] = [todas[j], todas[i]];
+	}
+	// Tomar las primeras 'cantidad'
+	return todas.slice(0, cantidad);
+}
 
 export default function Services3() {
+	const soluciones = obtenerSolucionesRandom(9);
 
 	const swiperOptions = {
 		slidesPerView: 4,
@@ -56,206 +71,33 @@ export default function Services3() {
 							modules={[Keyboard, Autoplay, Pagination, Navigation]}
 						>
 							<div className="swiper-wrapper">
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-1.svg" alt="infinia" />
+								{soluciones.map((sol) => (
+									<SwiperSlide className="swiper-slide" key={sol.id}>
+										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
+											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
+												<div className="icon">
+													<img src="/assets/imgs/service-3/icon-1.svg" alt="infinia" />
+												</div>
 											</div>
+											<h5 className="my-3">{sol.titulo}</h5>
+											<p className="mb-6">{sol.descripcion}</p>
+											<Link href={`/soluciones/${sol.id}`} className="text-primary fs-7 fw-bold">
+												Ver Más
+												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
+													<g clipPath="url(#clip0_399_9647)">
+														<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
+													</g>
+													<defs>
+														<clipPath>
+															<rect width={18} height={18} fill="white" transform="translate(0.5)" />
+														</clipPath>
+													</defs>
+												</svg>
+											</Link>
+											<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
 										</div>
-										<h5 className="my-3">Sitio Web con Reservas</h5>
-										<p className="mb-6">Sistema completo de reservas online con gestión de disponibilidad, calendario interactivo y confirmaciones automáticas para alojamientos.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-2.svg" alt="infinia" />
-											</div>
-										</div>
-										<h5 className="my-3">Integración WhatsApp/Calendar</h5>
-										<p className="mb-6">Conecta reservas con WhatsApp Business y Google Calendar para automatizar confirmaciones y recordatorios.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-3.svg" alt="infinia" />
-											</div>
-										</div>
-										<h5 className="my-3">Portal de Pagos</h5>
-										<p className="mb-6">Sistema seguro de pagos online con múltiples métodos, facturación automática y gestión de transacciones.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-4.svg" alt="infinia" />
-											</div>
-										</div>
-										<h5 className="my-3">Web Institucional o Catálogo</h5>
-										<p className="mb-6">Sitios web profesionales con catálogo de productos, información corporativa y diseño responsive para comercios.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-1.svg" alt="infinia" />
-											</div>
-										</div>
-										<h5 className="my-3">Integración Envíos y Pagos</h5>
-										<p className="mb-6">Conecta con sistemas de envío, seguimiento de pedidos y múltiples medios de pago para optimizar tu comercio.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-2.svg" alt="infinia" />
-											</div>
-										</div>
-										<h5 className="my-3">Mapa Interactivo / Master Plan</h5>
-										<p className="mb-6">Mapas interactivos con ubicación de propiedades, filtros avanzados y visualización de master plans para inmobiliarias.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-3.svg" alt="infinia" />
-											</div>
-										</div>
-										<h5 className="my-3">Sistema de Tickets y Pre-inscripción</h5>
-										<p className="mb-6">Plataforma completa para venta de tickets, gestión de asistentes y control de aforo para eventos.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
-								<SwiperSlide className="swiper-slide">
-									<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
-											<div className="icon">
-												<img src="/assets/imgs/service-3/icon-4.svg" alt="infinia" />
-											</div>
-										</div>
-										<h5 className="my-3">Portal Informativo</h5>
-										<p className="mb-6">Sitio web institucional con información académica, noticias y recursos educativos para instituciones educativas.</p>
-										<Link href="#" className="text-primary fs-7 fw-bold">
-											Ver Más
-											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
-												<g clipPath="url(#clip0_399_9647)">
-													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
-												</g>
-												<defs>
-													<clipPath>
-														<rect width={18} height={18} fill="white" transform="translate(0.5)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</Link>
-										<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
-									</div>
-								</SwiperSlide>
+									</SwiperSlide>
+								))}
 							</div>
 						</Swiper>
 						<div className="swiper-button-prev d-none d-lg-flex shadow-2 position-absolute top-50 translate-middle-y bg-white ms-lg-7">

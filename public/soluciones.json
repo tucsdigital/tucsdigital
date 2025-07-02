@@ -1,5 +1,385 @@
 [
   {
+    "id": "tienda-online-autogestionable",
+    "categoria": "ventas-y-comercio",
+    "titulo": "Tienda Online Autogestionable",
+    "titulos_sugeridos": [
+      "Tu Tienda Abierta 24/7: Control Total en Tus Manos",
+      "Vendé Online sin Intermediarios y Crecé a tu Ritmo"
+    ],
+    "descripcion": "Con una Tienda Online Autogestionable, llevás tu negocio al mundo digital con el control absoluto de lo que vendés, cómo lo mostrás y cuándo querés cobrar. Es una plataforma lista para usar, autogestionable, adaptable a todos los dispositivos y con soporte incluido. Vendé más desde el primer día.",
+    "puntos_clave": [
+      "Autogestión total de productos, precios y stock",
+      "Carrito de compras integrado",
+      "Medios de pago digitales como MercadoPago, Stripe o PayPal",
+      "Diseño responsive y personalizable",
+      "Gestión de pedidos y clientes",
+      "Escalabilidad con complementos adicionales"
+    ],
+    "beneficios_cercanos": [
+      "Aumentás tus ventas sin abrir un local físico",
+      "Reducís tiempos de atención: el cliente compra solo",
+      "Generás confianza con una marca moderna y digital"
+    ],
+    "beneficios_futuros": [
+      "Escalás tu negocio sin límites geográficos",
+      "Automatizás procesos y ventas",
+      "Integrás nuevas tecnologías fácilmente"
+    ],
+    "tips_uso": [
+      "Mantené actualizados los productos más vendidos",
+      "Usá descripciones claras y fotos reales",
+      "Activá notificaciones por WhatsApp o email"
+    ],
+    "contenido_relacionado": [
+      "Botón de Pago sin Tienda",
+      "Campañas Meta Ads",
+      "Sistema de Opiniones y Testimonios"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Necesito saber programar?",
+        "respuesta": "No, el panel es visual e intuitivo como una red social."
+      },
+      {
+        "pregunta": "¿Qué medios de pago puedo ofrecer?",
+        "respuesta": "MercadoPago, PayPal, Stripe, transferencia y más."
+      },
+      {
+        "pregunta": "¿La tienda se adapta a celulares?",
+        "respuesta": "Sí, es 100% responsive."
+      },
+      {
+        "pregunta": "¿Puedo cargar productos ilimitados?",
+        "respuesta": "Sí, sin límites de cantidad o imágenes."
+      },
+      {
+        "pregunta": "¿Qué pasa si necesito ayuda?",
+        "respuesta": "Tenés soporte técnico y capacitación incluida."
+      }
+    ]
+  },
+  {
+    "id": "catalogo-virtual-sin-carrito",
+    "categoria": "ventas-y-comercio",
+    "titulo": "Catálogo Virtual sin Carrito",
+    "titulos_sugeridos": [
+      "Mostrá lo que Vendés sin Necesidad de una Tienda Completa",
+      "Tu Vidriera Online: Productos, Fotos y Consultas Directas"
+    ],
+    "descripcion": "El Catálogo Virtual sin Carrito es ideal para mostrar productos o servicios profesionalmente sin necesidad de gestionar pagos online. Los clientes ven tu oferta y te consultan directamente por WhatsApp, Instagram o formulario.",
+    "puntos_clave": [
+      "Diseño visual atractivo por categorías",
+      "Sin carrito ni pagos online",
+      "Compatible con WhatsApp, Instagram y Email",
+      "Ideal para precios variables o personalizados",
+      "Carga masiva de productos",
+      "Adaptable a todos los dispositivos"
+    ],
+    "beneficios_cercanos": [
+      "Mostrás tu oferta profesionalmente",
+      "Recibís más consultas directas",
+      "Ahorrás tiempo y evitás sistemas complejos"
+    ],
+    "beneficios_futuros": [
+      "Escalás fácilmente a tienda online",
+      "Mejorás tu presencia digital",
+      "Optimización SEO desde el primer día"
+    ],
+    "tips_uso": [
+      "Usá fotos reales y de buena calidad",
+      "Agregá descripciones breves y diferenciales",
+      "Incluí llamados a la acción como 'Consultanos por WhatsApp'"
+    ],
+    "contenido_relacionado": [
+      "Catálogo Virtual para Instagram/WhatsApp",
+      "Botón de Pago sin Tienda",
+      "Diseño de Reels y Contenido Viral"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué diferencia tiene con una tienda online?",
+        "respuesta": "No tiene carrito ni permite pagos online."
+      },
+      {
+        "pregunta": "¿Puedo cambiar los productos cuando quiera?",
+        "respuesta": "Sí, desde el panel autogestionable."
+      },
+      {
+        "pregunta": "¿Necesito precios fijos?",
+        "respuesta": "No, ideal para precios variables."
+      },
+      {
+        "pregunta": "¿Puedo integrar WhatsApp como contacto?",
+        "respuesta": "Sí, cada producto puede tener un botón de contacto."
+      },
+      {
+        "pregunta": "¿Este catálogo posiciona en Google?",
+        "respuesta": "Sí, con estructura básica SEO optimizada."
+      }
+    ]
+  },
+  {
+    "id": "sistema-preorden-encargo",
+    "categoria": "ventas-y-comercio",
+    "titulo": "Sistema de Pre-Orden o Encargo",
+    "titulos_sugeridos": [
+      "Vendé Antes de Tener el Producto: Tu Canal de Encargos Digital",
+      "Pedidos Anticipados sin Complicaciones: Recibí y Organizá Pre-ventas"
+    ],
+    "descripcion": "Permite vender productos aún no disponibles, ideal para encargos, preventas o producciones a pedido. El cliente deja sus datos y realiza el pedido con o sin pago anticipado.",
+    "puntos_clave": [
+      "Formulario de pedido personalizado",
+      "Sin necesidad de stock inmediato",
+      "Notificaciones de nuevos pedidos",
+      "Cobro anticipado o contra entrega",
+      "Seguimiento desde panel",
+      "Ideal para lanzamientos o ediciones limitadas"
+    ],
+    "beneficios_cercanos": [
+      "Recibís encargos sin depender del stock",
+      "Previsión de demanda",
+      "Mejor experiencia de compra"
+    ],
+    "beneficios_futuros": [
+      "Reducción de pérdidas y excedentes",
+      "Clientes fidelizados",
+      "Producción organizada por tandas"
+    ],
+    "tips_uso": [
+      "Aclarar plazos de entrega",
+      "Usar etiquetas como 'edición limitada'",
+      "Mostrar ejemplos anteriores"
+    ],
+    "contenido_relacionado": [
+      "Sistema de Venta por Suscripción",
+      "Gestor de Presupuestos Online",
+      "Turnos por Rango Horario"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Los clientes pagan al hacer el encargo?",
+        "respuesta": "Podés elegir: sin pago, con seña o total anticipado."
+      },
+      {
+        "pregunta": "¿Puedo limitar la cantidad de encargos?",
+        "respuesta": "Sí, podés establecer cupos o fechas límite."
+      },
+      {
+        "pregunta": "¿Funciona para productos físicos y digitales?",
+        "respuesta": "Sí, ambos tipos están soportados."
+      }
+    ]
+  },
+  {
+    "id": "sistema-venta-suscripcion",
+    "categoria": "ventas-y-comercio",
+    "titulo": "Sistema de Venta por Suscripción",
+    "titulos_sugeridos": [
+      "Ingresos Recurrentes Todos los Meses con Suscripciones Digitales",
+      "Vendé Productos o Servicios de Forma Automática y Periódica"
+    ],
+    "descripcion": "Automatizá ventas recurrentes de productos o servicios con suscripciones semanales, mensuales o anuales. Ideal para membresías, entregas regulares o contenido exclusivo.",
+    "puntos_clave": [
+      "Cobro automático con tarjeta",
+      "Planes personalizables",
+      "Gestión de renovaciones",
+      "Contenido o producto recurrente",
+      "Notificaciones automáticas",
+      "Cancelación o pausa por cliente"
+    ],
+    "beneficios_cercanos": [
+      "Ingresos predecibles",
+      "Fidelización automática",
+      "Ahorro en tareas administrativas"
+    ],
+    "beneficios_futuros": [
+      "Escalabilidad del modelo",
+      "Construcción de comunidad",
+      "Ofertas premium y upgrades"
+    ],
+    "tips_uso": [
+      "Ofrecer plan gratuito de prueba",
+      "Incluir beneficios exclusivos",
+      "Usar testimonios de suscriptores"
+    ],
+    "contenido_relacionado": [
+      "Email Marketing Automatizado",
+      "Panel de Cobranzas y Morosos",
+      "Sistema de Opiniones y Testimonios"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Se renueva solo el cobro?",
+        "respuesta": "Sí, según la frecuencia elegida."
+      },
+      {
+        "pregunta": "¿Qué pasa si el cliente quiere cancelar?",
+        "respuesta": "Puede hacerlo desde su cuenta o comunicándose directamente."
+      },
+      {
+        "pregunta": "¿Qué negocios pueden usarlo?",
+        "respuesta": "Cualquiera con productos o servicios repetitivos."
+      }
+    ]
+  },
+  {
+    "id": "pos-digital",
+    "categoria": "ventas-y-comercio",
+    "titulo": "Punto de Venta (POS) Digital",
+    "titulos_sugeridos": [
+      "Transformá tu Mostrador en una Caja Inteligente",
+      "Controlá tus Ventas Presenciales como un Profesional"
+    ],
+    "descripcion": "Sistema de ventas para locales físicos, ferias o showrooms. Permite registrar ventas, controlar stock, emitir tickets y aceptar múltiples medios de pago desde cualquier dispositivo.",
+    "puntos_clave": [
+      "Ventas rápidas en mostrador",
+      "Control de stock en tiempo real",
+      "Acepta múltiples medios de pago",
+      "Emisión de ticket o factura",
+      "Historial de clientes y ventas",
+      "Conexión con tienda online"
+    ],
+    "beneficios_cercanos": [
+      "Menos errores en caja",
+      "Control total de inventario",
+      "Cierre de caja automatizado"
+    ],
+    "beneficios_futuros": [
+      "Análisis de tendencias de compra",
+      "Delegación segura a empleados",
+      "Escalabilidad hacia sucursales"
+    ],
+    "tips_uso": [
+      "Usar etiquetas o códigos de barra",
+      "Generar reportes periódicos",
+      "Crear perfiles de clientes frecuentes"
+    ],
+    "contenido_relacionado": [
+      "Gestión de Inventario Avanzado",
+      "Facturación Electrónica",
+      "Panel de KPI Dinámicos"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Necesito hardware específico?",
+        "respuesta": "No. Funciona desde cualquier dispositivo común."
+      },
+      {
+        "pregunta": "¿Puedo emitir facturas electrónicas?",
+        "respuesta": "Sí. Integra AFIP u organismos locales."
+      },
+      {
+        "pregunta": "¿Funciona sin internet?",
+        "respuesta": "Tiene una versión offline opcional."
+      }
+    ]
+  },
+  {
+    "id": "boton-de-pago",
+    "categoria": "ventas-y-comercio",
+    "titulo": "Botón de Pago sin Tienda",
+    "titulos_sugeridos": [
+      "Cobrales a Tus Clientes en un Clic (¡Sin Tener Tienda!)",
+      "Vendé por WhatsApp, Instagram o Email con un Link de Pago"
+    ],
+    "descripcion": "Ideal para cobrar sin tener una tienda. Generás un link de pago personalizable para enviar por redes, WhatsApp, mail o QR. Perfecto para productos únicos, reservas o servicios.",
+    "puntos_clave": [
+      "Cobro instantáneo por link",
+      "Sin necesidad de tienda web",
+      "Compatible con múltiples pasarelas",
+      "Ideal para ventas por unidad o servicios",
+      "Activación rápida",
+      "Seguimiento de pagos"
+    ],
+    "beneficios_cercanos": [
+      "Cobrás de forma simple y directa",
+      "Vendés desde redes sociales",
+      "Adaptado a compras por mensaje"
+    ],
+    "beneficios_futuros": [
+      "Imagen profesional sin ecommerce completo",
+      "Escalabilidad hacia tienda online",
+      "Base de clientes consolidada"
+    ],
+    "tips_uso": [
+      "Personalizar el nombre del producto",
+      "Usarlo para señas y reservas",
+      "Integrarlo en tus redes"
+    ],
+    "contenido_relacionado": [
+      "Catálogo Virtual para Instagram/WhatsApp",
+      "Sistema de Pre-Orden o Encargo",
+      "Secuencia de WhatsApp Programada"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Es necesario tener tienda online?",
+        "respuesta": "No, el botón de pago funciona solo."
+      },
+      {
+        "pregunta": "¿Puedo cobrar en cuotas?",
+        "respuesta": "Sí, depende de la pasarela que uses (ej: MercadoPago)."
+      },
+      {
+        "pregunta": "¿Dónde lo comparto?",
+        "respuesta": "En redes, email, WhatsApp o como código QR."
+      }
+    ]
+  },
+  {
+    "id": "catalogo-virtual-instagram-whatsapp",
+    "categoria": "ventas-y-comercio",
+    "titulo": "Catálogo Virtual para Instagram/WhatsApp",
+    "titulos_sugeridos": [
+      "Tus Productos a un Clic desde Instagram o WhatsApp",
+      "Convertí tus Redes en una Vidriera Interactiva"
+    ],
+    "descripcion": "Mostrá tus productos con fotos, precios y botones de consulta directa por WhatsApp o Instagram. Ideal para vender por mensaje directo sin tener una tienda online.",
+    "puntos_clave": [
+      "Catálogo compartible por link",
+      "Diseño mobile friendly",
+      "Fotos, precios y descripciones",
+      "Consulta directa por chat",
+      "Edición autogestionable",
+      "Ideal para venta por redes"
+    ],
+    "beneficios_cercanos": [
+      "Mostrás todo en un solo link",
+      "Reducís consultas repetidas",
+      "Aumentás la velocidad de venta"
+    ],
+    "beneficios_futuros": [
+      "Mejor conversión en redes",
+      "Imagen profesional destacada",
+      "Escalable a tienda completa"
+    ],
+    "tips_uso": [
+      "Colocar el link en tu bio o estado",
+      "Agrupar productos por categoría",
+      "Agregar llamados a la acción"
+    ],
+    "contenido_relacionado": [
+      "Botón de Pago sin Tienda",
+      "Diseño de Reels y Contenido Viral",
+      "Secuencia de WhatsApp Programada"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Es como la tienda de Instagram?",
+        "respuesta": "No, es un catálogo independiente adaptable a cualquier red."
+      },
+      {
+        "pregunta": "¿Se puede usar sin tienda online?",
+        "respuesta": "Sí, está pensado para vender solo por redes o mensajería."
+      },
+      {
+        "pregunta": "¿Permite actualizaciones?",
+        "respuesta": "Sí, desde un panel autogestionable."
+      }
+    ]
+  },
+  {
     "id": "google-maps-perfil-empresa",
     "categoria": "visibilidad-y-posicionamiento",
     "titulo": "Google Maps + Perfil de Empresa",
@@ -1076,6 +1456,1510 @@
       {
         "pregunta": "¿Es útil para todo tipo de negocios?",
         "respuesta": "Sí, cualquier empresa que dependa de su imagen digital se beneficia."
+      }
+    ]
+  },
+  {
+    "id": "gestion-inventario-avanzado",
+    "categoria": "gestion-de-negocios",
+    "titulo": "Gestión de Inventario Avanzado",
+    "titulos_sugeridos": [
+      "Control Total y Preciso de Tu Inventario",
+      "Optimización Inteligente para Stock Sin Sorpresas"
+    ],
+    "descripcion": "Sistema diseñado para controlar con precisión el ingreso, egreso y stock disponible de productos o insumos, con alertas automáticas de stock mínimo para evitar quiebres. Permite registro detallado en tiempo real e integración con sistemas de ventas para un flujo automatizado.",
+    "puntos_clave": [
+      "Control en tiempo real del stock disponible",
+      "Alertas automáticas por stock mínimo",
+      "Registro detallado de movimientos",
+      "Integración con sistemas de ventas y pedidos",
+      "Reportes para optimizar compras/ventas",
+      "Acceso multiusuario con permisos"
+    ],
+    "beneficios_cercanos": [
+      "Evita faltantes o excesos de stock",
+      "Mejora planificación de compras",
+      "Reduce pérdidas por caducidad"
+    ],
+    "beneficios_futuros": [
+      "Optimización basada en datos",
+      "Reducción de costos operativos",
+      "Escalabilidad para inventarios complejos"
+    ],
+    "tips_uso": [
+      "Actualiza inventario con cada movimiento",
+      "Configura alertas para anticipar compras",
+      "Analiza reportes para ajustar niveles"
+    ],
+    "contenido_relacionado": [
+      "ERP PyME",
+      "Sistema de Pedidos Internos",
+      "Facturación Electrónica"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Funciona en tiempo real?",
+        "respuesta": "Sí, actualiza stock automáticamente."
+      },
+      {
+        "pregunta": "¿Alertas personalizables?",
+        "respuesta": "Sí, por niveles mínimos por producto."
+      },
+      {
+        "pregunta": "¿Integración con ecommerce?",
+        "respuesta": "Sí, para sincronizar stock."
+      }
+    ]
+  },
+  {
+    "id": "erp-pyme",
+    "categoria": "gestion-de-negocios",
+    "titulo": "ERP PyME (Ventas, Stock, Compras, Cuentas)",
+    "titulos_sugeridos": [
+      "Control Integral de Tu Negocio en un Solo Sistema",
+      "Simplificá la Gestión con Nuestro ERP para Pymes"
+    ],
+    "descripcion": "Sistema integral que centraliza gestión de ventas, inventarios, compras y finanzas. Automatiza procesos y mejora toma de decisiones con datos en tiempo real. Escalable para adaptarse al crecimiento.",
+    "puntos_clave": [
+      "Gestión unificada de operaciones",
+      "Control financiero integrado",
+      "Automatización de procesos",
+      "Reportes en tiempo real",
+      "Acceso multiusuario con roles",
+      "Escalabilidad para crecimiento"
+    ],
+    "beneficios_cercanos": [
+      "Centraliza información",
+      "Reduce errores manuales",
+      "Mejora productividad"
+    ],
+    "beneficios_futuros": [
+      "Decisiones basadas en datos",
+      "Escalabilidad operativa",
+      "Mayor competitividad"
+    ],
+    "tips_uso": [
+      "Capacita al equipo",
+      "Mantén datos actualizados",
+      "Usa reportes para mejoras"
+    ],
+    "contenido_relacionado": [
+      "Gestión de Inventario",
+      "Facturación Electrónica",
+      "Panel de Estadísticas"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Es personalizable?",
+        "respuesta": "Sí, se adapta a cada industria."
+      },
+      {
+        "pregunta": "¿Integración con otros sistemas?",
+        "respuesta": "Sí, para optimizar flujos."
+      },
+      {
+        "pregunta": "¿Reportes financieros?",
+        "respuesta": "Sí, detallados para análisis."
+      }
+    ]
+  },
+  {
+    "id": "facturacion-electronica",
+    "categoria": "gestion-de-negocios",
+    "titulo": "Facturación Electrónica y Reportes",
+    "titulos_sugeridos": [
+      "Simplificá tu Facturación con Tecnología",
+      "Facturación Automática y Control Total"
+    ],
+    "descripcion": "Emite facturas y comprobantes electrónicos cumpliendo normativas legales. Genera reportes detallados para control financiero. Integrable con sistemas de gestión.",
+    "puntos_clave": [
+      "Emisión automática de comprobantes",
+      "Cumplimiento normativo",
+      "Reportes personalizados",
+      "Integración con contabilidad",
+      "Almacenamiento seguro",
+      "Reducción de errores"
+    ],
+    "beneficios_cercanos": [
+      "Ahorro de tiempo",
+      "Cumplimiento legal",
+      "Control financiero"
+    ],
+    "beneficios_futuros": [
+      "Facilita auditorías",
+      "Mejor toma de decisiones",
+      "Escalabilidad"
+    ],
+    "tips_uso": [
+      "Configura datos fiscales",
+      "Revisa reportes periódicos",
+      "Mantén respaldos"
+    ],
+    "contenido_relacionado": [
+      "ERP PyME",
+      "Gestión de Inventario",
+      "Panel de Cobranzas"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cumple regulaciones?",
+        "respuesta": "Sí, actualizado a normativas."
+      },
+      {
+        "pregunta": "¿Reportes personalizables?",
+        "respuesta": "Sí, con múltiples formatos."
+      },
+      {
+        "pregunta": "¿Facturación recurrente?",
+        "respuesta": "Sí, para cobros periódicos."
+      }
+    ]
+  },
+  {
+    "id": "pedidos-internos",
+    "categoria": "gestion-de-negocios",
+    "titulo": "Sistema de Pedidos Internos / Reposición",
+    "titulos_sugeridos": [
+      "Gestioná Tus Insumos con Eficiencia",
+      "Pedidos Automatizados para Reposición"
+    ],
+    "descripcion": "Facilita solicitudes de insumos entre áreas/sucursales. Evita faltantes con seguimiento en tiempo real y automatización. Ideal para cadenas logísticas internas.",
+    "puntos_clave": [
+      "Solicitudes centralizadas",
+      "Seguimiento en tiempo real",
+      "Control de stock central",
+      "Reportes para planificación",
+      "Reducción de errores",
+      "Acceso multiusuario"
+    ],
+    "beneficios_cercanos": [
+      "Mejora comunicación",
+      "Reduce faltantes",
+      "Agiliza reposición"
+    ],
+    "beneficios_futuros": [
+      "Optimización logística",
+      "Ahorro en costos",
+      "Escalabilidad multiubicación"
+    ],
+    "tips_uso": [
+      "Capacita equipos",
+      "Establece stock mínimo",
+      "Analiza reportes"
+    ],
+    "contenido_relacionado": [
+      "Gestión de Inventario",
+      "ERP PyME",
+      "Panel de Cobranzas"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Pedidos automáticos?",
+        "respuesta": "Sí, por stock mínimo."
+      },
+      {
+        "pregunta": "¿Seguimiento en tiempo real?",
+        "respuesta": "Sí, desde panel administrativo."
+      },
+      {
+        "pregunta": "¿Multi-sucursal?",
+        "respuesta": "Sí, gestión centralizada."
+      }
+    ]
+  },
+  {
+    "id": "gestor-documentos",
+    "categoria": "gestion-de-negocios",
+    "titulo": "Gestor de Documentos Digitales",
+    "titulos_sugeridos": [
+      "Organizá Documentos en un Click",
+      "Gestión Digital para Productividad"
+    ],
+    "descripcion": "Almacena y gestiona archivos digitales con control de versiones, permisos y búsqueda avanzada. Elimina papel y mejora colaboración segura.",
+    "puntos_clave": [
+      "Almacenamiento centralizado",
+      "Organización por categorías",
+      "Control de versiones",
+      "Permisos personalizados",
+      "Búsqueda rápida",
+      "Acceso remoto"
+    ],
+    "beneficios_cercanos": [
+      "Reduce papel/espacio",
+      "Mejora colaboración",
+      "Aumenta seguridad"
+    ],
+    "beneficios_futuros": [
+      "Eficiencia documental",
+      "Cumplimiento normativo",
+      "Escalabilidad"
+    ],
+    "tips_uso": [
+      "Usa etiquetas claras",
+      "Define roles estrictos",
+      "Realiza backups"
+    ],
+    "contenido_relacionado": [
+      "ERP PyME",
+      "Panel de Cobranzas",
+      "Sistema de Pedidos"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Historial de versiones?",
+        "respuesta": "Sí, con registro completo."
+      },
+      {
+        "pregunta": "¿Acceso móvil?",
+        "respuesta": "Sí, desde cualquier dispositivo."
+      },
+      {
+        "pregunta": "¿Compartir seguro?",
+        "respuesta": "Sí, con enlaces protegidos."
+      }
+    ]
+  },
+  {
+    "id": "panel-cobranzas",
+    "categoria": "gestion-de-negocios",
+    "titulo": "Panel de Cobranzas y Morosos",
+    "titulos_sugeridos": [
+      "Controlá Cobranzas y Flujo de Caja",
+      "Gestión Efectiva de Morosidad"
+    ],
+    "descripcion": "Centraliza seguimiento de pagos pendientes y morosidad. Emite recordatorios automáticos y genera reportes para mejorar recuperación.",
+    "puntos_clave": [
+      "Registro detallado de deudas",
+      "Alertas automáticas",
+      "Segmentación de clientes",
+      "Reportes analíticos",
+      "Integración con facturación",
+      "Panel intuitivo"
+    ],
+    "beneficios_cercanos": [
+      "Mejora flujo de caja",
+      "Reduce morosidad",
+      "Optimiza tiempo"
+    ],
+    "beneficios_futuros": [
+      "Estrategias basadas en datos",
+      "Fortalecimiento de relaciones",
+      "Escalabilidad"
+    ],
+    "tips_uso": [
+      "Configura recordatorios",
+      "Segmenta clientes",
+      "Revisa reportes"
+    ],
+    "contenido_relacionado": ["Facturación Electrónica", "ERP PyME", "CRM"],
+    "faq": [
+      {
+        "pregunta": "¿Notificaciones automáticas?",
+        "respuesta": "Sí, por email/WhatsApp."
+      },
+      {
+        "pregunta": "¿Personalizar mensajes?",
+        "respuesta": "Sí, por tipo de cliente."
+      },
+      {
+        "pregunta": "¿Varios usuarios?",
+        "respuesta": "Sí, con roles definidos."
+      }
+    ]
+  },
+  {
+    "id": "gestor-presupuestos",
+    "categoria": "gestion-de-negocios",
+    "titulo": "Gestor de Presupuestos Online",
+    "titulos_sugeridos": [
+      "Cotizaciones Ágiles y Profesionales",
+      "Seguimiento de Propuestas en Línea"
+    ],
+    "descripcion": "Crea, envía y gestiona presupuestos digitales con seguimiento en tiempo real. Permite interacción directa con clientes para aceptar/modificar propuestas.",
+    "puntos_clave": [
+      "Creación personalizada",
+      "Seguimiento en tiempo real",
+      "Interacción con clientes",
+      "Historial completo",
+      "Notificaciones automáticas",
+      "Acceso multiusuario"
+    ],
+    "beneficios_cercanos": [
+      "Agiliza ventas",
+      "Mejora comunicación",
+      "Aumenta eficiencia"
+    ],
+    "beneficios_futuros": [
+      "Mayor tasa de cierre",
+      "Optimización continua",
+      "Escalabilidad"
+    ],
+    "tips_uso": [
+      "Personaliza ofertas",
+      "Usa notificaciones",
+      "Analiza historial"
+    ],
+    "contenido_relacionado": ["CRM", "ERP PyME", "Panel de Estadísticas"],
+    "faq": [
+      {
+        "pregunta": "¿Editar presupuestos?",
+        "respuesta": "Sí, con reenvío."
+      },
+      {
+        "pregunta": "¿Aceptación online?",
+        "respuesta": "Sí, por parte del cliente."
+      },
+      {
+        "pregunta": "¿Varios usuarios?",
+        "respuesta": "Sí, con permisos."
+      }
+    ]
+  },
+  {
+    "id": "chatbot-ia-consultas",
+    "categoria": "inteligenicia-y-automatizacion",
+    "titulo": "ChatBot con IA para Consultas Frecuentes",
+    "titulos_sugeridos": [
+      "Atención 24/7 con Inteligencia Artificial",
+      "Respondé Instantáneamente a Tus Clientes con un ChatBot Inteligente"
+    ],
+    "descripcion": "Asistente virtual que responde automáticamente consultas comunes 24/7 usando inteligencia artificial. Reduce tiempos de espera, cualifica prospectos y deriva casos complejos a agentes humanos.",
+    "puntos_clave": [
+      "Atención automática 24/7",
+      "Comprensión natural del lenguaje",
+      "Captura de datos de usuarios",
+      "Derivación inteligente a soporte humano",
+      "Integración multicanal (web, redes sociales)",
+      "Análisis de conversaciones"
+    ],
+    "beneficios_cercanos": [
+      "Reduce tiempos de respuesta",
+      "Mejora satisfacción del cliente",
+      "Captura información valiosa"
+    ],
+    "beneficios_futuros": [
+      "Optimización con aprendizaje automático",
+      "Personalización avanzada",
+      "Aumento en conversión de ventas"
+    ],
+    "tips_uso": [
+      "Entrenar con preguntas frecuentes específicas",
+      "Monitorear conversaciones para mejoras",
+      "Actualizar base de datos periódicamente"
+    ],
+    "contenido_relacionado": [
+      "CRM",
+      "Notificaciones Inteligentes",
+      "Secuencia de WhatsApp Programada"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Puede entender preguntas complejas?",
+        "respuesta": "Maneja consultas comunes y deriva casos complejos."
+      },
+      {
+        "pregunta": "¿Funciona en múltiples plataformas?",
+        "respuesta": "Sí, integra web, Facebook Messenger, WhatsApp, etc."
+      }
+    ]
+  },
+  {
+    "id": "asistente-ia-seleccion",
+    "categoria": "inteligenicia-y-automatizacion",
+    "titulo": "Asistente IA para Diagnóstico o Selección",
+    "titulos_sugeridos": [
+      "Guía Inteligente para Elegir el Producto Ideal",
+      "Personalización Avanzada con Asistente IA"
+    ],
+    "descripcion": "Sistema que analiza respuestas de usuarios para recomendar productos/servicios personalizados. Ideal para catálogos complejos, mejora experiencia de compra y conversión.",
+    "puntos_clave": [
+      "Preguntas guiadas interactivas",
+      "Recomendaciones basadas en IA",
+      "Personalización por perfil",
+      "Integración con CRM",
+      "Captura de datos estratégicos",
+      "Optimización continua"
+    ],
+    "beneficios_cercanos": [
+      "Facilita elección de productos complejos",
+      "Mejora experiencia del cliente",
+      "Aumenta tasa de conversión"
+    ],
+    "beneficios_futuros": [
+      "Segmentación avanzada con datos",
+      "Automatización inteligente de marketing",
+      "Adaptabilidad a nuevos productos"
+    ],
+    "tips_uso": [
+      "Diseñar preguntas claras y relevantes",
+      "Actualizar base de productos regularmente",
+      "Usar datos para mejorar ofertas"
+    ],
+    "contenido_relacionado": [
+      "ChatBot con IA",
+      "CRM",
+      "Recomendador Inteligente"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Funciona en tiempo real?",
+        "respuesta": "Sí, interactúa y responde instantáneamente."
+      },
+      {
+        "pregunta": "¿Se integra con otros sistemas?",
+        "respuesta": "Sí, para flujo comercial y seguimiento."
+      }
+    ]
+  },
+  {
+    "id": "recomendador-inteligente",
+    "categoria": "inteligenicia-y-automatizacion",
+    "titulo": "Recomendador Inteligente de Productos",
+    "titulos_sugeridos": [
+      "Sugerencias Personalizadas que Incrementan Ventas",
+      "Potenciá la Experiencia de Compra con IA"
+    ],
+    "descripcion": "Analiza comportamiento de usuarios para mostrar productos relevantes. Aumenta ticket promedio con upselling/cross-selling dinámico en ecommerce y canales digitales.",
+    "puntos_clave": [
+      "Análisis de comportamiento",
+      "Productos relacionados/complementarios",
+      "Upselling y cross-selling inteligente",
+      "Integración con ecommerce",
+      "Personalización en tiempo real",
+      "Optimización continua"
+    ],
+    "beneficios_cercanos": [
+      "Incrementa ventas con recomendaciones",
+      "Mejora experiencia de compra",
+      "Fideliza con personalización"
+    ],
+    "beneficios_futuros": [
+      "Datos para segmentación avanzada",
+      "Automatización de ofertas por tendencias",
+      "Escalabilidad multicanal"
+    ],
+    "tips_uso": [
+      "Analizar patrones de compra",
+      "Usar en email marketing",
+      "Ajustar estrategias constantemente"
+    ],
+    "contenido_relacionado": ["Asistente IA", "ChatBot con IA", "CRM"],
+    "faq": [
+      {
+        "pregunta": "¿Funciona durante la navegación?",
+        "respuesta": "Sí, se adapta dinámicamente."
+      },
+      {
+        "pregunta": "¿Compatibilidad con ecommerce?",
+        "respuesta": "Sí, mediante APIs estándar."
+      }
+    ]
+  },
+  {
+    "id": "notificaciones-inteligentes",
+    "categoria": "inteligenicia-y-automatizacion",
+    "titulo": "Notificaciones Inteligentes Personalizadas",
+    "titulos_sugeridos": [
+      "Comunicación Precisa que Aumenta Ventas",
+      "Impactá a Clientes en el Momento Justo"
+    ],
+    "descripcion": "Alertas automatizadas por email/SMS/WhatsApp basadas en comportamiento. Recupera carritos abandonados, informa promociones y optimiza interacciones.",
+    "puntos_clave": [
+      "Automatización por eventos",
+      "Personalización por segmentos",
+      "Multicanal (email/SMS/WhatsApp)",
+      "Recuperación de carritos",
+      "Alertas de stock/pagos",
+      "Análisis de efectividad"
+    ],
+    "beneficios_cercanos": [
+      "Aumenta interacción y retención",
+      "Mejora tasa de conversión",
+      "Reduce abandonos"
+    ],
+    "beneficios_futuros": [
+      "Comunicación hiperpersonalizada",
+      "Optimización con IA",
+      "Crecimiento sostenible"
+    ],
+    "tips_uso": [
+      "Segmentar audiencia",
+      "Configurar triggers clave",
+      "Monitorear métricas"
+    ],
+    "contenido_relacionado": [
+      "Email Marketing Automatizado",
+      "Secuencia de WhatsApp",
+      "CRM"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué canales utiliza?",
+        "respuesta": "Email, SMS, WhatsApp y notificaciones in-app."
+      },
+      {
+        "pregunta": "¿Cómo se activan?",
+        "respuesta": "Por eventos como abandono de carrito o stock bajo."
+      }
+    ]
+  },
+  {
+    "id": "automatizador-rpa",
+    "categoria": "inteligenicia-y-automatizacion",
+    "titulo": "Automatizador de Tareas Repetitivas (RPA)",
+    "titulos_sugeridos": [
+      "Optimización Total con Automatización",
+      "Dejá que la IA Haga el Trabajo Repetitivo"
+    ],
+    "descripcion": "Robotiza procesos manuales como carga de datos, envío de correos y generación de reportes. Reduce errores y libera equipo para tareas estratégicas.",
+    "puntos_clave": [
+      "Automatización de procesos",
+      "Reducción de errores",
+      "Ahorro de tiempo/recursos",
+      "Integración multisistema",
+      "Mejora de productividad",
+      "Escalabilidad empresarial"
+    ],
+    "beneficios_cercanos": [
+      "Libera equipo de tareas tediosas",
+      "Aumenta precisión operativa",
+      "Reduce costos operativos"
+    ],
+    "beneficios_futuros": [
+      "Escalabilidad sin más personal",
+      "Procesos más inteligentes",
+      "Transformación digital ágil"
+    ],
+    "tips_uso": [
+      "Identificar procesos repetitivos",
+      "Implementar gradualmente",
+      "Monitorear y optimizar"
+    ],
+    "contenido_relacionado": [
+      "Panel de KPI Dinámicos",
+      "Notificaciones Inteligentes",
+      "CRM"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué tareas automatiza?",
+        "respuesta": "Carga de datos, correos, reportes y procesos administrativos."
+      },
+      {
+        "pregunta": "¿Requiere conocimientos técnicos?",
+        "respuesta": "No, está diseñado para ser accesible."
+      }
+    ]
+  },
+  {
+    "id": "panel-kpi",
+    "categoria": "inteligenicia-y-automatizacion",
+    "titulo": "Panel de KPI Dinámicos",
+    "titulos_sugeridos": [
+      "Visualizá Métricas Clave en Tiempo Real",
+      "Control Total con Indicadores Inteligentes"
+    ],
+    "descripcion": "Visualización interactiva de indicadores de desempeño (ventas, tráfico, conversiones) con alertas y reportes personalizados para toma de decisiones ágil.",
+    "puntos_clave": [
+      "Monitoreo en tiempo real",
+      "Gráficos interactivos",
+      "Alertas personalizables",
+      "Acceso multiusuario",
+      "Integración con sistemas",
+      "Reportes exportables"
+    ],
+    "beneficios_cercanos": [
+      "Visibilidad instantánea del desempeño",
+      "Decisiones basadas en datos",
+      "Detección rápida de oportunidades"
+    ],
+    "beneficios_futuros": [
+      "Optimización continua",
+      "Coordinación entre equipos",
+      "Escalabilidad de métricas"
+    ],
+    "tips_uso": [
+      "Definir KPI relevantes",
+      "Revisar regularmente",
+      "Configurar alertas estratégicas"
+    ],
+    "contenido_relacionado": [
+      "Automatizador RPA",
+      "Panel de Estadísticas",
+      "CRM"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué indicadores incluye?",
+        "respuesta": "Ventas, tráfico, conversiones, reservas, etc."
+      },
+      {
+        "pregunta": "¿Se actualiza automáticamente?",
+        "respuesta": "Sí, en tiempo real o frecuencia configurada."
+      }
+    ]
+  },
+  {
+    "id": "encuestas-automaticas",
+    "categoria": "inteligenicia-y-automatizacion",
+    "titulo": "Encuestas Automáticas Post-Compra",
+    "titulos_sugeridos": [
+      "Feedback Automático para Mejora Continua",
+      "Escuchá a Tus Clientes sin Esfuerzo"
+    ],
+    "descripcion": "Envía cuestionarios automatizados post-compra para recoger feedback. Mejora satisfacción, identifica oportunidades y construye reputación.",
+    "puntos_clave": [
+      "Envío automático post-venta",
+      "Cuestionarios personalizables",
+      "Análisis de resultados",
+      "Integración con reputación online",
+      "Segmentación avanzada",
+      "Recordatorios automáticos"
+    ],
+    "beneficios_cercanos": [
+      "Feedback valioso inmediato",
+      "Detección de áreas de mejora",
+      "Fortalecimiento de relaciones"
+    ],
+    "beneficios_futuros": [
+      "Imagen sólida basada en opiniones",
+      "Mejora continua de productos",
+      "Aumento de recomendaciones"
+    ],
+    "tips_uso": [
+      "Diseñar preguntas claras",
+      "Personalizar mensajes",
+      "Analizar resultados periódicamente"
+    ],
+    "contenido_relacionado": [
+      "Panel de Reputación",
+      "CRM",
+      "Email Marketing Automatizado"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuándo se envían?",
+        "respuesta": "Tras entrega o finalización de servicio."
+      },
+      {
+        "pregunta": "¿Se integra con redes sociales?",
+        "respuesta": "Sí, para potenciar reputación online."
+      }
+    ]
+  },
+  {
+    "id": "ssl-proteccion-formularios",
+    "categoria": "seguridad-y-privacidad",
+    "titulo": "SSL + Protección de Datos en Formularios",
+    "titulos_sugeridos": [
+      "Seguridad Garantizada para Tus Clientes",
+      "Protegé Datos Sensibles con Certificado SSL"
+    ],
+    "descripcion": "Solución que encripta datos sensibles mediante certificado SSL y protege formularios contra accesos no autorizados. Esencial para cumplir normativas y mejorar confianza en sitios web.",
+    "puntos_clave": [
+      "Encriptación SSL/TLS",
+      "Protección avanzada de formularios",
+      "Prevención de bots maliciosos",
+      "Mejora de confianza y credibilidad",
+      "Cumplimiento normativo",
+      "Impacto positivo en SEO"
+    ],
+    "beneficios_cercanos": [
+      "Protección de datos de clientes",
+      "Refuerza imagen profesional",
+      "Evita sanciones legales"
+    ],
+    "beneficios_futuros": [
+      "Mayor conversión por seguridad percibida",
+      "Adaptación a futuros estándares",
+      "Fortalecimiento de confianza digital"
+    ],
+    "tips_uso": [
+      "Instalar certificado SSL válido",
+      "Configurar validación en formularios",
+      "Monitorear vulnerabilidades"
+    ],
+    "contenido_relacionado": [
+      "Política de Cookies y RGPD",
+      "Firewall y Escaneo Antihackeo",
+      "Gestión Legal"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué es un certificado SSL?",
+        "respuesta": "Tecnología que cifra la comunicación entre navegador y servidor."
+      },
+      {
+        "pregunta": "¿Cómo verificar si mi sitio tiene SSL?",
+        "respuesta": "Aparece un candado en la barra de direcciones del navegador."
+      }
+    ]
+  },
+  {
+    "id": "copias-seguridad-automaticas",
+    "categoria": "seguridad-y-privacidad",
+    "titulo": "Copias de Seguridad Automatizadas",
+    "titulos_sugeridos": [
+      "Backups Automáticos para Proteger tus Datos",
+      "Garantizá Continuidad con Respaldos Programados"
+    ],
+    "descripcion": "Sistema de backups periódicos que protege información crítica contra fallos, errores humanos o ciberataques. Permite recuperación rápida con versionado histórico.",
+    "puntos_clave": [
+      "Respaldos programados",
+      "Almacenamiento seguro multicapa",
+      "Restauración rápida",
+      "Control de versiones",
+      "Protección contra ransomware",
+      "Configuración flexible"
+    ],
+    "beneficios_cercanos": [
+      "Evita pérdida de datos crítica",
+      "Minimiza tiempos de inactividad",
+      "Protege inversión tecnológica"
+    ],
+    "beneficios_futuros": [
+      "Cumplimiento de normativas",
+      "Escalabilidad segura",
+      "Preparación para desastres"
+    ],
+    "tips_uso": [
+      "Programar backups diarios",
+      "Almacenar en nube + físico",
+      "Probar restauraciones periódicamente"
+    ],
+    "contenido_relacionado": [
+      "Firewall y Escaneo Antihackeo",
+      "SSL + Protección de Datos",
+      "Gestión Legal"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cada cuánto se ejecutan los backups?",
+        "respuesta": "Configurable desde diario hasta semanal según necesidades."
+      },
+      {
+        "pregunta": "¿Dónde se guardan las copias?",
+        "respuesta": "En ubicaciones seguras: nube y/o servidores físicos."
+      }
+    ]
+  },
+  {
+    "id": "firewall-escaneo-antihackeo",
+    "categoria": "seguridad-y-privacidad",
+    "titulo": "Firewall y Escaneo Antihackeo",
+    "titulos_sugeridos": [
+      "Defensa Integral contra Ciberamenazas",
+      "Protección Avanzada para tu Sitio Web"
+    ],
+    "descripcion": "Barrera de seguridad que filtra tráfico malicioso combinada con escaneos periódicos para detectar vulnerabilidades. Protege contra DDoS, inyecciones SQL y otros ataques.",
+    "puntos_clave": [
+      "Firewall de última generación",
+      "Detección de malware",
+      "Protección contra DDoS",
+      "Escaneos automáticos",
+      "Actualizaciones constantes",
+      "Reportes detallados"
+    ],
+    "beneficios_cercanos": [
+      "Previene hackeos y ataques",
+      "Mantiene sitio operativo",
+      "Protege datos sensibles"
+    ],
+    "beneficios_futuros": [
+      "Adaptación a nuevas amenazas",
+      "Cumplimiento de estándares",
+      "Infraestructura resiliente"
+    ],
+    "tips_uso": [
+      "Activar actualizaciones automáticas",
+      "Programar escaneos semanales",
+      "Configurar alertas tempranas"
+    ],
+    "contenido_relacionado": [
+      "Copias de Seguridad",
+      "SSL + Protección de Datos",
+      "Gestión Legal"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué tipos de ataques previene?",
+        "respuesta": "DDoS, SQL injection, XSS, brute force, bots maliciosos, etc."
+      },
+      {
+        "pregunta": "¿Requiere mantenimiento manual?",
+        "respuesta": "Mínimo, el sistema opera automáticamente con configuración inicial."
+      }
+    ]
+  },
+  {
+    "id": "gestion-legal-politicas",
+    "categoria": "seguridad-y-privacidad",
+    "titulo": "Gestión Legal: Políticas de Uso y Privacidad",
+    "titulos_sugeridos": [
+      "Cumplimiento Legal Automatizado",
+      "Protección Jurídica para tu Negocio Digital"
+    ],
+    "descripcion": "Servicio completo para crear y mantener políticas legales adaptadas a normativas como RGPD. Incluye términos de uso, privacidad y avisos de cookies.",
+    "puntos_clave": [
+      "Redacción por expertos",
+      "Actualización normativa",
+      "Integración en sitio web",
+      "Gestión de consentimientos",
+      "Adaptación por industria",
+      "Soporte para auditorías"
+    ],
+    "beneficios_cercanos": [
+      "Evita multas y sanciones",
+      "Genera confianza en usuarios",
+      "Protege contra reclamos"
+    ],
+    "beneficios_futuros": [
+      "Preparación para nuevos mercados",
+      "Sostenibilidad legal",
+      "Valoración profesional"
+    ],
+    "tips_uso": [
+      "Revisar políticas anualmente",
+      "Destacar enrutas clave",
+      "Sincronizar con avisos de cookies"
+    ],
+    "contenido_relacionado": [
+      "Política de Cookies y RGPD",
+      "SSL + Protección de Datos",
+      "Copias de Seguridad"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué normativas cubre?",
+        "respuesta": "RGPD (UE), LGPD (Brasil), CCPA (California), y otras locales."
+      },
+      {
+        "pregunta": "¿Necesito abogado para esto?",
+        "respuesta": "No, incluye redacción por especialistas en derecho digital."
+      }
+    ]
+  },
+  {
+    "id": "autenticacion-dos-factores",
+    "categoria": "seguridad-y-privacidad",
+    "titulo": "Autenticación en Dos Pasos (2FA)",
+    "titulos_sugeridos": [
+      "Protección Extra para Accesos Críticos",
+      "Seguridad Ampliada con Verificación en Dos Pasos"
+    ],
+    "descripcion": "Sistema que añade una capa adicional de seguridad a inicios de sesión mediante códigos temporales enviados a dispositivos confiables. Ideal para áreas administrativas y datos sensibles.",
+    "puntos_clave": [
+      "Verificación por SMS/email/app",
+      "Códigos temporales únicos",
+      "Protección contra phishing",
+      "Integración con sistemas existentes",
+      "Registro de dispositivos",
+      "Personalización de flujos"
+    ],
+    "beneficios_cercanos": [
+      "Bloquea accesos no autorizados",
+      "Protege contra robos de credenciales",
+      "Cumple con estándares de seguridad"
+    ],
+    "beneficios_futuros": [
+      "Adaptación a biometría",
+      "Escalabilidad para equipos",
+      "Prevención de fraude avanzado"
+    ],
+    "tips_uso": [
+      "Implementar en accesos administrativos",
+      "Capacitar al equipo en su uso",
+      "Usar apps autenticadoras (Google Auth)"
+    ],
+    "contenido_relacionado": [
+      "Firewall y Escaneo Antihackeo",
+      "Gestión de Identidad Digital",
+      "Encriptación de Datos"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué métodos de verificación incluye?",
+        "respuesta": "SMS, correo electrónico, apps autenticadoras y tokens físicos."
+      },
+      {
+        "pregunta": "¿Es complicado para los usuarios?",
+        "respuesta": "No, el proceso es intuitivo y agrega solo segundos al login."
+      }
+    ]
+  },
+  {
+    "id": "monitoreo-continuo",
+    "categoria": "seguridad-y-privacidad",
+    "titulo": "Monitoreo Continuo de Seguridad",
+    "titulos_sugeridos": [
+      "Vigilancia 24/7 contra Amenazas Digitales",
+      "Detección Temprana de Vulnerabilidades"
+    ],
+    "descripcion": "Servicio que supervisa actividad inusual, intentos de intrusión y vulnerabilidades en tiempo real. Envía alertas inmediatas para respuesta rápida ante incidentes.",
+    "puntos_clave": [
+      "Detección en tiempo real",
+      "Alertas automatizadas",
+      "Análisis de patrones sospechosos",
+      "Reportes ejecutivos",
+      "Integración con SIEM",
+      "Soporte para respuesta a incidentes"
+    ],
+    "beneficios_cercanos": [
+      "Reduce tiempo de detección de ataques",
+      "Minimiza daños por brechas",
+      "Protege reputación corporativa"
+    ],
+    "beneficios_futuros": [
+      "Inteligencia contra amenazas avanzadas",
+      "Automatización de respuestas",
+      "Histórico para auditorías"
+    ],
+    "tips_uso": [
+      "Establecer umbrales de alerta",
+      "Integrar con equipo de TI",
+      "Revisar reportes semanales"
+    ],
+    "contenido_relacionado": [
+      "Firewall y Escaneo Antihackeo",
+      "Copias de Seguridad",
+      "Gestión Legal"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué tipo de actividades detecta?",
+        "respuesta": "Intrusión, malware, comportamientos anómalos, accesos sospechosos."
+      },
+      {
+        "pregunta": "¿Requiere personal especializado?",
+        "respuesta": "No, incluye soporte gestionado para análisis de alertas."
+      }
+    ]
+  },
+  {
+    "id": "menu-digital-qr",
+    "categoria": "contenido-y-comunicacion",
+    "titulo": "Menú Digital con Filtros y QR",
+    "titulos_sugeridos": [
+      "Revolucioná la Experiencia con Menús Digitales",
+      "Pedidos Ágiles con Menús Interactivos QR"
+    ],
+    "descripcion": "Solución interactiva que reemplaza menús físicos mediante códigos QR. Permite filtrado por categorías, actualización en tiempo real y reduce contacto físico.",
+    "puntos_clave": [
+      "Acceso instantáneo vía QR",
+      "Filtros personalizables (precio, categorías, etc.)",
+      "Actualización remota de contenido",
+      "Compatibilidad multiplataforma",
+      "Reducción de costos de impresión",
+      "Integración con sistemas POS"
+    ],
+    "beneficios_cercanos": [
+      "Experiencia moderna para clientes",
+      "Ahorro en impresión y logística",
+      "Navegación intuitiva de productos"
+    ],
+    "beneficios_futuros": [
+      "Integración con pedidos/pagos online",
+      "Recolección de datos de preferencias",
+      "Escalabilidad multi-sucursal"
+    ],
+    "tips_uso": [
+      "Diseñar filtros intuitivos",
+      "Ubicar códigos QR visiblemente",
+      "Actualizar promociones semanalmente"
+    ],
+    "contenido_relacionado": [
+      "Galería de Fotos Dinámica",
+      "Sistema de Reservas Online",
+      "POS Digital"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Requiere descarga de app?",
+        "respuesta": "No, funciona directamente en navegadores móviles."
+      },
+      {
+        "pregunta": "¿Cómo se actualizan los precios?",
+        "respuesta": "Desde panel administrativo en tiempo real."
+      }
+    ]
+  },
+  {
+    "id": "galeria-fotos-dinamica",
+    "categoria": "contenido-y-comunicacion",
+    "titulo": "Galería de Fotos con Carga Dinámica",
+    "titulos_sugeridos": [
+      "Imágenes Profesionales que Atraen Clientes",
+      "Galería Web Optimizada para Conversiones"
+    ],
+    "descripcion": "Exhibición visual de productos/espacios con carga optimizada y gestión autoadministrable. Mejora engagement y posicionamiento SEO.",
+    "puntos_clave": [
+      "Carga rápida con lazy loading",
+      "Panel de gestión intuitivo",
+      "Organización por categorías",
+      "Optimización SEO automática",
+      "Diseño responsive",
+      "Integración con redes sociales"
+    ],
+    "beneficios_cercanos": [
+      "Presentación profesional de productos",
+      "Contenido siempre actualizado",
+      "Aumento de tiempo en página"
+    ],
+    "beneficios_futuros": [
+      "Mejor ranking en búsquedas visuales",
+      "Base para campañas marketing",
+      "Adaptación a nuevos formatos (360°, VR)"
+    ],
+    "tips_uso": [
+      "Usar imágenes en alta resolución",
+      "Agrupar por colecciones/temas",
+      "Añadir textos ALT descriptivos"
+    ],
+    "contenido_relacionado": [
+      "Videos 360°",
+      "Lookbook Digital",
+      "Blog Autogestionable"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Límite de imágenes?",
+        "respuesta": "No, con almacenamiento escalable."
+      },
+      {
+        "pregunta": "¿Compatibilidad con móviles?",
+        "respuesta": "Total, con diseño adaptativo."
+      }
+    ]
+  },
+  {
+    "id": "videos-360-productos",
+    "categoria": "contenido-y-comunicacion",
+    "titulo": "Videos de Producto y Recorridos 360°",
+    "titulos_sugeridos": [
+      "Experiencias Inmersivas que Venden",
+      "Tus Productos en 360° para Mayor Impacto"
+    ],
+    "descripcion": "Contenido multimedia interactivo que permite exploración detallada de productos/espacios. Ideal para reducir dudas pre-compra.",
+    "puntos_clave": [
+      "Videos explicativos cortos",
+      "Recorridos interactivos 360°",
+      "Compatibilidad multiplataforma",
+      "Integración en páginas web",
+      "SEO para contenido multimedia",
+      "Analíticas de visualización"
+    ],
+    "beneficios_cercanos": [
+      "Reduce objeciones de compra",
+      "Diferenciación competitiva",
+      "Mayor tiempo de engagement"
+    ],
+    "beneficios_futuros": [
+      "Preparación para comercio visual",
+      "Contenido para redes sociales",
+      "Adaptación a realidad aumentada"
+    ],
+    "tips_uso": [
+      "Enfocar en características clave",
+      "Incluir llamados a acción",
+      "Optimizar para carga rápida"
+    ],
+    "contenido_relacionado": [
+      "Galería de Fotos",
+      "Landing Pages",
+      "Lookbook Digital"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Requisitos técnicos?",
+        "respuesta": "Reproducible en cualquier navegador moderno."
+      },
+      {
+        "pregunta": "¿Duración recomendada?",
+        "respuesta": "30-90 segundos para mantener atención."
+      }
+    ]
+  },
+  {
+    "id": "blog-autogestionable",
+    "categoria": "contenido-y-comunicacion",
+    "titulo": "Blog Autoadministrable",
+    "titulos_sugeridos": [
+      "Contenido Fresco que Posiciona tu Marca",
+      "Blog Profesional sin Necesidad de Técnicos"
+    ],
+    "descripcion": "Sección autogestionable para publicar artículos, noticias y contenido SEO. Atrae tráfico orgánico y establece autoridad en tu sector.",
+    "puntos_clave": [
+      "Editor WYSIWYG intuitivo",
+      "Programación de publicaciones",
+      "Categorías y etiquetas SEO",
+      "Integración con redes sociales",
+      "Comentarios y engagement",
+      "Plantillas responsive"
+    ],
+    "beneficios_cercanos": [
+      "Mejora posicionamiento SEO",
+      "Educa a potenciales clientes",
+      "Mantiene sitio actualizado"
+    ],
+    "beneficios_futuros": [
+      "Generación de leads cualificados",
+      "Base para email marketing",
+      "Repositorio de conocimiento"
+    ],
+    "tips_uso": [
+      "Publicar mínimo 1-2 veces por semana",
+      "Usar palabras clave estratégicas",
+      "Incluir imágenes y multimedia"
+    ],
+    "contenido_relacionado": [
+      "SEO Local",
+      "Email Marketing",
+      "Campañas Meta Ads"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Necesito saber programar?",
+        "respuesta": "No, el editor es como procesador de texto."
+      },
+      {
+        "pregunta": "¿Ayuda realmente al SEO?",
+        "respuesta": "Sí, es uno de los factores más importantes para Google."
+      }
+    ]
+  },
+  {
+    "id": "lookbook-digital",
+    "categoria": "contenido-y-comunicacion",
+    "titulo": "Lookbook o Portafolio Visual",
+    "titulos_sugeridos": [
+      "Tu Mejor Trabajo en un Portafolio Impactante",
+      "Catálogo Visual que Convierte Visitantes"
+    ],
+    "descripcion": "Exhibición profesional de proyectos/productos con diseño visual impactante. Ideal para creativos, retail y servicios premium.",
+    "puntos_clave": [
+      "Plantillas personalizables",
+      "Organización por colecciones",
+      "Diseño orientado a conversión",
+      "Carga masiva de proyectos",
+      "Estadísticas de visualización",
+      "Modo pantalla completa"
+    ],
+    "beneficios_cercanos": [
+      "Presentación premium de trabajos",
+      "Facilita proceso de decisión",
+      "Refleja identidad de marca"
+    ],
+    "beneficios_futuros": [
+      "Base para pitches comerciales",
+      "Contenido para redes sociales",
+      "Adaptación a catálogos virtuales"
+    ],
+    "tips_uso": [
+      "Mostrar proyectos destacados",
+      "Incluir testimonios relevantes",
+      "Actualizar cada temporada"
+    ],
+    "contenido_relacionado": [
+      "Galería de Fotos",
+      "Videos 360°",
+      "Catálogo PDF"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Puedo proteger contenido?",
+        "respuesta": "Sí, con opción de marcas de agua."
+      },
+      {
+        "pregunta": "¿Número de proyectos?",
+        "respuesta": "Ilimitado con organización flexible."
+      }
+    ]
+  },
+  {
+    "id": "catalogo-pdf-auto",
+    "categoria": "contenido-y-comunicacion",
+    "titulo": "Catálogo PDF Autogenerado",
+    "titulos_sugeridos": [
+      "Catálogos Actualizados con un Click",
+      "PDF Profesional que Siempre Refleja tu Oferta"
+    ],
+    "descripcion": "Generación automática de catálogos en PDF con datos actualizados. Ideal para ventas B2B, distribuidores y showrooms digitales.",
+    "puntos_clave": [
+      "Exportación con datos reales",
+      "Plantillas personalizables",
+      "Inclusión de imágenes/descripciones",
+      "Descarga directa o por email",
+      "Marcado de productos destacados",
+      "Soporte para múltiples idiomas"
+    ],
+    "beneficios_cercanos": [
+      "Ahorro en diseño manual",
+      "Coherencia con inventario real",
+      "Distribución omnicanal"
+    ],
+    "beneficios_futuros": [
+      "Integración con CRM",
+      "Seguimiento de descargas",
+      "Conversión a catálogo interactivo"
+    ],
+    "tips_uso": [
+      "Definir secciones clave",
+      "Usar versión web como base",
+      "Incluir datos de contacto visibles"
+    ],
+    "contenido_relacionado": [
+      "Tienda Online",
+      "Email Marketing",
+      "Landing Pages"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Frecuencia de actualización?",
+        "respuesta": "Instantánea al generar el PDF."
+      },
+      {
+        "pregunta": "¿Tamaño del archivo?",
+        "respuesta": "Optimizado para email y web."
+      }
+    ]
+  },
+  {
+    "id": "plataforma-cursos-online",
+    "categoria": "expansion-digital-y-servicios-premium",
+    "titulo": "Plataforma de Cursos Online con Certificados",
+    "titulos_sugeridos": [
+      "Monetizá Tu Conocimiento con Cursos Digitales",
+      "Academia Virtual con Certificación Automática"
+    ],
+    "descripcion": "Solución todo-en-uno para crear, gestionar y vender cursos online. Incluye sistema de certificación automática, aulas virtuales y seguimiento de progreso para aprendizaje escalable.",
+    "puntos_clave": [
+      "Aulas virtuales (live/on-demand)",
+      "Evaluaciones automatizadas",
+      "Certificados digitales personalizables",
+      "Pasarelas de pago integradas",
+      "Control de accesos por suscripción",
+      "Analíticas de participación"
+    ],
+    "beneficios_cercanos": [
+      "Nuevo flujo de ingresos recurrente",
+      "Alcance global sin límites físicos",
+      "Posicionamiento como experto en tu área"
+    ],
+    "beneficios_futuros": [
+      "Creación de comunidad de alumnos",
+      "Posibilidad de programas certificados",
+      "Integración con ecosistema educativo"
+    ],
+    "tips_uso": [
+      "Estructurar cursos en módulos progresivos",
+      "Usar certificados como incentivo de finalización",
+      "Promocionar mediante webinars demostrativos"
+    ],
+    "contenido_relacionado": [
+      "Sitio Web Institucional",
+      "Email Marketing Automatizado",
+      "Sistema de Membresías"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Se pueden hacer clases en vivo?",
+        "respuesta": "Sí, con herramientas integradas de videoconferencia."
+      },
+      {
+        "pregunta": "¿Cómo se validan los certificados?",
+        "respuesta": "Mediante código único y verificación online."
+      }
+    ]
+  },
+  {
+    "id": "sitio-multirubro",
+    "categoria": "expansion-digital-y-servicios-premium",
+    "titulo": "Sitio Multirubro / Multiciudad",
+    "titulos_sugeridos": [
+      "Presencia Local con Gestión Centralizada",
+      "Red de Micrositios para Expansión Controlada"
+    ],
+    "descripcion": "Plataforma unificada que permite gestionar múltiples sitios segmentados por ubicación o rubro, manteniendo identidad de marca con contenido localizado.",
+    "puntos_clave": [
+      "Estructura hub-and-spoke",
+      "Personalización local (precios, promos)",
+      "SEO geolocalizado",
+      "Panel de control central",
+      "Dominios/Subdominios flexibles",
+      "Escalabilidad ilimitada"
+    ],
+    "beneficios_cercanos": [
+      "Reducción de costos de desarrollo",
+      "Consistencia de marca multisucursal",
+      "Mejor experiencia para usuarios locales"
+    ],
+    "beneficios_futuros": [
+      "Expansión rápida a nuevos mercados",
+      "Datos comparativos entre regiones",
+      "Estrategias de hiperlocalización"
+    ],
+    "tips_uso": [
+      "Crear guías de estilo para franquiciados",
+      "Optimizar metadata por ubicación",
+      "Sincronizar inventarios locales"
+    ],
+    "contenido_relacionado": [
+      "SEO Local",
+      "Sistema de Franquicias Digital",
+      "Panel de KPI Regionales"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Requiere hosting múltiple?",
+        "respuesta": "No, todo se aloja en infraestructura unificada."
+      },
+      {
+        "pregunta": "¿Diferenciación por ciudad?",
+        "respuesta": "Sí, con contenido, ofertas y SEO localizado."
+      }
+    ]
+  },
+  {
+    "id": "sistema-franquicias",
+    "categoria": "expansion-digital-y-servicios-premium",
+    "titulo": "Sistema de Franquicias Digital",
+    "titulos_sugeridos": [
+      "Red de Franquicias con Control Central",
+      "Expansión Estandarizada con Autogestión Local"
+    ],
+    "descripcion": "Ecosistema digital para gestionar redes de franquicias, combinando autonomía local con supervisión corporativa. Ideal para modelos de negocio escalables.",
+    "puntos_clave": [
+      "Dashboard corporativo",
+      "Paneles locales personalizables",
+      "Flujos de aprobación de contenido",
+      "Reportes consolidados",
+      "Sistema de tickets para soporte",
+      "Escalabilidad modular"
+    ],
+    "beneficios_cercanos": [
+      "Rápido onboarding de franquiciados",
+      "Cumplimiento de estándares de marca",
+      "Transparencia operativa"
+    ],
+    "beneficios_futuros": [
+      "Modelo de expansión replicable",
+      "Benchmarking entre unidades",
+      "Paquete llave en mano para franquicias"
+    ],
+    "tips_uso": [
+      "Establecer SLA claros para locales",
+      "Crear biblioteca de assets compartidos",
+      "Implementar programa de capacitación"
+    ],
+    "contenido_relacionado": [
+      "Sitio Multirubro",
+      "CRM Empresarial",
+      "Business Intelligence"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Control sobre contenido local?",
+        "respuesta": "Sí, con aprobación central opcional."
+      },
+      {
+        "pregunta": "¿Integración con POS locales?",
+        "respuesta": "Sí, mediante APIs estandarizadas."
+      }
+    ]
+  },
+  {
+    "id": "afiliados-promotores",
+    "categoria": "expansion-digital-y-servicios-premium",
+    "titulo": "Sitio de Afiliados o Promotores",
+    "titulos_sugeridos": [
+      "Programa de Afiliados Automatizado",
+      "Marketing de Performance Escalable"
+    ],
+    "descripcion": "Plataforma para gestionar redes de afiliados con seguimiento de conversiones, comisiones automatizadas y herramientas de marketing colaborativo.",
+    "puntos_clave": [
+      "Tracking de conversiones",
+      "Estructura de comisiones flexible",
+      "Panel de afiliados autogestionable",
+      "Generación de links únicos",
+      "Pagos automáticos",
+      "KPI de desempeño"
+    ],
+    "beneficios_cercanos": [
+      "Marketing basado en resultados",
+      "Ampliación de canal de ventas",
+      "Reducción de riesgo financiero"
+    ],
+    "beneficios_futuros": [
+      "Base de embajadores de marca",
+      "Optimización de CPA (Costo por Adquisición)",
+      "Expansión a mercados indirectos"
+    ],
+    "tips_uso": [
+      "Ofrecer materiales promocionales listos",
+      "Implementar programas de incentivos",
+      "Comunicación constante con la red"
+    ],
+    "contenido_relacionado": [
+      "Marketplace Multi-vendedor",
+      "CRM de Partners",
+      "Analítica de Campañas"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Métodos de pago a afiliados?",
+        "respuesta": "Transferencia, PayPal, MercadoPago según configuración."
+      },
+      {
+        "pregunta": "¿Protección contra fraude?",
+        "respuesta": "Sí, con validación de conversiones y períodos de espera."
+      }
+    ]
+  },
+  {
+    "id": "app-movil-personalizada",
+    "categoria": "expansion-digital-y-servicios-premium",
+    "titulo": "Aplicación Móvil Personalizada",
+    "titulos_sugeridos": [
+      "Tu Negocio en el Bolsillo de tus Clientes",
+      "Experiencia Mobile Premium con App Nativa"
+    ],
+    "descripcion": "Desarrollo de aplicaciones nativas para iOS y Android con funcionalidades personalizadas que potencian engagement y ventas recurrentes.",
+    "puntos_clave": [
+      "Diseño UX/UI premium",
+      "Funcionalidades offline",
+      "Notificaciones push segmentadas",
+      "Integración con sistemas legacy",
+      "Actualizaciones periódicas",
+      "Soporte técnico dedicado"
+    ],
+    "beneficios_cercanos": [
+      "Acceso directo sin intermediarios",
+      "Mayor tiempo de engagement",
+      "Canales de comunicación exclusivos"
+    ],
+    "beneficios_futuros": [
+      "Fidelización mediante programas propios",
+      "Recolección de datos de comportamiento",
+      "Integración con ecosistema IoT"
+    ],
+    "tips_uso": [
+      "Incentivar descargas con beneficios exclusivos",
+      "Usar geofencing para promociones",
+      "Optimizar para app stores (ASO)"
+    ],
+    "contenido_relacionado": [
+      "Wallet Digital",
+      "Programa de Fidelización",
+      "Analítica Mobile"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Tiempo de desarrollo?",
+        "respuesta": "8-12 semanas para versión inicial."
+      },
+      {
+        "pregunta": "¿Costos de mantenimiento?",
+        "respuesta": "Incluye actualizaciones y soporte técnico continuo."
       }
     ]
   }
