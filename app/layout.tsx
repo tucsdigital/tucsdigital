@@ -30,6 +30,15 @@ export const metadata: Metadata = {
     alternates: {
         canonical: '/',
     },
+    icons: {
+        icon: [
+            { url: '/assets/imgs/tucsdigitalicon.ico', sizes: 'any' },
+            { url: '/assets/imgs/template/tucs-isotipo.png', sizes: '32x32', type: 'image/png' },
+        ],
+        apple: [
+            { url: '/assets/imgs/template/tucs-isotipo.png', sizes: '180x180', type: 'image/png' },
+        ],
+    },
     openGraph: {
         title: "Tucs Digital - Soluciones Digitales Profesionales",
         description: "Especialistas en desarrollo web, aplicaciones móviles y soluciones digitales personalizadas. Transformamos tu negocio con tecnología de vanguardia.",
@@ -78,8 +87,6 @@ export default function RootLayout({
     return (
         <html lang="es">
             <head>
-                <link rel="icon" href="/assets/imgs/tucsdigitalicon.ico" />
-                <link rel="apple-touch-icon" href="/assets/imgs/tucsdigitalicon.ico" />
                 <link rel="manifest" href="/manifest.json" />
                 <meta name="theme-color" content="#6D4DF2" />
                 <meta name="msapplication-TileColor" content="#6D4DF2" />
