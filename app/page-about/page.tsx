@@ -5,6 +5,15 @@ import Link from "next/link"
 import CountUp from 'react-countup'
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { generateMetadata } from "@/lib/seo"
+import { Metadata } from "next"
+
+export const metadata: Metadata = generateMetadata({
+  title: "Nosotros - Tucs Digital",
+  description: "Conoce a Tucs Digital, tu partner tecnológico en Buenos Aires. Especialistas en desarrollo web, aplicaciones móviles y soluciones digitales personalizadas.",
+  keywords: ["nosotros", "equipo", "desarrollo web", "aplicaciones móviles", "Buenos Aires", "Tucs Digital", "historia"],
+  canonical: "/nosotros"
+})
 
 export default function PageAbout() {
 

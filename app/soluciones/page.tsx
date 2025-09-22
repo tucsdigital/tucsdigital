@@ -5,6 +5,15 @@ import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { CSSProperties } from "react";
+import { generateMetadata } from "@/lib/seo";
+import { Metadata } from "next";
+
+export const metadata: Metadata = generateMetadata({
+  title: "Soluciones Digitales - Tucs Digital",
+  description: "Descubre nuestras soluciones digitales: desarrollo web, e-commerce, aplicaciones móviles, marketing digital, sistemas de gestión y más. Más de 50 soluciones para tu negocio.",
+  keywords: ["soluciones digitales", "desarrollo web", "e-commerce", "aplicaciones móviles", "marketing digital", "sistemas de gestión", "Tucs Digital"],
+  canonical: "/soluciones"
+})
 
 const CATEGORIAS = [
   {

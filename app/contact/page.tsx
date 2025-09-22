@@ -2,6 +2,15 @@
 import Layout from "@/components/layout/Layout"
 import Contact1 from "@/components/sections/Contact1"
 import Link from "next/link"
+import { generateMetadata } from "@/lib/seo"
+import { Metadata } from "next"
+
+export const metadata: Metadata = generateMetadata({
+  title: "Contacto - Tucs Digital",
+  description: "Ponte en contacto con Tucs Digital. Consulta gratuita para tu proyecto digital. Desarrollo web, aplicaciones móviles y soluciones tecnológicas en Buenos Aires.",
+  keywords: ["contacto", "consulta gratuita", "desarrollo web", "aplicaciones móviles", "Buenos Aires", "Tucs Digital"],
+  canonical: "/contacto"
+})
 
 export default function ContactPage() {
 	return (

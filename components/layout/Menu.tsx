@@ -45,14 +45,14 @@ export default function Menu({ onNavigate, pathname }: MenuProps) {
 							Preguntas Frecuentes
 						</Link>
 					</li>
-					<li className="nav-item">
+					{/* <li className="nav-item">
 						<Link 
 							className="nav-link fw-bold" 
 							href="/page-pricing-01"
 						>
 							Precios
 						</Link>
-					</li>
+					</li> */}
 					<li className="nav-item">
 						<Link 
 							className="nav-link fw-bold" 

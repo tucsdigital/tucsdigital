@@ -12,6 +12,7 @@ import "/public/assets/css/main.css"
 import "@/node_modules/react-modal-video/css/modal-video.css"
 
 import type { Metadata } from "next"
+import StructuredData from "@/components/seo/StructuredData"
 
 export const metadata: Metadata = {
     title: "Tucs Digital - Soluciones Digitales Profesionales | Desarrollo Web y Aplicaciones",
@@ -36,10 +37,10 @@ export const metadata: Metadata = {
         siteName: 'Tucs Digital',
         images: [
             {
-                url: '/assets/imgs/template/tucs-isotipo.png',
+                url: '/assets/imgs/og-image.png',
                 width: 1200,
                 height: 630,
-                alt: 'Tucs Digital - Soluciones Digitales',
+                alt: 'Tucs Digital - Soluciones Digitales Profesionales',
             },
         ],
         locale: 'es_AR',
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: "Tucs Digital - Soluciones Digitales Profesionales",
         description: "Especialistas en desarrollo web, aplicaciones móviles y soluciones digitales personalizadas.",
-        images: ['/assets/imgs/template/tucs-isotipo.png'],
+        images: ['/assets/imgs/og-image.png'],
     },
     robots: {
         index: true,
@@ -77,12 +78,22 @@ export default function RootLayout({
     return (
         <html lang="es">
             <head>
-                <link rel="icon" href="/assets/imgs/template/tucs-isotipo.png" />
-                <link rel="apple-touch-icon" href="/assets/imgs/template/tucs-isotipo.png" />
+                <link rel="icon" href="/assets/imgs/tucsdigitalicon.ico" />
+                <link rel="apple-touch-icon" href="/assets/imgs/tucsdigitalicon.ico" />
+                <link rel="manifest" href="/manifest.json" />
                 <meta name="theme-color" content="#6D4DF2" />
                 <meta name="msapplication-TileColor" content="#6D4DF2" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="mobile-web-app-capable" content="yes" />
+                <meta name="apple-mobile-web-app-capable" content="yes" />
+                <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+                <meta name="apple-mobile-web-app-title" content="Tucs Digital" />
             </head>
-            <body>{children}</body>
+            <body>
+            <StructuredData type="organization" />
+            <StructuredData type="localBusiness" />
+            {children}
+        </body>
         </html>
     )
 }

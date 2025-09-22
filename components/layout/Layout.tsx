@@ -3,6 +3,8 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from "react"
 import BackToTop from '../elements/BackToTop'
+import WhatsAppFloat from '../elements/WhatsAppFloat'
+import { contactConfig } from '../../config/contact'
 import Breadcrumb from './Breadcrumb'
 import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
@@ -76,6 +78,10 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			<Footer2 />
 
 			<BackToTop target="#top" />
+			<WhatsAppFloat 
+				phoneNumber={contactConfig.whatsapp.phoneNumber} 
+				message={contactConfig.whatsapp.message} 
+			/>
 		</>
 	)
 }
