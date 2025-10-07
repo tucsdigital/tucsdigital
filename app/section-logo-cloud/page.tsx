@@ -34,7 +34,7 @@ export default function SectionLogoCloud() {
 					</div>
 				</section>
 				{/*Logo cloud 1*/}
-				<div className="section-logo-cloud container-fluid mt-8 mt-lg-0 border-top border-bottom">
+				<div className="section-logo-cloud container-fluid mt-0 mt-lg-8 border-top border-bottom">
 					<div className="container">
 						<div className="row mask-image">
 							{/* Carausel Scroll */}
@@ -205,7 +205,7 @@ export default function SectionLogoCloud() {
 					</div>
 				</div>
 				{/*Logo cloud 4*/}
-				<div className="container-fluid mt-8 mt-lg-0 bg-4">
+			<div className="container-fluid mt-0 mt-lg-8 bg-4">
 					<div className="container">
 						<div className="row">
 							{/* Carausel Scroll */}

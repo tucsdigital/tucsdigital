@@ -16,7 +16,7 @@ export default function Cta2() {
 							<img src="/assets/imgs/features-1/dots.png" alt="Tu Marca" />
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">¿Por qué elegir Tu Marca?</span>
 						</div>
-						<h3 className="ds-3 my-3 fw-regular">En <span className=" fw-bold">Tu Marca</span> brindamos <span className=" fw-bold">soluciones digitales</span> para <br className="d-lg-block d-none" /> organizaciones de todos los tamaños</h3>
+						<h3 className="ds-3 my-3 fw-regular">Brindamos <span className=" fw-bold">soluciones digitales</span> para organizaciones de todos los tamaños</h3>
 					</div>
 					<div className="row">
 						<div className="col-lg-5 pe-lg-0">

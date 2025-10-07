@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 export default function LogoCloud1() {
   return (
     <>
-      <div className="section-logo-cloud container-fluid mt-8 mt-lg-0 border-top border-bottom">
+      <div className="section-logo-cloud container-fluid mt-0 mt-lg-8 border-top border-bottom">
         <div className="container">
           <div className="row mask-image">
             {/* Carausel Scroll */}

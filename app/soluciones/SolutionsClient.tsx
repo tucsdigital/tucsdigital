@@ -4,87 +4,47 @@ import Slider from "react-slick";
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { CSSProperties } from "react";
+import { useEffect, useMemo, useState } from "react";
 
-const CATEGORIAS = [
-  {
-    nombre: "VENTAS Y COMERCIO",
-    soluciones: [
-      { id: "tienda-online", nombre: "Tienda Online", descripcion: "E-commerce completo" },
-      { id: "carrito-compras", nombre: "Carrito de Compras", descripcion: "Sistema de compras" },
-      { id: "catalogo-productos", nombre: "Catálogo de Productos", descripcion: "Gestión de inventario" },
-      { id: "checkout-seguro", nombre: "Checkout Seguro", descripcion: "Proceso de pago seguro" },
-      { id: "gestion-inventario", nombre: "Gestión de Inventario", descripcion: "Control de stock" },
-      { id: "reportes-ventas", nombre: "Reportes de Ventas", descripcion: "Análisis de ventas" },
-      { id: "cupones-descuentos", nombre: "Cupones y Descuentos", descripcion: "Sistema de promociones" },
-      { id: "programa-fidelidad", nombre: "Programa de Fidelidad", descripcion: "Cliente frecuente" },
-      { id: "marketplace", nombre: "Marketplace", descripcion: "Plataforma multi-vendedor" },
-      { id: "dropshipping", nombre: "Dropshipping", descripcion: "Venta sin inventario" }
-    ]
-  },
-  {
-    nombre: "MARKETING Y COMUNICACIÓN",
-    soluciones: [
-      { id: "campañas-email", nombre: "Campañas de Email", descripcion: "Marketing por correo" },
-      { id: "redes-sociales", nombre: "Gestión de Redes Sociales", descripcion: "Social media management" },
-      { id: "content-marketing", nombre: "Content Marketing", descripcion: "Marketing de contenidos" },
-      { id: "seo-sem", nombre: "SEO y SEM", descripcion: "Posicionamiento web" },
-      { id: "analytics-marketing", nombre: "Analytics de Marketing", descripcion: "Métricas y análisis" },
-      { id: "landing-pages", nombre: "Landing Pages", descripcion: "Páginas de conversión" },
-      { id: "chatbots", nombre: "Chatbots", descripcion: "Atención automatizada" },
-      { id: "crm-marketing", nombre: "CRM de Marketing", descripcion: "Gestión de clientes" },
-      { id: "automation", nombre: "Marketing Automation", descripcion: "Automatización de marketing" },
-      { id: "influencer-marketing", nombre: "Influencer Marketing", descripcion: "Marketing de influencers" }
-    ]
-  },
-  {
-    nombre: "GESTIÓN Y PRODUCTIVIDAD",
-    soluciones: [
-      { id: "crm", nombre: "CRM", descripcion: "Gestión de clientes" },
-      { id: "erp", nombre: "ERP", descripcion: "Planificación de recursos" },
-      { id: "gestion-proyectos", nombre: "Gestión de Proyectos", descripcion: "Project management" },
-      { id: "facturacion", nombre: "Facturación Electrónica", descripcion: "Sistema de facturas" },
-      { id: "contabilidad", nombre: "Contabilidad", descripcion: "Gestión financiera" },
-      { id: "recursos-humanos", nombre: "Recursos Humanos", descripcion: "HR management" },
-      { id: "inventario", nombre: "Gestión de Inventario", descripcion: "Control de stock" },
-      { id: "tickets-soporte", nombre: "Sistema de Tickets", descripcion: "Soporte al cliente" },
-      { id: "documentos", nombre: "Gestión Documental", descripcion: "Document management" },
-      { id: "reportes", nombre: "Reportes y Analytics", descripcion: "Business intelligence" }
-    ]
-  },
-  {
-    nombre: "DESARROLLO Y TECNOLOGÍA",
-    soluciones: [
-      { id: "aplicaciones-web", nombre: "Aplicaciones Web", descripcion: "Desarrollo web" },
-      { id: "apps-moviles", nombre: "Apps Móviles", descripcion: "iOS y Android" },
-      { id: "apis", nombre: "APIs", descripcion: "Interfaces de programación" },
-      { id: "integraciones", nombre: "Integraciones", descripcion: "Conectar sistemas" },
-      { id: "cloud-computing", nombre: "Cloud Computing", descripcion: "Computación en la nube" },
-      { id: "seguridad", nombre: "Seguridad Informática", descripcion: "Ciberseguridad" },
-      { id: "backup", nombre: "Backup y Recuperación", descripcion: "Respaldo de datos" },
-      { id: "monitoreo", nombre: "Monitoreo de Sistemas", descripcion: "Sistema de alertas" },
-      { id: "devops", nombre: "DevOps", descripcion: "Desarrollo y operaciones" },
-      { id: "microservicios", nombre: "Microservicios", descripcion: "Arquitectura distribuida" }
-    ]
-  },
-  {
-    nombre: "EDUCACIÓN Y CAPACITACIÓN",
-    soluciones: [
-      { id: "lms", nombre: "LMS", descripcion: "Sistema de aprendizaje" },
-      { id: "cursos-online", nombre: "Cursos Online", descripcion: "E-learning" },
-      { id: "webinars", nombre: "Webinars", descripcion: "Seminarios web" },
-      { id: "certificaciones", nombre: "Certificaciones", descripcion: "Sistema de certificados" },
-      { id: "gamificacion", nombre: "Gamificación", descripcion: "Aprendizaje gamificado" },
-      { id: "tutores", nombre: "Plataforma de Tutores", descripcion: "Conecta estudiantes y tutores" },
-      { id: "evaluaciones", nombre: "Sistema de Evaluaciones", descripcion: "Tests y exámenes" },
-      { id: "biblioteca-digital", nombre: "Biblioteca Digital", descripcion: "Recursos educativos" },
-      { id: "trabajo-colaborativo", nombre: "Trabajo Colaborativo", descripcion: "Herramientas de colaboración" },
-      { id: "analytics-educativo", nombre: "Analytics Educativo", descripcion: "Métricas de aprendizaje" }
-    ]
-  }
-];
+type Solucion = {
+  id: string;
+  categoria?: string;
+  titulo: string;
+  descripcion: string;
+};
+
+type CategoriaUI = {
+  nombre: string;
+  soluciones: { id: string; nombre: string; descripcion: string }[];
+};
+
+const toDisplayCategory = (slug?: string): string => {
+  if (!slug) return "OTRAS";
+  return slug
+    .replace(/-/g, " ")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase();
+};
 
 export default function SolutionsClient() {
+  const [soluciones, setSoluciones] = useState<Solucion[]>([]);
+  useEffect(() => {
+    fetch("/soluciones.json")
+      .then((r) => r.json())
+      .then((data: Solucion[]) => setSoluciones(data))
+      .catch(() => setSoluciones([]));
+  }, []);
+
+  const categorias: CategoriaUI[] = useMemo(() => {
+    const grouped = new Map<string, CategoriaUI>();
+    soluciones.forEach((s) => {
+      const key = toDisplayCategory(s.categoria);
+      if (!grouped.has(key)) grouped.set(key, { nombre: key, soluciones: [] });
+      grouped.get(key)!.soluciones.push({ id: s.id, nombre: s.titulo, descripcion: s.descripcion });
+    });
+    return Array.from(grouped.values());
+  }, [soluciones]);
   const settings = {
     dots: true,
     infinite: true,
@@ -140,7 +100,7 @@ export default function SolutionsClient() {
           </div>
 
           <div className="row">
-            {CATEGORIAS.map((categoria, index) => (
+            {categorias.map((categoria, index) => (
               <div key={index} className="col-lg-4 col-md-6 mb-6">
                 <div className="bg-white rounded-4 p-6 h-100 border shadow-sm">
                   <h4 className="text-primary mb-4">{categoria.nombre}</h4>
@@ -160,8 +120,7 @@ export default function SolutionsClient() {
                             </div>
                           </div>
                           <div>
-                            <h6 className="mb-1 text-900">{solucion.nombre}</h6>
-                            <p className="mb-0 text-600 fs-7">{solucion.descripcion}</p>
+                            <h6 className="mb-0 text-900">{solucion.nombre}</h6>
                           </div>
                         </Link>
                       </div>

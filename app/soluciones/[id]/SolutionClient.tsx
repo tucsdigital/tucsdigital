@@ -3,7 +3,6 @@ import { useState } from "react";
 import React from "react";
 import Link from "next/link";
 import { notFound } from 'next/navigation';
-import Preloader from "@/components/elements/Preloader";
 import StructuredData from "@/components/seo/StructuredData";
 
 interface FAQ {
@@ -46,7 +45,75 @@ export default function SolutionClient({ params }: SolutionClientProps) {
     fetchData();
   }, [params.id]);
 
-  if (loading) return <Preloader />;
+  if (loading) {
+    return (
+      <section className="section-padding">
+        <div className="container">
+          {/* Header / breadcrumb skeleton */}
+          <div className="mb-6">
+            <div className="skeleton skeleton-breadcrumb mb-3" />
+            <div className="skeleton skeleton-page-title" />
+          </div>
+          <div className="row g-4 g-lg-5">
+            <div className="col-lg-8 order-2 order-lg-1">
+              <div className="skeleton ratio-16x9 rounded-3 mb-4" />
+              <div className="skeleton skeleton-section-title mb-3" />
+              <div className="skeleton skeleton-text mb-2" />
+              <div className="skeleton skeleton-text mb-2" />
+              <div className="skeleton skeleton-text w-75 mb-4" />
+              <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                {Array.from({ length: 6 }).map((_, i) => (
+                  <div className="col" key={i}>
+                    <div className="d-flex align-items-center">
+                      <div className="skeleton circle-28 me-2" />
+                      <div className="skeleton skeleton-text" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="col-lg-4 order-1 order-lg-2">
+              <div className="card p-4 rounded-4 border-0 shadow-sm mb-4">
+                <div className="skeleton skeleton-subtitle mb-3" />
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <div className="skeleton skeleton-chip mb-2" key={`chip-${i}`} />
+                ))}
+              </div>
+              <div className="card p-4 rounded-4 border-0 shadow-sm">
+                <div className="skeleton skeleton-subtitle mb-3" />
+                {Array.from({ length: 3 }).map((_, i) => (
+                  <div className="skeleton skeleton-doc mb-2" key={`doc-${i}`} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <style jsx>{`
+          .skeleton { position: relative; overflow: hidden; background: #f2f3f5; border-radius: 8px; }
+          .skeleton::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgba(255,255,255,0.55), transparent); animation: shimmer 1.25s infinite; }
+          .ratio-16x9 { width: 100%; padding-top: 56.25%; }
+          .circle-28 { width: 28px; height: 28px; border-radius: 50%; }
+          .skeleton-breadcrumb { height: 16px; width: 140px; border-radius: 4px; }
+          .skeleton-page-title { height: 40px; width: min(680px, 90%); }
+          .skeleton-section-title { height: 26px; width: 70%; }
+          .skeleton-subtitle { height: 20px; width: 60%; }
+          .skeleton-text { height: 14px; width: 100%; border-radius: 6px; }
+          .skeleton-chip { height: 44px; width: 100%; border-radius: 12px; }
+          .skeleton-doc { height: 56px; width: 100%; border-radius: 12px; }
+          .w-75 { width: 75% !important; }
+          @keyframes shimmer { 100% { transform: translateX(100%); } }
+
+          @media (max-width: 991.98px) {
+            .skeleton-page-title { height: 34px; }
+            .skeleton-chip { height: 40px; }
+          }
+          @media (max-width: 575.98px) {
+            .skeleton-page-title { width: 100%; }
+          }
+        `}</style>
+      </section>
+    );
+  }
   if (!solucion) return notFound();
 
   return (
@@ -142,8 +209,7 @@ export default function SolutionClient({ params }: SolutionClientProps) {
               </div>
             </div>
             <div className="col-lg-4 sidebar">
-              {/* Sidebar igual que en el ejemplo, puedes personalizar si lo deseas */}
-              <Link href="#" className="btn btn-outline-secondary-2 w-100 text-start mb-2 fs-5 py-3 d-flex justify-content-between align-items-center">
+              {/* <Link href="#" className="btn btn-outline-secondary-2 w-100 text-start mb-2 fs-5 py-3 d-flex justify-content-between align-items-center">
                 Consultoría Digital
                 <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                   <path className="fill-neutral-100" d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="#f3f4f6" />
@@ -191,8 +257,8 @@ export default function SolutionClient({ params }: SolutionClientProps) {
                   <img src="/assets/imgs/services-details/icon-4.svg" alt="Tucs Digital" />
                   <p className="text-900 fs-7 mb-0 ms-3">Ver en Google Drive</p>
                 </Link>
-              </div>
-              <div className="bg-primary rounded-4 mt-7 position-relative">
+              </div> */}
+              <div className="bg-primary rounded-4 position-relative">
                 <div className="p-7">
                   <h4 className="text-white">
                     Impulsando la Experiencia Digital <br />
@@ -205,8 +271,8 @@ export default function SolutionClient({ params }: SolutionClientProps) {
                       <h5 className="text-white d-block">+54 9 11 4471 3445</h5>
                     </div>
                   </Link>
-                  <Link href="#" className="fw-bold btn text-start bg-white fs-6 d-flex align-items-center justify-content-between text-primary hover-up w-100">
-                    <span>Solicita una Consultoría Gratuita</span>
+                  <Link href="https://wa.me/5491144713445" target="_blank" rel="noopener noreferrer" className="fw-bold btn text-start bg-white fs-6 d-flex align-items-center justify-content-between text-primary hover-up w-100">
+                    <span>Escríbenos por WhatsApp</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                       <path d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="#6D4DF2" />
                     </svg>
@@ -214,7 +280,7 @@ export default function SolutionClient({ params }: SolutionClientProps) {
                 </div>
                 <img className="position-absolute top-0 end-0" src="/assets/imgs/services-details/bg-line-3.png" alt="Tucs Digital" />
               </div>
-              <div className="position-relative mb-lg-0 mb-8 d-inline-block fix mt-7">
+              {/* <div className="position-relative mb-lg-0 mb-8 d-inline-block fix mt-7">
                 <div className="zoom-img rounded-4 fix">
                   <img src="/assets/imgs/services-details-2/img-2.png" alt="Tucs Digital" />
                 </div>
@@ -228,7 +294,7 @@ export default function SolutionClient({ params }: SolutionClientProps) {
                     <img className="avt-hero z-0" src=" assets/imgs/features-3/avatar-3.png" alt="Tucs Digital" />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
