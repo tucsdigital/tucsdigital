@@ -149,7 +149,7 @@ export function generateLocalBusinessSchema() {
     "description": "Agencia de desarrollo web y soluciones digitales en Buenos Aires",
     "url": "https://tucsdigital.com",
     "telephone": "+5491144713445",
-    "email": "contacto@tucsdigital.com",
+    "email": "tucsdigital@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "AR",

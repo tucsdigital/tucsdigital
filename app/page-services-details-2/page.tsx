@@ -395,34 +395,22 @@ export default function PageServicesDetails2() {
 									<div className="col-lg-6">
 										<div className="ps-lg-6">
 											<h6>Chatea con nosotros</h6>
-											<p className="text-500">Nuestro equipo de soporte está disponible 24/7</p>
-											<div className="d-flex mb-2">
-												<img src="/assets/imgs/contact-2/icon-1.svg" alt="Tucs Digital" />
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat vía Whatsapp</Link>
-											</div>
-											<div className="d-flex mb-2">
-												<img src="/assets/imgs/contact-2/icon-2.svg" alt="Tucs Digital" />
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat vía Viber</Link>
-											</div>
+											<p className="text-500">Nuestro equipo de soporte está disponible</p>
 											<div className="d-flex mb-2 mb-5">
-												<img src="/assets/imgs/contact-2/icon-3.svg" alt="Tucs Digital" />
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat vía Messenger</Link>
+												<img src="/assets/imgs/contact-2/icon-1.svg" alt="Tucs Digital" />
+												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="https://wa.me/5491144713445" target="_blank" rel="noopener noreferrer">Chat vía WhatsApp</Link>
 											</div>
 											<h6>Envíanos un correo</h6>
 											<p className="text-500">Nuestro equipo responderá rápidamente tus consultas</p>
-											<div className="d-flex mb-2">
-												<img src="/assets/imgs/contact-2/icon-4.svg" alt="Tucs Digital" />
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">soporte@tucsdigital.com</Link>
-											</div>
 											<div className="d-flex mb-2 mb-5">
 												<img src="/assets/imgs/contact-2/icon-4.svg" alt="Tucs Digital" />
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">ventas@tucsdigital.com</Link>
+											<Link className="ms-2 text-decoration-underline text-900 fs-7" href="mailto:tucsdigital@gmail.com">tucsdigital@gmail.com</Link>
 											</div>
 											<h6>¿Necesitas ayuda inmediata?</h6>
 											<p className="text-500">Contáctanos para asistencia inmediata</p>
 											<div className="d-flex mb-2">
 												<img src="/assets/imgs/contact-2/icon-5.svg" alt="Tucs Digital" />
-												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">+54 9 11 2345 6789</Link>
+												<Link className="ms-2 text-decoration-underline text-900 fs-7" href="tel:+5491144713445">+54 9 11 4471 3445</Link>
 											</div>
 										</div>
 									</div>

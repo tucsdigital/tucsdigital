@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Footer2() {
   return (
@@ -146,70 +147,32 @@ export default function Footer2() {
                       <h3 className="text-900 fs-6 fw-black text-uppercase pb-3 pt-5">
                         Publicaciones de Instagram
                       </h3>
-                      <div className="d-flex">
-                        <Link
-                          href="/http://instagram.com/username"
-                          className="me-2 hover-up"
-                        >
-                          <img
-                            className="rounded-3"
-                            src="assets/imgs/footer-3/img-inst-1.png"
-                            alt="Tucs Digital"
-                          />
-                        </Link>
-                        <Link
-                          href="/http://instagram.com/username"
-                          className="me-2 hover-up"
-                        >
-                          <img
-                            className="rounded-3"
-                            src="assets/imgs/footer-3/img-inst-2.png"
-                            alt="Tucs Digital"
-                          />
-                        </Link>
-                        <Link
-                          href="/http://instagram.com/username"
-                          className="me-2 hover-up"
-                        >
-                          <img
-                            className="rounded-3"
-                            src="assets/imgs/footer-3/img-inst-3.png"
-                            alt="Tucs Digital"
-                          />
-                        </Link>
-                      </div>
-                      <div className="d-flex mt-2">
-                        <Link
-                          href="/http://instagram.com/username"
-                          className="me-2 hover-up"
-                        >
-                          <img
-                            className="rounded-3"
-                            src="assets/imgs/footer-3/img-inst-4.png"
-                            alt="Tucs Digital"
-                          />
-                        </Link>
-                        <Link
-                          href="/http://instagram.com/username"
-                          className="me-2 hover-up"
-                        >
-                          <img
-                            className="rounded-3"
-                            src="assets/imgs/footer-3/img-inst-5.png"
-                            alt="Tucs Digital"
-                          />
-                        </Link>
-                        <Link
-                          href="/http://instagram.com/username"
-                          className="me-2 hover-up"
-                        >
-                          <img
-                            className="rounded-3"
-                            src="assets/imgs/footer-3/img-inst-6.png"
-                            alt="Tucs Digital"
-                          />
-                        </Link>
-                      </div>
+                      {/* Elfsight Instagram Feed | Untitled Instagram Feed */}
+                      <Script
+                        src="https://elfsightcdn.com/platform.js"
+                        strategy="lazyOnload"
+                      />
+                      <div
+                        className="elfsight-app-ec4dc92e-4df1-4c96-b65c-9d78e6ce49c6"
+                        data-elfsight-app-lazy
+                      />
+                      <style jsx>{`
+                        :global(.eapps-instagram-feed-title) {
+                          display: none !important;
+                        }
+                        :global(.elfsight-app-ec4dc92e-4df1-4c96-b65c-9d78e6ce49c6) {
+                          max-width: 100% !important;
+                          transform: scale(0.8);
+                          transform-origin: top left;
+                        }
+                        :global(.eapps-instagram-feed-posts-grid-item) {
+                          max-width: 80px !important;
+                          max-height: 80px !important;
+                        }
+                        :global(.eapps-instagram-feed-posts-grid) {
+                          gap: 8px !important;
+                        }
+                      `}</style>
                     </div>
                   </div>
                 </div>
