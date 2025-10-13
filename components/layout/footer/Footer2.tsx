@@ -147,32 +147,30 @@ export default function Footer2() {
                         Publicaciones de Instagram
                       </h3>
                       {/* Elfsight Instagram Feed */}
-                      <iframe 
-                        src="https://ec4dc92e4df14c96b65c9d78e6ce49c6.elf.site" 
-                        width="100%" 
-                        height="400" 
-                        frameBorder="0"
-                        style={{
-                          border: 'none',
-                          overflow: 'hidden'
-                        }}
-                        title="Instagram Feed"
-                      />
+                      <div className="instagram-feed-container">
+                        <iframe 
+                          src="https://ec4dc92e4df14c96b65c9d78e6ce49c6.elf.site" 
+                          width="100%" 
+                          frameBorder="0"
+                          style={{
+                            border: 'none',
+                            overflow: 'hidden',
+                            minHeight: '290px',
+                            height: 'auto'
+                          }}
+                          title="Instagram Feed"
+                          scrolling="no"
+                        />
+                      </div>
                       <style jsx>{`
-                        :global(.eapps-instagram-feed-title) {
-                          display: none !important;
-                        }
-                        :global(.elfsight-app-ec4dc92e-4df1-4c96-b65c-9d78e6ce49c6) {
-                          max-width: 100% !important;
+                        .instagram-feed-container {
+                          max-width: 100%;
                           transform: scale(0.8);
                           transform-origin: top left;
+                          margin-bottom: -20%;
                         }
-                        :global(.eapps-instagram-feed-posts-grid-item) {
-                          max-width: 80px !important;
-                          max-height: 80px !important;
-                        }
-                        :global(.eapps-instagram-feed-posts-grid) {
-                          gap: 8px !important;
+                        .instagram-feed-container iframe {
+                          display: block;
                         }
                       `}</style>
                     </div>

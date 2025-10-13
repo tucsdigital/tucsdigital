@@ -32,12 +32,15 @@ export const metadata: Metadata = {
     },
     icons: {
         icon: [
-            { url: '/assets/imgs/tucsdigitalicon.ico', sizes: 'any' },
+            { url: '/favicon.ico', sizes: 'any' },
+            { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+            { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
             { url: '/assets/imgs/template/tucs-isotipo.png', sizes: '32x32', type: 'image/png' },
         ],
         apple: [
             { url: '/assets/imgs/template/tucs-isotipo.png', sizes: '180x180', type: 'image/png' },
         ],
+        shortcut: '/favicon.ico',
     },
     openGraph: {
         title: "Tucs Digital - Soluciones Digitales Profesionales",
@@ -87,6 +90,9 @@ export default function RootLayout({
     return (
         <html lang="es">
             <head>
+                <link rel="icon" href="/favicon.ico" sizes="any" />
+                <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+                <link rel="shortcut icon" href="/favicon.ico" />
                 <link rel="manifest" href="/manifest.json" />
                 <meta name="theme-color" content="#6D4DF2" />
                 <meta name="msapplication-TileColor" content="#6D4DF2" />
