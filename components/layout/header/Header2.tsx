@@ -98,12 +98,13 @@ export default function Header2({
             </Link>
             <Menu onNavigate={handleNavigation} pathname={pathname} />
             <div className="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
-              <Link
-                href="javascript:void(0)"
+              <button
+                type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target=".offcanvasTop"
                 onClick={handleSearch}
-                className="cursor-pointer"
+                className="cursor-pointer btn btn-link p-0 border-0"
+                style={{ background: 'none' }}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +122,7 @@ export default function Header2({
                     strokeLinejoin="round"
                   />
                 </svg>
-              </Link>
+              </button>
               <ThemeSwitch />
               <button
                 onClick={handleContactClick}

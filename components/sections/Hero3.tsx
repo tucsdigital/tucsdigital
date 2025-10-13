@@ -1,21 +1,21 @@
- 'use client'
+'use client'
 import Marquee from "react-fast-marquee";
 import Link from "next/link"
 
 export default function Hero3() {
 	return (
 		<>
-			<section className="section-hero-3 position-relative fix section-padding">
+			<section className="position-relative fix py-4 py-md-6 py-lg-8 py-xl-10">
 				<div className="container">
 					<div className="row align-items-center position-relative">
-						<div className="col-lg-7 position-relative z-1 mb-lg-0 mb-5">
-							<div className="text-start mb-lg-0 mb-5">
+						<div className="col-lg-7 position-relative z-1 mb-lg-0 mb-3 mb-md-5">
+							<div className="text-start mb-lg-0 mb-3 mb-md-5">
 								<div className="border-linear-1 rounded-pill d-inline-block mb-3">
 									<div className="text-primary bg-white px-4 py-2 rounded-pill fw-medium position-relative z-2">🚀 Soluciones web a medida</div>
 								</div>
 								
 								{/* Título optimizado para responsividad */}
-								<h1 className="hero-title mb-4">
+								<h1 className="hero-title mb-3 mb-md-4">
 									<span className="d-block">Impulsa tu</span>
 									<span className="d-block">negocio con</span>
 									<span className="d-block">soluciones web</span>
@@ -23,7 +23,7 @@ export default function Hero3() {
 								</h1>
 								
 								{/* Botón y estrella organizados horizontalmente */}
-								<div className="hero-actions d-flex align-items-center justify-content-between mt-4">
+								<div className="hero-actions d-flex align-items-center justify-content-between mt-3 mt-md-4">
 									<Link href="#" className="btn btn-gradient btn-lg d-inline-flex align-items-center">
 										Comienza ahora
 										<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24" fill="none">
@@ -87,29 +87,60 @@ export default function Hero3() {
 						opacity: 0.7;
 					}
 
-						@keyframes spin {
-							from { transform: rotate(0deg); }
-							to { transform: rotate(360deg); }
-						}
+					@keyframes spin {
+						from { transform: rotate(0deg); }
+						to { transform: rotate(360deg); }
+					}
 
+					/* Responsive padding personalizado para casos específicos */
+					@media (max-width: 575.98px) {
+						.py-4 {
+							padding-top: 1.5rem !important;
+							padding-bottom: 1rem !important;
+						}
+					}
+					
+					@media (min-width: 576px) and (max-width: 767.98px) {
+						.py-4 {
+							padding-top: 2rem !important;
+							padding-bottom: 1.5rem !important;
+						}
+					}
+					
+					@media (min-width: 768px) and (max-width: 991.98px) {
+						.py-md-6 {
+							padding-top: 4rem !important;
+							padding-bottom: 4rem !important;
+						}
+					}
+					
+					@media (min-width: 992px) and (max-width: 1199.98px) {
+						.py-lg-8 {
+							padding-top: 5rem !important;
+							padding-bottom: 5rem !important;
+						}
+					}
+					
+					@media (min-width: 1200px) {
+						.py-xl-10 {
+							padding-top: 7.5rem !important;
+							padding-bottom: 7.5rem !important;
+						}
+					}
+					
 					@media (max-width: 768px) {
 						.hero-title {
 							font-size: clamp(1.75rem, 6vw, 2.5rem);
 							line-height: 1.2;
-							margin-bottom: 0.75rem;
+							margin-bottom: 0.5rem !important;
 						}
 						
 						.hero-title span {
-							margin-bottom: 0.2rem;
-						}
-						
-						.section-hero-3 {
-							padding-bottom: 0!important;
-							padding-top: 120px;
+							margin-bottom: 0.1rem;
 						}
 						
 						.hero-actions {
-							margin-top: 1rem !important;
+							margin-top: 0.75rem !important;
 							gap: 0.5rem;
 						}
 						
@@ -121,6 +152,15 @@ export default function Hero3() {
 						.mobile-star {
 							width: 70px;
 							height: 70px;
+						}
+						
+						/* Reducir márgenes en elementos específicos */
+						.mb-3 {
+							margin-bottom: 0.75rem !important;
+						}
+						
+						.mt-3 {
+							margin-top: 0.75rem !important;
 						}
 					}
 					
