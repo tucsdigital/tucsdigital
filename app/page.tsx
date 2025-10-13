@@ -44,7 +44,7 @@ export default function Home3() {
         {/* <Features7 />
 				<Pricing3 /> */}
         <Faqs2 />
-        <Blog3 />
+        {/* <Blog3 /> */}
         <Contact1 />
         <Newsletter2 />
       </Layout>

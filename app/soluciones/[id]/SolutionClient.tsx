@@ -162,7 +162,7 @@ export default function SolutionClient({ params }: SolutionClientProps) {
         <div className="container">
           <div className="row pt-8">
             <div className="col-lg-8 ps-lg-4 mt-lg-0 mt-8 content">
-              <img className="rounded-3" src="/assets/imgs/services-details-2/img-1.png" alt="Tucs Digital" />
+              {/* <img className="rounded-3" src="/assets/imgs/services-details-2/img-1.png" alt="Tucs Digital" /> */}
               {solucion.titulos_sugeridos[0] && (
                 <h4 className="fw-bold text-primary mb-2 mt-4">{solucion.titulos_sugeridos[0]}</h4>
               )}
