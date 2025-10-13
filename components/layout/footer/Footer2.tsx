@@ -147,15 +147,13 @@ export default function Footer2() {
                       <h3 className="text-900 fs-6 fw-black text-uppercase pb-3 pt-5">
                         Publicaciones de Instagram
                       </h3>
-                      {/* Elfsight Instagram Feed | Untitled Instagram Feed */}
+                      {/* Elfsight Instagram Feed */}
                       <Script
-                        src="https://elfsightcdn.com/platform.js"
-                        strategy="lazyOnload"
+                        src="https://static.elfsight.com/platform/platform.js"
+                        strategy="afterInteractive"
+                        async
                       />
-                      <div
-                        className="elfsight-app-ec4dc92e-4df1-4c96-b65c-9d78e6ce49c6"
-                        data-elfsight-app-lazy
-                      />
+                      <div className="elfsight-app-ec4dc92e-4df1-4c96-b65c-9d78e6ce49c6" />
                       <style jsx>{`
                         :global(.eapps-instagram-feed-title) {
                           display: none !important;
