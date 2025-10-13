@@ -12,6 +12,7 @@ import "/public/assets/css/main.css"
 import "@/node_modules/react-modal-video/css/modal-video.css"
 
 import type { Metadata } from "next"
+import Script from "next/script"
 import StructuredData from "@/components/seo/StructuredData"
 
 export const metadata: Metadata = {
@@ -97,6 +98,10 @@ export default function RootLayout({
                 <meta name="apple-mobile-web-app-title" content="Tucs Digital" />
             </head>
             <body>
+            <Script
+                src="https://elfsightcdn.com/platform.js"
+                strategy="afterInteractive"
+            />
             <StructuredData type="organization" />
             <StructuredData type="localBusiness" />
             {children}
