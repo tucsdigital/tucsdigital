@@ -21,7 +21,7 @@ export default function BeneficiosViajes() {
 				</svg>
 			),
 			title: 'Aumento de Ventas',
-			description: 'Incrementa tus reservas hasta un 40% con herramientas de marketing automatizado y seguimiento inteligente de leads.'
+			description: 'Incrementa tus reservas con una página web profesional y un sistema de gestión eficiente que facilita las conversiones.'
 		},
 		{
 			icon: (
@@ -73,7 +73,7 @@ export default function BeneficiosViajes() {
 							<img src="/assets/imgs/features-1/dots.png" alt="Beneficios" />
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Beneficios</span>
 						</div>
-						<h3 className="ds-3 mb-4" data-aos="fade-up" data-aos-delay={200}>
+						<h3 className="fs-1 mb-4" data-aos="fade-up" data-aos-delay={200}>
 							Beneficios para tu <span className="fw-bold text-primary">Agencia de Viajes</span>
 						</h3>
 						<p className="fs-5 text-600 mx-auto" style={{ maxWidth: '700px' }} data-aos="fade-up" data-aos-delay={300}>

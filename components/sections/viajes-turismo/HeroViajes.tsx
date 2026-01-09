@@ -50,12 +50,12 @@ export default function HeroViajes() {
 										<path d="M14.25 9.5H3.5625" stroke="#6342EC" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 								</div>
-								<h1 className="ds-2 mb-4 fw-bold" data-aos="fade-up" data-aos-delay={200}>
+								<h1 className="fs-1 mb-4 fw-bold" data-aos="fade-up" data-aos-delay={200}>
 									Transforma tu Agencia de Viajes con Tecnología de Vanguardia
 								</h1>
 								<p className="fs-5 mb-5 text-600" data-aos="fade-up" data-aos-delay={300}>
-									Sistema completo de gestión y reservas diseñado específicamente para agencias de viajes y turismo. 
-									Optimiza tus operaciones, aumenta tus ventas y ofrece una experiencia excepcional a tus clientes.
+									Página web profesional y panel administrativo autoadministrable diseñado específicamente para agencias de viajes y turismo. 
+									Gestiona destinos, paquetes, reservas y clientes desde una interfaz intuitiva y poderosa.
 								</p>
 								<div className="d-flex flex-wrap gap-3 mb-5" data-aos="fade-up" data-aos-delay={400}>
 									<Link href="#paquetes" className="btn btn-gradient">

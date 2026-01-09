@@ -34,16 +34,17 @@ export default function PaquetesViajes() {
 			price: prices.start.price,
 			type: prices.start.type,
 			features: [
-				{ text: 'Hasta 100 reservas mensuales', included: true },
-				{ text: 'Panel administrativo básico', included: true },
-				{ text: 'Gestión de clientes', included: true },
-				{ text: 'Sistema de reservas online', included: true },
-				{ text: 'Reportes básicos', included: true },
-				{ text: 'Soporte por email', included: true },
-				{ text: 'Integración con pasarelas de pago', included: false },
-				{ text: 'Marketing automatizado', included: false },
-				{ text: 'API personalizada', included: false },
-				{ text: 'Soporte prioritario 24/7', included: false }
+				{ text: 'Dashboard principal', included: true },
+				{ text: 'Sección de contacto (formularios)', included: true },
+				{ text: 'Gestión de destinos', included: true },
+				{ text: 'Gestión de paquetes básicos', included: true },
+				{ text: 'Editor de texto para descripciones', included: true },
+				{ text: 'Carga de imágenes', included: true },
+				{ text: 'Gestión de disponibilidad de fechas', included: true },
+				{ text: 'Visualización de reservas', included: false },
+				{ text: 'Gestión de pagos', included: false },
+				{ text: 'Clientes asociados', included: false },
+				{ text: 'Estadísticas de ventas', included: false }
 			],
 			popular: false
 		},
@@ -53,16 +54,17 @@ export default function PaquetesViajes() {
 			price: prices.medium.price,
 			type: prices.medium.type,
 			features: [
-				{ text: 'Hasta 500 reservas mensuales', included: true },
-				{ text: 'Panel administrativo avanzado', included: true },
-				{ text: 'Gestión de clientes y CRM', included: true },
-				{ text: 'Sistema de reservas online', included: true },
-				{ text: 'Reportes avanzados y analytics', included: true },
-				{ text: 'Soporte por email y chat', included: true },
-				{ text: 'Integración con pasarelas de pago', included: true },
-				{ text: 'Marketing automatizado básico', included: true },
-				{ text: 'API personalizada', included: false },
-				{ text: 'Soporte prioritario 24/7', included: false }
+				{ text: 'Dashboard principal', included: true },
+				{ text: 'Sección de contacto (formularios)', included: true },
+				{ text: 'Gestión de destinos', included: true },
+				{ text: 'Gestión de paquetes avanzada', included: true },
+				{ text: 'Editor de texto para descripciones', included: true },
+				{ text: 'Carga de imágenes', included: true },
+				{ text: 'Gestión de disponibilidad de fechas', included: true },
+				{ text: 'Visualización de reservas', included: true },
+				{ text: 'Gestión de pagos', included: true },
+				{ text: 'Clientes asociados', included: true },
+				{ text: 'Estadísticas de ventas', included: false }
 			],
 			popular: true
 		},
@@ -72,16 +74,18 @@ export default function PaquetesViajes() {
 			price: prices.pro.price,
 			type: prices.pro.type,
 			features: [
-				{ text: 'Reservas ilimitadas', included: true },
-				{ text: 'Panel administrativo completo', included: true },
-				{ text: 'CRM avanzado y gestión de leads', included: true },
-				{ text: 'Sistema de reservas multi-canal', included: true },
-				{ text: 'Reportes personalizados y BI', included: true },
-				{ text: 'Soporte prioritario 24/7', included: true },
-				{ text: 'Integración con múltiples pasarelas', included: true },
-				{ text: 'Marketing automatizado avanzado', included: true },
-				{ text: 'API personalizada y webhooks', included: true },
-				{ text: 'Gerente de cuenta dedicado', included: true }
+				{ text: 'Dashboard principal', included: true },
+				{ text: 'Sección de contacto (formularios)', included: true },
+				{ text: 'Gestión de destinos', included: true },
+				{ text: 'Gestión de paquetes completa', included: true },
+				{ text: 'Editor de texto para descripciones', included: true },
+				{ text: 'Carga de imágenes', included: true },
+				{ text: 'Gestión de disponibilidad de fechas', included: true },
+				{ text: 'Visualización de reservas', included: true },
+				{ text: 'Gestión de pagos', included: true },
+				{ text: 'Clientes asociados', included: true },
+				{ text: 'Estadísticas de ventas avanzadas', included: true },
+				{ text: 'Desarrollo a medida: funciones, complementos y secciones personalizadas', included: true }
 			],
 			popular: false
 		}
@@ -98,7 +102,7 @@ export default function PaquetesViajes() {
 									<img src="/assets/imgs/features-1/dots.png" alt="Paquetes" />
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Nuestros Paquetes</span>
 								</div>
-								<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={200}>Planes que se Adaptan a tu Negocio</h3>
+								<h3 className="fs-1 my-3" data-aos="fade-zoom-in" data-aos-delay={200}>Planes que se Adaptan a tu Negocio</h3>
 								<p className="fs-5 mb-0" data-aos="fade-zoom-in" data-aos-delay={300}>Elige el plan perfecto para tu agencia de viajes</p>
 							</div>
 						</div>

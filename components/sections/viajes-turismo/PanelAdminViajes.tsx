@@ -10,43 +10,76 @@ export default function PanelAdminViajes() {
 			description: 'Vista general de todas tus operaciones en un solo lugar',
 			image: '/assets/imgs/viajes-turismo/dashboard.jpg',
 			features: [
-				'Métricas en tiempo real',
-				'Gráficos interactivos de ventas',
-				'Resumen de reservas del día',
-				'Alertas y notificaciones importantes'
+				'Resumen de operaciones diarias',
+				'Gráficos de actividad',
+				'Acceso rápido a funciones principales',
+				'Notificaciones importantes'
 			]
 		},
 		{
-			title: 'Gestión de Reservas',
-			description: 'Administra todas tus reservas de forma eficiente',
+			title: 'Gestión de Destinos',
+			description: 'Crea y gestiona todos tus destinos turísticos de forma intuitiva',
+			image: '/assets/imgs/viajes-turismo/destinos.jpg',
+			features: [
+				'Editor de texto para descripciones',
+				'Carga múltiple de imágenes',
+				'Gestión de información detallada',
+				'Organización por categorías'
+			]
+		},
+		{
+			title: 'Gestión de Paquetes',
+			description: 'Administra tus paquetes turísticos con total control',
+			image: '/assets/imgs/viajes-turismo/paquetes.jpg',
+			features: [
+				'Editor de texto para contenido',
+				'Carga de imágenes y galerías',
+				'Gestión de disponibilidad de fechas',
+				'Configuración de precios y servicios'
+			]
+		},
+		{
+			title: 'Reservas y Pagos',
+			description: 'Visualiza y gestiona todas tus reservas y transacciones',
 			image: '/assets/imgs/viajes-turismo/reservas.jpg',
 			features: [
-				'Calendario de reservas interactivo',
-				'Filtros avanzados de búsqueda',
-				'Gestión de estados y confirmaciones',
-				'Historial completo de transacciones'
+				'Listado completo de reservas',
+				'Gestión de estados de pago',
+				'Historial de transacciones',
+				'Filtros y búsqueda avanzada'
 			]
 		},
 		{
-			title: 'Clientes y CRM',
-			description: 'Gestiona tu base de clientes y mejora las relaciones',
+			title: 'Clientes Asociados',
+			description: 'Administra la información de tus clientes',
 			image: '/assets/imgs/viajes-turismo/clientes.jpg',
 			features: [
-				'Base de datos de clientes completa',
-				'Segmentación automática',
-				'Historial de interacciones',
-				'Programas de fidelización'
+				'Base de datos de clientes',
+				'Información de contacto',
+				'Historial de reservas por cliente',
+				'Gestión de datos personales'
 			]
 		},
 		{
-			title: 'Reportes y Analytics',
+			title: 'Estadísticas de Ventas',
 			description: 'Analiza el rendimiento de tu agencia con datos precisos',
-			image: '/assets/imgs/viajes-turismo/reportes.jpg',
+			image: '/assets/imgs/viajes-turismo/estadisticas.jpg',
 			features: [
-				'Reportes personalizables',
-				'Exportación a Excel y PDF',
+				'Gráficos de ventas',
 				'Análisis de tendencias',
-				'Proyecciones y forecasting'
+				'Reportes personalizables',
+				'Exportación de datos'
+			]
+		},
+		{
+			title: 'Sección de Contacto',
+			description: 'Gestiona todos los formularios de contacto de tus clientes',
+			image: '/assets/imgs/viajes-turismo/contacto.jpg',
+			features: [
+				'Recepción de consultas',
+				'Gestión de mensajes',
+				'Datos de clientes potenciales',
+				'Seguimiento de interacciones'
 			]
 		}
 	]
@@ -60,12 +93,12 @@ export default function PanelAdminViajes() {
 							<img src="/assets/imgs/features-1/dots.png" alt="Panel" />
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Panel Administrativo</span>
 						</div>
-						<h3 className="ds-3 mb-4" data-aos="fade-up" data-aos-delay={200}>
+						<h3 className="fs-1 mb-4" data-aos="fade-up" data-aos-delay={200}>
 							Control Total de tu <span className="fw-bold text-primary">Agencia de Viajes</span>
 						</h3>
 						<p className="fs-5 text-600 mx-auto" style={{ maxWidth: '700px' }} data-aos="fade-up" data-aos-delay={300}>
-							Descubre cómo nuestro panel administrativo te permite gestionar todas las operaciones 
-							de tu agencia desde una interfaz intuitiva y poderosa.
+							Panel autoadministrable 100% intuitivo con editor de texto para descripciones, carga de imágenes, 
+							gestión de disponibilidad de fechas y mucho más. Gestiona destinos, paquetes, reservas y clientes desde un solo lugar.
 						</p>
 					</div>
 

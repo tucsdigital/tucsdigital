@@ -11,7 +11,7 @@ export default function InfoViajes() {
 							<img src="/assets/imgs/features-1/dots.png" alt="Info" />
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Quiénes Somos</span>
 						</div>
-						<h3 className="ds-3 mb-4" data-aos="fade-up" data-aos-delay={200}>
+						<h3 className="fs-1 mb-4" data-aos="fade-up" data-aos-delay={200}>
 							Especialistas en <span className="fw-bold text-primary">Soluciones Tecnológicas</span> para el Turismo
 						</h3>
 						<p className="fs-5 text-600 mx-auto" style={{ maxWidth: '800px' }} data-aos="fade-up" data-aos-delay={300}>
@@ -33,8 +33,8 @@ export default function InfoViajes() {
 									</div>
 									<h4 className="mb-3 fw-bold">Nuestra Misión</h4>
 									<p className="fs-6 text-600 mb-4">
-										Empoderar a las agencias de viajes con tecnología de última generación que les permita 
-										optimizar sus procesos, aumentar sus ventas y ofrecer experiencias excepcionales a sus clientes.
+										Empoderar a las agencias de viajes con una página web profesional y un panel administrativo 
+										autoadministrable que les permita gestionar destinos, paquetes, reservas y clientes de forma intuitiva y eficiente.
 									</p>
 									<ul className="list-unstyled">
 										<li className="d-flex align-items-start mb-3">
@@ -76,7 +76,7 @@ export default function InfoViajes() {
 									<h4 className="mb-3 fw-bold">Cómo Trabajamos</h4>
 									<p className="fs-6 text-600 mb-4">
 										Nuestro proceso está diseñado para garantizar el éxito de tu implementación, 
-										desde la planificación inicial hasta el lanzamiento y más allá.
+										desde la configuración inicial de tu página y panel hasta la capacitación completa de tu equipo.
 									</p>
 									<div className="work-process">
 										<div className="process-item mb-4" data-aos="fade-up" data-aos-delay={100}>
@@ -93,7 +93,7 @@ export default function InfoViajes() {
 												<div className="process-number bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3 fw-bold">2</div>
 												<div>
 													<h6 className="fw-bold mb-2">Implementación Personalizada</h6>
-													<p className="fs-7 text-500 mb-0">Configuramos el sistema según tus requerimientos y migramos tus datos de forma segura.</p>
+													<p className="fs-7 text-500 mb-0">Configuramos tu página web y panel administrativo según tus requerimientos, con diseño personalizado y funcionalidades adaptadas a tu negocio.</p>
 												</div>
 											</div>
 										</div>
