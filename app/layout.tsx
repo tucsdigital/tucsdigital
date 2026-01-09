@@ -81,7 +81,7 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="es">
+        <html lang="es" style={{ scrollBehavior: 'smooth' }}>
             <head>
                 <link rel="manifest" href="/manifest.json" />
                 <meta name="theme-color" content="#6D4DF2" />

@@ -30,7 +30,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 	const [isMobileMenu, setMobileMenu] = useState<boolean>(false)
 	const handleMobileMenu = (): void => {
 		setMobileMenu(!isMobileMenu)
-		!isMobileMenu ? document.body.classList.add("mobile-menu-active") : document.body.classList.remove("mobile-menu-active")
+		// No necesitamos manipular clases del body para el nuevo diseño
 	}
 
 	// Search
@@ -180,6 +180,25 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 				
 				.cursor-pointer:hover {
 					transform: scale(1.1) !important;
+				}
+				
+				/* Estilos para el menú móvil */
+				body.mobile-menu-active {
+					overflow: hidden;
+				}
+				
+				/* Ocultar el menú móvil antiguo */
+				.mobile-header-active {
+					display: none !important;
+				}
+				
+				/* Asegurar que el nuevo menú esté por encima de todo */
+				.mobile-sidebar {
+					z-index: 9999 !important;
+				}
+				
+				.mobile-overlay {
+					z-index: 9998 !important;
 				}
 			`}</style>
 			<Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} />
