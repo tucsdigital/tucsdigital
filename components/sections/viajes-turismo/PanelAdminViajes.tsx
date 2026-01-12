@@ -108,14 +108,18 @@ export default function PanelAdminViajes() {
 								{tabs.map((tab, index) => (
 									<button
 										key={index}
-										onClick={() => setActiveTab(index)}
+										type="button"
+										onClick={(e) => {
+											e.preventDefault();
+											setActiveTab(index);
+										}}
 										className={`tab-button w-100 text-start p-4 mb-3 rounded-3 border-0 transition-all ${
 											activeTab === index ? 'active bg-white shadow-lg' : 'bg-transparent'
 										}`}
-										data-aos="fade-right"
-										data-aos-delay={index * 100}
+										aria-pressed={activeTab === index}
+										aria-label={`Ver ${tab.title}`}
 									>
-										<h6 className={`fw-bold mb-2 ${activeTab === index ? 'text-primary' : 'text-600'}`}>
+										<h6 className={`fw-bold mb-2 transition-colors ${activeTab === index ? 'text-primary' : 'text-600'}`}>
 											{tab.title}
 										</h6>
 										<p className="fs-7 mb-0 text-500">{tab.description}</p>
@@ -125,17 +129,50 @@ export default function PanelAdminViajes() {
 						</div>
 						<div className="col-lg-8">
 							<div className="tab-content-wrapper position-relative">
-								<div className="tab-content-item" data-aos="fade-left" data-aos-delay={200}>
+								<div className="tab-content-item">
 									<div className="bg-white rounded-4 p-4 shadow-lg position-relative overflow-hidden">
-										<div className="panel-image-wrapper rounded-3 overflow-hidden mb-4">
-											<div className="panel-placeholder bg-gradient-primary d-flex align-items-center justify-content-center" style={{ minHeight: '400px' }}>
+										<div className="panel-image-wrapper rounded-3 overflow-hidden mb-4 position-relative" style={{ minHeight: '400px' }}>
+											<img
+												key={`tab-image-${activeTab}`}
+												src={tabs[activeTab].image}
+												alt={tabs[activeTab].title}
+												className="panel-image"
+												style={{
+													objectFit: 'cover',
+													position: 'absolute',
+													top: 0,
+													left: 0,
+													width: '100%',
+													height: '100%',
+													zIndex: 1
+												}}
+												onError={(e) => {
+													const target = e.target as HTMLImageElement
+													target.style.display = 'none'
+													const placeholder = target.nextElementSibling as HTMLElement
+													if (placeholder) placeholder.style.display = 'flex'
+												}}
+											/>
+											<div 
+												className="panel-placeholder bg-gradient-primary d-flex align-items-center justify-content-center"
+												style={{ 
+													minHeight: '400px',
+													position: 'absolute',
+													top: 0,
+													left: 0,
+													right: 0,
+													bottom: 0,
+													display: 'none',
+													zIndex: 0
+												}}
+											>
 												<div className="text-center text-white">
 													<svg xmlns="http://www.w3.org/2000/svg" width={64} height={64} viewBox="0 0 24 24" fill="none" className="mb-3">
 														<path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 														<path d="M22 6L12 13L2 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 													</svg>
 													<h5 className="text-white mb-2">{tabs[activeTab].title}</h5>
-													<p className="text-white-50 mb-0">Vista previa del panel administrativo</p>
+													<p className="text-white-50 mb-0">Imagen no disponible</p>
 												</div>
 											</div>
 										</div>
@@ -167,9 +204,16 @@ export default function PanelAdminViajes() {
 				</div>
 			</section>
 			<style jsx>{`
+				.tabs-nav {
+					position: relative;
+					z-index: 1;
+				}
 				.tab-button {
 					transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 					cursor: pointer;
+					opacity: 1 !important;
+					visibility: visible !important;
+					display: block !important;
 				}
 				.tab-button:hover {
 					background: rgba(255, 255, 255, 0.5) !important;
@@ -182,21 +226,28 @@ export default function PanelAdminViajes() {
 					position: relative;
 					background: linear-gradient(135deg, #6D4DF2 0%, #9C27B0 100%);
 				}
+				.panel-image {
+					transition: opacity 0.4s ease-in-out;
+					opacity: 1;
+					display: block;
+				}
+				.panel-image-wrapper {
+					background-size: cover;
+					background-position: center;
+				}
+				.panel-image-wrapper img[style*="display: none"] {
+					display: none !important;
+				}
 				.bg-gradient-primary {
 					background: linear-gradient(135deg, rgba(109, 77, 242, 0.9) 0%, rgba(156, 39, 176, 0.9) 100%);
 				}
 				.tab-content-item {
-					animation: fadeIn 0.5s ease-in-out;
+					opacity: 1 !important;
+					visibility: visible !important;
 				}
-				@keyframes fadeIn {
-					from {
-						opacity: 0;
-						transform: translateY(20px);
-					}
-					to {
-						opacity: 1;
-						transform: translateY(0);
-					}
+				.tab-content-wrapper {
+					opacity: 1 !important;
+					visibility: visible !important;
 				}
 				@media (max-width: 992px) {
 					.tabs-nav {

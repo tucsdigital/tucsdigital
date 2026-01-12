@@ -21,7 +21,7 @@ export default function Cta2() {
 					<div className="row">
 						<div className="col-lg-5 pe-lg-0">
 							<div className="bg-linear-1 text-center rounded-4 position-relative">
-								<img className="rounded-4 border border-2 border-white mb-10 mt-5" src="/assets/imgs/cta-2/img-1.png" alt="Tu Marca" />
+								<img className="rounded-4 border border-2 border-white mb-10 mt-5" src="/assets/imgs/cta-2/soluciones.jpg" alt="Tu Marca" style={{maxWidth: '400px', width: '100%', height: 'auto'}} />
 								<div className="position-absolute bottom-0 left-0 mb-3 w-100">
 									<Link href="#" onClick={() => setOpen(true)} scroll={false} className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up me-3 shadow-1">
 										<span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">

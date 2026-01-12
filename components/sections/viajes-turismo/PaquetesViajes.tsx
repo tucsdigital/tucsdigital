@@ -1,32 +1,15 @@
 "use client"
 import Link from "next/link"
-import { useState } from "react"
 
 export default function PaquetesViajes() {
-	const [activePlan, setActivePlan] = useState('monthly')
-
-	const handlePlanChange = (planType: string) => {
-		setActivePlan(planType)
+	const prices = {
+		start: { price: '290.000', type: 'ARS' },
+		medium: { price: '450.000', type: 'ARS' },
+		pro: { price: '800.000', type: 'ARS' }
 	}
 
-	const getPrices = () => {
-		if (activePlan === 'monthly') {
-			return {
-				start: { price: '299', type: '/ mes' },
-				medium: { price: '599', type: '/ mes' },
-				pro: { price: '999', type: '/ mes' }
-			}
-		} else {
-			return {
-				start: { price: '2,990', type: '/ año' },
-				medium: { price: '5,990', type: '/ año' },
-				pro: { price: '9,990', type: '/ año' }
-			}
-		}
-	}
-
-	const prices = getPrices()
-
+	const whatsappNumber = '5491123456789' // Reemplazar con el número real de WhatsApp (formato: 549 + código de país + número sin espacios ni guiones)
+	
 	const packages = [
 		{
 			name: 'Start',
@@ -34,17 +17,17 @@ export default function PaquetesViajes() {
 			price: prices.start.price,
 			type: prices.start.type,
 			features: [
-				{ text: 'Dashboard principal', included: true },
-				{ text: 'Sección de contacto (formularios)', included: true },
-				{ text: 'Gestión de destinos', included: true },
-				{ text: 'Gestión de paquetes básicos', included: true },
-				{ text: 'Editor de texto para descripciones', included: true },
-				{ text: 'Carga de imágenes', included: true },
-				{ text: 'Gestión de disponibilidad de fechas', included: true },
-				{ text: 'Visualización de reservas', included: false },
-				{ text: 'Gestión de pagos', included: false },
-				{ text: 'Clientes asociados', included: false },
-				{ text: 'Estadísticas de ventas', included: false }
+				{ text: 'Diseño Web Personalizado', included: true },
+				{ text: 'Identidad de Marca (Logo/Colores)', included: true },
+				{ text: 'Panel Administrativo Intuitivo', included: true },
+				{ text: 'Carga Manual de Paquetes', included: true },
+				{ text: 'Gestión Total de Destinos', included: true },
+				{ text: 'Actualización Inmediata', included: true },
+				{ text: 'Botones de WhatsApp Flotantes', included: true },
+				{ text: 'Enlace Directo a Consultas', included: true },
+				{ text: 'Galería de Imágenes en Alta Calidad', included: true },
+				{ text: 'Diseño Adaptable a Celulares', included: true },
+				{ text: 'Sección Institucional "Quiénes Somos"', included: true }
 			],
 			popular: false
 		},
@@ -54,17 +37,18 @@ export default function PaquetesViajes() {
 			price: prices.medium.price,
 			type: prices.medium.type,
 			features: [
-				{ text: 'Dashboard principal', included: true },
-				{ text: 'Sección de contacto (formularios)', included: true },
-				{ text: 'Gestión de destinos', included: true },
-				{ text: 'Gestión de paquetes avanzada', included: true },
-				{ text: 'Editor de texto para descripciones', included: true },
-				{ text: 'Carga de imágenes', included: true },
-				{ text: 'Gestión de disponibilidad de fechas', included: true },
-				{ text: 'Visualización de reservas', included: true },
-				{ text: 'Gestión de pagos', included: true },
-				{ text: 'Clientes asociados', included: true },
-				{ text: 'Estadísticas de ventas', included: false }
+				{ text: 'Todo lo anterior, más el motor de búsqueda y la capacidad de cobrar', included: true },
+				{ text: 'Buscador Avanzado de Viajes', included: true },
+				{ text: 'Filtros por Fecha de Salida', included: true },
+				{ text: 'Filtros por Ubicación/Destino', included: true },
+				{ text: 'Pasarela de Pagos Integrada', included: true },
+				{ text: 'Cobros con Tarjeta de Crédito/Débito', included: true },
+				{ text: 'Sistema de Reservas Online', included: true },
+				{ text: 'Carrito de Compras Seguro', included: true },
+				{ text: 'Procesamiento de Pagos 24hs', included: true },
+				{ text: 'Cierre de Ventas Automático', included: true },
+				{ text: 'Panel de Control de Transacciones', included: true },
+				{ text: 'Experiencia de Usuario Mejorada', included: true }
 			],
 			popular: true
 		},
@@ -74,22 +58,27 @@ export default function PaquetesViajes() {
 			price: prices.pro.price,
 			type: prices.pro.type,
 			features: [
-				{ text: 'Dashboard principal', included: true },
-				{ text: 'Sección de contacto (formularios)', included: true },
-				{ text: 'Gestión de destinos', included: true },
-				{ text: 'Gestión de paquetes completa', included: true },
-				{ text: 'Editor de texto para descripciones', included: true },
-				{ text: 'Carga de imágenes', included: true },
-				{ text: 'Gestión de disponibilidad de fechas', included: true },
-				{ text: 'Visualización de reservas', included: true },
-				{ text: 'Gestión de pagos', included: true },
-				{ text: 'Clientes asociados', included: true },
-				{ text: 'Estadísticas de ventas avanzadas', included: true },
-				{ text: 'Desarrollo a medida: funciones, complementos y secciones personalizadas', included: true }
+				{ text: 'Todo lo anterior, más la inteligencia para responder y ahorrar tiempo', included: true },
+				{ text: 'Chatbot de Respuesta Automática', included: true },
+				{ text: 'Atención al Cliente 24/7', included: true },
+				{ text: 'Respuestas Inmediatas a Dudas', included: true },
+				{ text: 'Solución de Preguntas Frecuentes', included: true },
+				{ text: 'Asistente Virtual Siempre Activo', included: true },
+				{ text: 'Filtrado de Consultas Reales', included: true },
+				{ text: 'Captura de Clientes Fuera de Horario', included: true },
+				{ text: 'Automatización del Primer Contacto', included: true },
+				{ text: 'Reducción de Tiempos de Espera', included: true },
+				{ text: 'Ahorro de Tiempo Operativo', included: true },
+				{ text: 'Imagen Tecnológica de Vanguardia', included: true }
 			],
 			popular: false
 		}
 	]
+
+	const getWhatsAppLink = (planName: string) => {
+		const message = encodeURIComponent(`Hola, estoy interesado en el plan ${planName} para Web de Viajes y Turismo.`)
+		return `https://wa.me/${whatsappNumber}?text=${message}`
+	}
 
 	return (
 		<>
@@ -104,34 +93,6 @@ export default function PaquetesViajes() {
 								</div>
 								<h3 className="fs-1 my-3" data-aos="fade-zoom-in" data-aos-delay={200}>Planes que se Adaptan a tu Negocio</h3>
 								<p className="fs-5 mb-0" data-aos="fade-zoom-in" data-aos-delay={300}>Elige el plan perfecto para tu agencia de viajes</p>
-							</div>
-						</div>
-						<div className="col-lg-auto align-self-end">
-							<div className="d-flex justify-content-lg-end">
-								<ul className="list-unstyled d-flex align-items-center change-price-plan bg-white rounded-pill py-1 shadow-2">
-									<li>
-										<Link 
-											href="#" 
-											scroll={false} 
-											className={`px-6 py-2 text-900 bg-transparent monthly rounded-pill text-white fs-5 fw-bold z-1 ${activePlan === 'monthly' ? 'active' : ''}`} 
-											onClick={(e) => { e.preventDefault(); handlePlanChange('monthly') }} 
-											data-type="monthly"
-										>
-											Mensual
-										</Link>
-									</li>
-									<li>
-										<Link 
-											href="#" 
-											scroll={false} 
-											className={`yearly px-md-6 px-2 py-2 rounded-pill bg-transparent text-900 fs-5 fw-bold ${activePlan === 'yearly' ? 'active' : ''}`} 
-											onClick={(e) => { e.preventDefault(); handlePlanChange('yearly') }} 
-											data-type="yearly"
-										>
-											Anual (Ahorra 17%)
-										</Link>
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>
@@ -152,9 +113,14 @@ export default function PaquetesViajes() {
 											<h3 className="text-primary mb-0">{pkg.price}</h3>
 											<span className="fs-5 text-600 ms-1 fw-bold align-self-end">{pkg.type}</span>
 										</div>
-										<p className="fs-8 text-500 mb-4">Sin tarjeta de crédito requerida</p>
-										<Link 
-											href="#contacto" 
+										{pkg.name === 'Pro' && (
+											<p className="fs-8 text-500 mb-2">+ Costo de Servicio de IA mensual</p>
+										)}
+										<p className="fs-8 text-500 mb-4">Pago único, sin costos mensuales</p>
+										<a 
+											href={getWhatsAppLink(pkg.name)}
+											target="_blank"
+											rel="noopener noreferrer"
 											className={`btn w-100 d-flex justify-content-between my-5 ${pkg.popular ? 'btn-gradient' : 'btn-outline-secondary hover-up'}`}
 										>
 											Empezar Ahora
@@ -165,7 +131,7 @@ export default function PaquetesViajes() {
 													fill={pkg.popular ? "white" : "#111827"} 
 												/>
 											</svg>
-										</Link>
+										</a>
 										<ul className="list-unstyled mb-0">
 											{pkg.features.map((feature, idx) => (
 												<li key={idx} className="d-flex align-items-center mb-3">

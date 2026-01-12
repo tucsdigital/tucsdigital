@@ -243,6 +243,24 @@ export const CATEGORIAS = [
         descripcion:
           "Cotizá y enviá presupuestos desde un panel. Hacé seguimiento en tiempo real.",
       },
+      {
+        id: "web-viajes-turismo",
+        titulo: "Web de Viajes y Turismo",
+        descripcion:
+          "Solución completa para agencias de turismo con planes START, MEDIUM y PRO. Desde diseño web básico hasta sistema completo con buscador avanzado, pasarela de pagos y chatbot con IA. Todos los planes son de pago único.",
+      },
+      {
+        id: "sistema-erp-distintos-rubros",
+        titulo: "Sistema ERP para Distintos Rubros",
+        descripcion:
+          "ERP personalizado para madereras, ferreterías, almacenes, depósitos y negocios. Gestión integral de ventas, stock, compras, cuentas corrientes y facturación adaptada a cada rubro.",
+      },
+      {
+        id: "soluciones-para-madereras",
+        titulo: "Soluciones para Madereras",
+        descripcion:
+          "Solución integral que incluye sistema ERP en el local, tienda virtual y campañas de publicidad digital. Aumentá el reconocimiento de tu marca y atraé más clientes con alta tasa de conversión.",
+      },
     ],
   },
   {

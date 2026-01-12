@@ -26,8 +26,22 @@ export default function Services2() {
     fetch("/soluciones.json")
       .then((res) => res.json())
       .then((data: Solucion[]) => {
-        // Tomar solo las primeras 6 soluciones
-        setSoluciones(data.slice(0, 6));
+        // Orden específico de soluciones para mostrar en el inicio
+        const ordenSoluciones = [
+          "sistema-erp-distintos-rubros",
+          "web-viajes-turismo",
+          "soluciones-para-madereras",
+          "tienda-online-autogestionable",
+          "sistema-venta-suscripcion",
+          "boton-de-pago"
+        ];
+        
+        // Filtrar y ordenar según el orden especificado
+        const solucionesOrdenadas = ordenSoluciones
+          .map(id => data.find(sol => sol.id === id))
+          .filter((sol): sol is Solucion => sol !== undefined);
+        
+        setSoluciones(solucionesOrdenadas);
         setLoading(false);
       })
       .catch(() => {

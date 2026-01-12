@@ -265,48 +265,51 @@ export default function Features6() {
                 </div>
               </Link>
               <Link
-                href="https://tucs-app-shop.vercel.app/"
+                href="https://umavial.com.ar"
                 className="d-flex flex-column flex-md-row align-items-center mb-6 hover-up"
               >
                 <img
                   className="rounded-3 project-thumb flex-shrink-0"
-                  src="/assets/imgs/features-6/tucsdrinks.png"
-                  alt="Tucs Drinks"
+                  src="/assets/imgs/features-6/umavial.png"
+                  alt="Uma Vial"
                 />
                 <div className="content mt-md-0 mt-4 ms-5">
-                  <h6 className="mb-2">Tucs Drinks</h6>
+                  <h6 className="mb-2">Uma Vial</h6>
                   <p>
-                    E-commerce de bebidas con{" "}
+                    Sitio web institucional para empresa de{" "}
+                    <b>movimientos de suelos</b> con más de 11 años de
+                    experiencia. Incluye{" "}
                     <b>
-                      catálogo dinámico, carrito y gestión de pedidos online
+                      presentación de servicios, galería de proyectos y
+                      formulario de contacto
                     </b>
-                    . Actualmente estoy ampliando la plataforma para incluir{" "}
-                    <b>reportes de ventas avanzados</b>, integración con{" "}
-                    <b>sistemas de marketing</b> y optimización de flujos
-                    internos.
+                    . Diseño profesional que refleja la calidad y experiencia
+                    de la empresa en nivelaciones, excavaciones, piletas y
+                    alquiler de máquinas.
                   </p>
                 </div>
               </Link>
               <Link
-                href="https://caballeromaderas-ecommerce.vercel.app/"
+                href="https://ovniviajes.tur.ar"
                 className="d-flex flex-column flex-md-row align-items-center mb-6 hover-up"
               >
                 <img
                   className="rounded-3 project-thumb flex-shrink-0"
-                  src="/assets/imgs/features-6/maderascaballero.png"
-                  alt="Maderas Caballero"
+                  src="/assets/imgs/features-6/ovniviajes.png"
+                  alt="Ovni Viajes"
                 />
                 <div className="content mt-md-0 mt-4 ms-5">
-                  <h6 className="mb-2">Maderas Caballero</h6>
+                  <h6 className="mb-2">Ovni Viajes</h6>
                   <p>
-                    Proyecto integral que combina{" "}
-                    <b>sistema POS y e-commerce</b>, permitiendo la gestión de
-                    ventas internas y online. Incluye sitio institucional,{" "}
+                    Web de turismo completa para agencia de viajes con{" "}
                     <b>
-                      landings para campañas publicitarias en Meta Ads y Google
-                      Ads
+                      catálogo de paquetes turísticos, sistema de reservas y
+                      gestión de consultas
                     </b>
-                    , y tracking de conversiones con pixel.
+                    . Incluye presentación de{" "}
+                    <b>destinos nacionales e internacionales</b>, información de
+                    servicios y contacto directo para asesoramiento
+                    personalizado.
                   </p>
                 </div>
               </Link>

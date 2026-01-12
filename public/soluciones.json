@@ -3262,5 +3262,180 @@
         "respuesta": "Incluye actualizaciones y soporte técnico continuo."
       }
     ]
+  },
+  {
+    "id": "web-viajes-turismo",
+    "categoria": "sistemas-personalizados-gestion",
+    "titulo": "Web de Viajes y Turismo",
+    "titulos_sugeridos": [
+      "Tu Agencia de Viajes Digital con Planes Adaptados a tu Negocio",
+      "Sistemas de Reservas y Pagos para Agencias de Turismo"
+    ],
+    "descripcion": "Solución completa para agencias de turismo con diferentes planes según tus necesidades. Desde un plan básico para mostrar destinos hasta un sistema completo con motor de búsqueda avanzado, pasarela de pagos integrada y chatbot con IA.",
+    "puntos_clave": [
+      "Planes START, MEDIUM y PRO adaptados a cada necesidad",
+      "Sistema de reservas online integrado",
+      "Buscador avanzado de viajes con filtros por fecha y destino",
+      "Pasarela de pagos integrada (tarjetas de crédito/débito)",
+      "Carrito de compras seguro",
+      "Panel administrativo intuitivo",
+      "Diseño adaptable a celulares",
+      "Opcional: Chatbot con IA para atención 24/7"
+    ],
+    "beneficios_cercanos": [
+      "Vendés viajes online las 24 horas",
+      "Procesás pagos de forma segura",
+      "Gestionás reservas desde un solo panel"
+    ],
+    "beneficios_futuros": [
+      "Escalás tu agencia sin límites",
+      "Automatizás atención con IA",
+      "Aumentás conversión con experiencia mejorada"
+    ],
+    "tips_uso": [
+      "Elegí el plan según tu volumen de ventas",
+      "Actualizá destinos y ofertas regularmente",
+      "Usá el chatbot para responder consultas frecuentes"
+    ],
+    "contenido_relacionado": [
+      "Sistema de Reservas Online",
+      "ChatBot con IA para Consultas Frecuentes",
+      "Campañas Meta Ads"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué incluye cada plan?",
+        "respuesta": "START: Diseño web, panel administrativo y carga manual. MEDIUM: Todo lo anterior más buscador avanzado y pasarela de pagos. PRO: Todo lo anterior más chatbot con IA."
+      },
+      {
+        "pregunta": "¿Hay costos mensuales?",
+        "respuesta": "No, todos los planes son de pago único. Solo el plan PRO tiene un costo adicional por el servicio de IA."
+      },
+      {
+        "pregunta": "¿Puedo cambiar de plan después?",
+        "respuesta": "Sí, podés actualizar tu plan en cualquier momento."
+      },
+      {
+        "pregunta": "¿Incluye dominio y hosting?",
+        "respuesta": "No, se cotizan por separado."
+      }
+    ]
+  },
+  {
+    "id": "sistema-erp-distintos-rubros",
+    "categoria": "sistemas-personalizados-gestion",
+    "titulo": "Sistema ERP para Distintos Rubros",
+    "titulos_sugeridos": [
+      "ERP Personalizado para tu Negocio: Madereras, Ferreterías, Almacenes y Más",
+      "Gestioná Todo desde un Solo Sistema Adaptado a tu Rubro"
+    ],
+    "descripcion": "Sistema ERP completo y personalizado para distintos rubros como madereras, ferreterías, almacenes, depósitos y negocios en general. Unificá toda tu gestión: ventas, stock, compras, cuentas corrientes y facturación en una sola plataforma adaptada a las necesidades específicas de tu rubro.",
+    "puntos_clave": [
+      "Gestión integral de inventario y stock",
+      "Control de ventas y compras",
+      "Cuentas corrientes y gestión de clientes",
+      "Facturación electrónica integrada",
+      "Reportes y estadísticas en tiempo real",
+      "Adaptado a las necesidades de cada rubro",
+      "Panel de control personalizable",
+      "Multi-sucursal y multi-usuario"
+    ],
+    "beneficios_cercanos": [
+      "Unificás toda tu gestión en un solo lugar",
+      "Reducís errores y duplicación de datos",
+      "Tenés control total de tu negocio"
+    ],
+    "beneficios_futuros": [
+      "Escalás tu negocio con múltiples sucursales",
+      "Automatizás procesos operativos",
+      "Tomás decisiones basadas en datos reales"
+    ],
+    "tips_uso": [
+      "Configurá el sistema según tu flujo de trabajo",
+      "Capacitá a tu equipo en el uso del ERP",
+      "Revisá reportes regularmente para optimizar"
+    ],
+    "contenido_relacionado": [
+      "ERP PyME (Ventas, Stock, Compras, Cuentas)",
+      "Gestión de Inventario Avanzado",
+      "Facturación Electrónica y Reportes"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Se adapta a mi rubro específico?",
+        "respuesta": "Sí, personalizamos el sistema según las necesidades de madereras, ferreterías, almacenes, depósitos u otros negocios."
+      },
+      {
+        "pregunta": "¿Puedo usarlo en múltiples sucursales?",
+        "respuesta": "Sí, el sistema soporta múltiples sucursales y usuarios con diferentes permisos."
+      },
+      {
+        "pregunta": "¿Incluye facturación electrónica?",
+        "respuesta": "Sí, incluye integración con sistemas de facturación electrónica según tu país."
+      },
+      {
+        "pregunta": "¿Necesito capacitación?",
+        "respuesta": "Sí, incluimos capacitación para tu equipo en el uso del sistema."
+      }
+    ]
+  },
+  {
+    "id": "soluciones-para-madereras",
+    "categoria": "sistemas-personalizados-gestion",
+    "titulo": "Soluciones para Madereras",
+    "titulos_sugeridos": [
+      "Solución Integral para Madereras: Sistema Local + Tienda Virtual + Marketing",
+      "Transformá tu Maderera con Tecnología Digital Completa"
+    ],
+    "descripcion": "Solución integral para madereras que incluye sistema de gestión en el local, tienda virtual y campañas de publicidad. Implementamos desde el sistema ERP en tu local físico hasta la tienda online y estrategias de marketing digital para aumentar el reconocimiento de tu marca y atraer más clientes con alta tasa de conversión.",
+    "puntos_clave": [
+      "Sistema ERP específico para madereras",
+      "Tienda virtual con catálogo completo de productos",
+      "Campañas de publicidad digital (Meta Ads, Google Ads)",
+      "Gestión de stock y pedidos integrada",
+      "Sistema de cotizaciones online",
+      "Panel de control unificado",
+      "Optimización para conversión de ventas",
+      "Seguimiento de campañas y ROI"
+    ],
+    "beneficios_cercanos": [
+      "Gestionás tu local y vendés online simultáneamente",
+      "Aumentás tu visibilidad con campañas publicitarias",
+      "Atraés más clientes con alta tasa de conversión"
+    ],
+    "beneficios_futuros": [
+      "Escalás tu negocio a nivel regional o nacional",
+      "Automatizás procesos de venta y marketing",
+      "Construís una marca reconocida en el sector"
+    ],
+    "tips_uso": [
+      "Mantené actualizado el stock en tiempo real",
+      "Usá las campañas para promocionar productos destacados",
+      "Analizá métricas para optimizar conversiones"
+    ],
+    "contenido_relacionado": [
+      "Sistema ERP para Distintos Rubros",
+      "Tienda Online Autogestionable",
+      "Campañas Meta Ads (Facebook + Instagram)",
+      "Campañas Google Ads"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué incluye la solución completa?",
+        "respuesta": "Incluye sistema ERP para el local, tienda virtual y campañas de publicidad digital para aumentar visibilidad y ventas."
+      },
+      {
+        "pregunta": "¿Puedo implementar solo una parte?",
+        "respuesta": "Sí, podés contratar solo el sistema local, solo la tienda virtual o solo las campañas, o la solución completa."
+      },
+      {
+        "pregunta": "¿Cómo funciona la integración?",
+        "respuesta": "El sistema local y la tienda virtual comparten la misma base de datos, por lo que el stock se actualiza automáticamente."
+      },
+      {
+        "pregunta": "¿Qué resultados puedo esperar de las campañas?",
+        "respuesta": "Las campañas están optimizadas para conversión, con seguimiento de métricas y ajustes continuos para maximizar resultados."
+      }
+    ]
   }
 ]
