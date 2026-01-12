@@ -120,7 +120,11 @@ export default function Services2() {
 									</div>
                     <h5 className="my-3">{solucion.titulo}</h5>
                     <p className="mb-6">{solucion.descripcion}</p>
-                    <Link href={`/soluciones/${solucion.id}`} className="text-primary fs-7 fw-bold">
+                    <Link 
+                      href={solucion.id === 'web-viajes-turismo' ? 'https://www.tucsdigital.com/viajes-turismo' : `/soluciones/${solucion.id}`}
+                      className="text-primary fs-7 fw-bold"
+                      {...(solucion.id === 'web-viajes-turismo' ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                    >
                       Conocer Más
 										<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 											<g clipPath="url(#clip0_399_9647)">
