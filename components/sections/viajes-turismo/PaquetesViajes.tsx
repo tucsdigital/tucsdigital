@@ -4,8 +4,8 @@ import Link from "next/link"
 export default function PaquetesViajes() {
 	const prices = {
 		start: { price: '290.000', type: 'ARS' },
-		medium: { price: '450.000', type: 'ARS' },
-		pro: { price: '800.000', type: 'ARS' }
+		medium: { price: '550.000', type: 'ARS' },
+		pro: { price: '850.000', type: 'ARS' }
 	}
 
 	const whatsappNumber = '5491123456789' // Reemplazar con el número real de WhatsApp (formato: 549 + código de país + número sin espacios ni guiones)
