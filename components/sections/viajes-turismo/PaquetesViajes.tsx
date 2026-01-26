@@ -8,7 +8,7 @@ export default function PaquetesViajes() {
 		pro: { price: '850.000', type: 'ARS' }
 	}
 
-	const whatsappNumber = '5491123456789' // Reemplazar con el número real de WhatsApp (formato: 549 + código de país + número sin espacios ni guiones)
+	const whatsappNumber = '5491144713445' // Reemplazar con el número real de WhatsApp (formato: 549 + código de país + número sin espacios ni guiones)
 	
 	const packages = [
 		{
