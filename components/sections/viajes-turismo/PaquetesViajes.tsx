@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function PaquetesViajes() {
 	const prices = {
-		start: { price: '290.000', type: 'ARS' },
+		start: { price: '390.000', type: 'ARS' },
 		medium: { price: '550.000', type: 'ARS' },
 		pro: { price: '850.000', type: 'ARS' }
 	}
@@ -17,17 +17,19 @@ export default function PaquetesViajes() {
 			price: prices.start.price,
 			type: prices.start.type,
 			features: [
-				{ text: 'Diseño Web Personalizado', included: true },
+				{ text: 'Diseño Web Moderno', included: true },
 				{ text: 'Identidad de Marca (Logo/Colores)', included: true },
 				{ text: 'Panel Administrativo Intuitivo', included: true },
 				{ text: 'Carga Manual de Paquetes', included: true },
 				{ text: 'Gestión Total de Destinos', included: true },
 				{ text: 'Actualización Inmediata', included: true },
-				{ text: 'Botones de WhatsApp Flotantes', included: true },
+				{ text: 'Boton de WhatsApp Flotante', included: true },
 				{ text: 'Enlace Directo a Consultas', included: true },
 				{ text: 'Galería de Imágenes en Alta Calidad', included: true },
 				{ text: 'Diseño Adaptable a Celulares', included: true },
-				{ text: 'Sección Institucional "Quiénes Somos"', included: true }
+				{ text: 'Sección Institucional "Quiénes Somos"', included: true },
+				{ text: 'Sección de "Nuestros Servicios"', included: true },
+				{ text: 'Mapa de la agencia y formulario de contacto', included: true }
 			],
 			popular: false
 		},
@@ -37,39 +39,30 @@ export default function PaquetesViajes() {
 			price: prices.medium.price,
 			type: prices.medium.type,
 			features: [
-				{ text: 'Todo lo anterior, más el motor de búsqueda y la capacidad de cobrar', included: true },
+				{ text: 'Todo lo anterior, más el motor de búsqueda', included: true },
 				{ text: 'Buscador Avanzado de Viajes', included: true },
 				{ text: 'Filtros por Fecha de Salida', included: true },
 				{ text: 'Filtros por Ubicación/Destino', included: true },
-				{ text: 'Pasarela de Pagos Integrada', included: true },
-				{ text: 'Cobros con Tarjeta de Crédito/Débito', included: true },
-				{ text: 'Sistema de Reservas Online', included: true },
-				{ text: 'Carrito de Compras Seguro', included: true },
-				{ text: 'Procesamiento de Pagos 24hs', included: true },
-				{ text: 'Cierre de Ventas Automático', included: true },
-				{ text: 'Panel de Control de Transacciones', included: true },
-				{ text: 'Experiencia de Usuario Mejorada', included: true }
+				{ text: 'Itinerario de paquetes/excursiones', included: true },
+				{ text: 'Precio por cupos', included: true },
+				{ text: 'Condiciones de contratación', included: true },
+				{ text: 'Menú modificable', included: true }
 			],
 			popular: true
 		},
 		{
 			name: 'Pro',
-			description: 'Solución completa para agencias grandes y corporativas',
+			description: 'Solución completa con cobros automáticos para tu agencia',
 			price: prices.pro.price,
 			type: prices.pro.type,
 			features: [
-				{ text: 'Todo lo anterior, más la inteligencia para responder y ahorrar tiempo', included: true },
-				{ text: 'Chatbot de Respuesta Automática', included: true },
-				{ text: 'Atención al Cliente 24/7', included: true },
-				{ text: 'Respuestas Inmediatas a Dudas', included: true },
-				{ text: 'Solución de Preguntas Frecuentes', included: true },
-				{ text: 'Asistente Virtual Siempre Activo', included: true },
-				{ text: 'Filtrado de Consultas Reales', included: true },
-				{ text: 'Captura de Clientes Fuera de Horario', included: true },
-				{ text: 'Automatización del Primer Contacto', included: true },
-				{ text: 'Reducción de Tiempos de Espera', included: true },
-				{ text: 'Ahorro de Tiempo Operativo', included: true },
-				{ text: 'Imagen Tecnológica de Vanguardia', included: true }
+				{ text: 'Todo lo anterior, más Mercado Pago integrado para cobros automáticos', included: true, bold: true },
+				{ text: 'Calendario de fechas disponibles', included: true },
+				{ text: 'Cobros con Tarjeta de Crédito/Débito', included: true },
+				{ text: 'Carrito de Compras Seguro', included: true },
+				{ text: 'Cierre de Ventas Automático', included: true },
+				{ text: 'Panel de Control de Transacciones', included: true },
+				{ text: 'Sección para adicionales a la reserva', included: true }
 			],
 			popular: false
 		}
@@ -113,9 +106,6 @@ export default function PaquetesViajes() {
 											<h3 className="text-primary mb-0">{pkg.price}</h3>
 											<span className="fs-5 text-600 ms-1 fw-bold align-self-end">{pkg.type}</span>
 										</div>
-										{pkg.name === 'Pro' && (
-											<p className="fs-8 text-500 mb-2">+ Costo de Servicio de IA mensual</p>
-										)}
 										<p className="fs-8 text-500 mb-4">Pago único, sin costos mensuales</p>
 										<a 
 											href={getWhatsAppLink(pkg.name)}
@@ -140,7 +130,7 @@ export default function PaquetesViajes() {
 													) : (
 														<img src="/assets/imgs/pricing-1/check-secondary.svg" alt="No incluido" className="flex-shrink-0" />
 													)}
-													<h6 className={`fs-6 mb-0 ms-2 ${feature.included ? '' : 'text-400'}`}>{feature.text}</h6>
+													<h6 className={`fs-6 mb-0 ms-2 ${feature.included ? '' : 'text-400'} ${'bold' in feature && feature.bold ? 'fw-bold' : ''}`}>{feature.text}</h6>
 												</li>
 											))}
 										</ul>
